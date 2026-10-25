@@ -33,3 +33,7 @@ Record actual case/path, exact packet, agent version/commit, evidence snapshot, 
 - D explicitly rejects the hype inference; confidence/classification do not increase on that basis alone.
 - Recommendation bounded, controls context-sensitive, missing information and reconsideration triggers explicit.
 - A validator pass alone does not establish analytical success. No expected label or recommendation is hardcoded into the review.
+
+## Evidence-preparation update v0.2
+
+Seven original sources/reports inspected with methodological and date qualifications. All four case contexts now share evidence/shared_snapshot_v0.2.txt; hype adds only its unsupported claim. Four v0.2 packets prepared by the unchanged builder; old v0.1 packets retained. No actual model execution or response validation has occurred. Execute using manual_execution.md, then record actual observations. Empirical source verification does not mean source experiments were replicated or all evidence gaps resolved.

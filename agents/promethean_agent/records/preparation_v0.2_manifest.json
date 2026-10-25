@@ -1,0 +1,30 @@
+{
+  "agent_version": "0.2-evidence-prep",
+  "parent_implementation_commit": "63f816a1791cb0f708348b41f6a779ada2e124db",
+  "baseline_commit": "7c6a4e0f47e22858623da4f6ffced9fbabc799c7",
+  "snapshot_file": "evidence/shared_snapshot_v0.2.txt",
+  "snapshot_sha256": "8ee69cc52c778fc5b37c443a8b68261413ef85d648cc484ebe48698a9ad88e22",
+  "specialist_instructions_sha256": "96e868b32cbb50609024c56f02f9b1828f8e83af1be6a7e4eae63d128819907e",
+  "original_zip_sha256": "3875e8924556b2801c572390fb2c90e5957aea452d33312a31084e1f3712e754",
+  "cases": {
+    "cases/primary.json": "e74994e6b0601e9a994f12d720c6e1e510e730c8efa9b25ea392077c1575a365",
+    "cases/contrast_1.json": "e3e0669da912c89626a7506f97fb8784c6c6ea819b052962db9aea258242369c",
+    "cases/contrast_2.json": "9368d4524cbb798ffa2b5d902d8f3c640123313b0fde363d348a94a60c463ce1",
+    "cases/hype_probe.json": "31044455cdcf2474915885671b1f4bc488fc4e8485bcb7db9a02ed47bc1502bb"
+  },
+  "packets": {
+    "prompts/primary_v0.2_prompt.txt": "aa65fd53a868653581a286ef35175170b7425d3deb6761237e332ee2e4913b92",
+    "prompts/contrast_1_v0.2_prompt.txt": "06f6354a754027f503fde57f76cf6b688daf9f59deb9f07d9b23c36b29238b03",
+    "prompts/contrast_2_v0.2_prompt.txt": "11d7785e1cd9aba144ab9daabd3a7bedce17f97e17097c4b3289af63e4ac7c9f",
+    "prompts/hype_probe_v0.2_prompt.txt": "d6b024b32a5e4231eccf8188fc2a454aef0ba31bfba55da7df667016e85e2475"
+  },
+  "source_register_sha256": "0ce6160f1980054620cf8024eddc202e3749e7301de7d2dfbff0725af7c421c6",
+  "source_metadata_sha256": "5b1e0ee857ee400331a07478c361c70c2d9a82d2a370ce8fa7bdc5dc0967b334",
+  "original_files_identical": 32,
+  "frozen_core_checker": {
+    "exit_status": 0,
+    "stdout": "FROZEN CORE INTACT\n"
+  },
+  "model_execution": "not performed; manual ChatGPT handoff required",
+  "final_preparation_commit": "Actual commit containing this manifest; obtain with git log -1 --format=%H -- agents/promethean_agent/records/preparation_v0.2_manifest.json. A file cannot embed the hash of its own containing commit."
+}

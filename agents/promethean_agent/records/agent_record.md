@@ -18,3 +18,7 @@ Course sources inspected; contemporary evidence verification pending (evidence/s
 
 ## E. Independent Judgment and Handoff
 Student judgment, credibility decision, recommendation and personal reflection remain uncompleted. Proposed integration rule: preserve general evidence independently of posture and never turn broad significance into automatic adoption advocacy. Codex assistance to date: document/scaffold inspection, specialist implementation, case/packet preparation and technical integrity checks. Technical checks do not prove analytical quality or factual accuracy of current LLM claims. Complete the supplied Word template only in the documentation phase using actual evidence and student review.
+
+## Evidence-preparation update
+
+Current metadata version: 0.2-evidence-prep. Seven original studies/reports verified at the level documented in evidence/source_register.md; no independent replication. Four updated prompts prepared. No actual agent findings, tests, weakness/revision results, final independent judgment or final record exist yet. The earlier Phase 2 status above is historical.

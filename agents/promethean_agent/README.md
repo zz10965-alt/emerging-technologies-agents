@@ -1,3 +1,5 @@
+> Current status: evidence-preparation version **0.2-evidence-prep**. Seven original empirical sources/reports have been checked with explicit limits; four versioned v0.2 packets are ready for bounded, evidence-limited actual tests. No model execution has occurred. Use records/manual_execution.md and the v0.2 packets; v0.1 packets and the Phase 2 account below are preserved as history. Gaps in cost/access, clinical documentation, local validation and long-run irreversibility remain explicit, rather than claimed resolved.
+
 # Promethean Technology Classification Agent — Phase 2
 
 Version: 0.1-phase2. Created with the original tools/new_agent.py. No original scaffold files are modified. No dependencies beyond the scaffold's standard-library Python workflow are added. All paths below are relative to the repository root.

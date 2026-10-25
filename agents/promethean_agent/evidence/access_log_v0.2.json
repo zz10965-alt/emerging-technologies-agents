@@ -1,0 +1,144 @@
+{
+  "recorded_at": "2026-10-25T18:38:18.865203-04:00",
+  "note": "Initial attempts were proxy-denied. Later retrieval succeeded for research originals; guidance endpoints remained denied. HTTP 200 is not alone verification: source-specific relevant passages were inspected before inclusion.",
+  "requests": [
+    {
+      "id": "code",
+      "url": "https://arxiv.org/abs/2302.06590",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "sha256": "9444d50565390bf02caa233c940e0e1d4051b5dc5070ef5aa0e7893f8b62cb3c",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00",
+      "local_research_copy_retained_outside_submission": true
+    },
+    {
+      "id": "work",
+      "url": "https://www.nber.org/papers/w31161",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "sha256": "7ac947b1c0036b49e5c6b6ade2d57ef02638faafe837cd8aaabd2fd4d6ca158e",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00",
+      "local_research_copy_retained_outside_submission": true
+    },
+    {
+      "id": "metr",
+      "url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "sha256": "6a139dd4b67273d868de073b82c7a4449bc0a3569985416346f2b7b64be40dfb",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00",
+      "local_research_copy_retained_outside_submission": true
+    },
+    {
+      "id": "code_pdf",
+      "url": "https://arxiv.org/pdf/2302.06590",
+      "status": 200,
+      "type": "application/pdf",
+      "sha256": "60d9bbb58e67a3ba5c5df28926227994086baa9767c0b0f4bc61b11035c15a9c",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00",
+      "local_research_copy_retained_outside_submission": true
+    },
+    {
+      "id": "work_pdf",
+      "url": "https://www.nber.org/system/files/working_papers/w31161/w31161.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "sha256": "9af82b90f2a94f8757ace8c7b7ef0934b145a00f4156fc806f4fb8a33e1bddc2",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00",
+      "local_research_copy_retained_outside_submission": true
+    },
+    {
+      "id": "metr_pdf",
+      "url": "https://arxiv.org/pdf/2507.09089",
+      "status": 200,
+      "type": "application/pdf",
+      "sha256": "3e18d9e097a3163dbae662e8b7c68ace0510be433891994b136ae7730beab25c",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00",
+      "local_research_copy_retained_outside_submission": true
+    },
+    {
+      "id": "nist",
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00"
+    },
+    {
+      "id": "who",
+      "url": "https://www.who.int/publications/i/item/9789240084759",
+      "error": "HTTP Error 403: Forbidden",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00"
+    },
+    {
+      "id": "clinical",
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2825395",
+      "error": "HTTP Error 403: Forbidden",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00"
+    },
+    {
+      "id": "metr_update",
+      "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "sha256": "8b13e19d428747a15479a85665784152a1f29a103e06260767bab20ef43c4537",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00",
+      "local_research_copy_retained_outside_submission": true
+    },
+    {
+      "id": "amie",
+      "url": "https://arxiv.org/abs/2401.05654",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "sha256": "205a91df7b9a7f7315bd95ddea6702299c3409c420c04d7cfa19bcc1580d460a",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00",
+      "local_research_copy_retained_outside_submission": true
+    },
+    {
+      "id": "amie_pdf",
+      "url": "https://arxiv.org/pdf/2401.05654",
+      "status": 200,
+      "type": "application/pdf",
+      "sha256": "d16d2f4f196a913c37529b066165adc4d7b8375dfb68c3cc1ae374e50ee7531e",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00",
+      "local_research_copy_retained_outside_submission": true
+    },
+    {
+      "id": "nist_page",
+      "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00"
+    },
+    {
+      "id": "who_news",
+      "url": "https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models",
+      "error": "HTTP Error 403: Forbidden",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00"
+    },
+    {
+      "id": "security",
+      "url": "https://arxiv.org/abs/2211.03622",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "sha256": "6d79253c739b1c5dabe39667219e7940cca9908aeac9d2365c3666fc7d49af2b",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00",
+      "local_research_copy_retained_outside_submission": true
+    },
+    {
+      "id": "security_pdf",
+      "url": "https://arxiv.org/pdf/2211.03622",
+      "status": 200,
+      "type": "application/pdf",
+      "sha256": "c079f7b417079efd03f57848fb011963f9df856156b5a9bd605c00af725d706a",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00",
+      "local_research_copy_retained_outside_submission": true
+    },
+    {
+      "id": "metr_survey",
+      "url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
+      "status": 200,
+      "type": "text/html; charset=UTF-8",
+      "sha256": "240a943b502a8ee8accfffc1b8110ab616f71517f0292096411bed05ed89f9f2",
+      "retrieval_recorded_at": "2026-10-25T18:38:18.865203-04:00",
+      "local_research_copy_retained_outside_submission": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+--- specialist_instructions_v0.2
++++ specialist_instructions_v0.3
+@@ -14,7 +14,12 @@
+ 
+ 1. No defensible categorical barrier: classify as incremental on the available evidence, or qualify/abstain if the missing evidence prevents that distinction.
+ 2. Name whether the evidence shows performance improvement, constraint reduction, genuine dissolution, or an unresolved distinction. A real improvement alone is not dissolution.
+-3. Suppression test: if the technology category vanished, would prior alternatives restore the old constrained state, or would systems rebuilt upon its removal of a constraint collapse? Do not substitute removal of one vendor, local inconvenience, organizational dependence by choice, or a speculative scenario for demonstrated societal dependence. Address feasibility and limits of the counterfactual.
++3. Suppression test (Chapter 11 §§11.2/11.7): if the technology category vanished, distinguish these outcomes explicitly:
++   - Feasible substitution by prior human/software methods that restores the old constrained workflow supports constraint reduction, not dissolution; under this gate the classification is at most breakthrough. Lost convenience, increased effort or a return of prior constraints does not strengthen the dissolution case by itself.
++   - Collapse of activities or systems genuinely rebuilt on a dissolved categorical barrier, where prior alternatives cannot feasibly sustain those activities under the old constraints, supports the dissolution case, subject to evidence, the cross-tier gate and the other course criteria. Identify the dependent activity, the prior constraint and why substitution would fail; collapse alone without that causal link is insufficient.
++   - If substitution feasibility, the causal dependency or the outcome cannot be established, leave the gate unresolved and state the evidence needed. Do not require an actual society-wide shutdown experiment; distinguish a supported counterfactual from speculation.
++   Do not substitute removal of one vendor, local inconvenience or organizational dependence by choice for demonstrated dependence on a dissolved barrier. Address feasibility and limits of the counterfactual.
++   Before returning JSON, check the direction of suppression reasoning across general_et_finding, evidence, change_monitoring_triggers and abstention_or_more_information_needed: feasible return to the prior constrained state must not be described as evidence strengthening dissolution. A trigger must state which outcome would support reduction, which would support dissolution, or what remains unresolved. This check does not predetermine the technology classification.
+ 4. If the old state would return, the result is reduction and at most breakthrough. If dissolution is genuine but confined to one tier, it is still breakthrough. Promethean candidacy requires dissolution across at least two tiers of human activity (e.g., economic, biological survival, cognitive/social); multiple business sectors alone do not automatically establish this.
+ 5. When the gate is unresolved, say so; do not write "dissolution confirmed". Report downstream criteria as not reached or unresolved instead of manufacturing a high score. State what observation would resolve the gate.
+ 

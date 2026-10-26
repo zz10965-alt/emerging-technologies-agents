@@ -1,0 +1,115 @@
+{
+  "agent": {
+    "name": "Promethean Technology Classification Agent",
+    "specialty": "Chapter 11 technology significance classification and bounded contextual implications",
+    "version": "0.2-evidence-prep"
+  },
+  "analytical_question": "Are deployable general-purpose LLM-based systems incremental, breakthrough, or potentially civilization-changing under Chapter 11, and how much should that unresolved general significance affect a hypothetical risk-averse hospital’s decision over the next six months to test documentation assistance separately from clinician-facing decision support?",
+  "general_et_finding": "System boundary: deployable, general-purpose LLM-based systems able to support multiple cognitive and knowledge-work tasks, including models plus usable interfaces, tools and necessary operational infrastructure; neither all AI, an unassembled model component, AMIE alone, nor this hospital application. Mode: prospective; evidence snapshot dated 25 October 2026. Barrier statement: \"Before this technology, producing and adapting language-based knowledge work at scale required sustained human composition, interpretation, and task-specific expertise; this was not experienced as a limitation but as the definition of cognitive knowledge work.\" This proposed categorical barrier is disputable: search, templates, software, human professionals and earlier automation already performed parts of the activity, and meaningful verification and responsibility remain human. Current observed evidence supports performance improvement and partial constraint reduction on specified tasks, not demonstrated categorical dissolution. Suppression test: removal of the LLM-system category would remove some present assistance, but the dossier does not establish that prior human and software alternatives could not restore the constrained workflow or that multiple societal systems would collapse; feasibility, substitution costs and wider dependence remain unmeasured. Thus dissolution is unresolved rather than confirmed. Cross-tier gate: coding, support and simulated diagnosis indicate differing tasks/sectors, not verified dissolution across two distinct tiers of human activity. Six conditional criteria, considered descriptively rather than scored: (1) Order-of-magnitude improvement—unsupported at a meaningful quality-adjusted general-system baseline: S1 reports 160.89/71.17 ≈ 2.26x completion-time ratio on one programming task, S2 ~1.14x issues/hour, S3 a 19% slowdown in its setting; S5 median perceived 3x speed is self-report, not causal measurement. No verified approximately 10x performance, total cost, or accessibility result; documentation and oversight costs are unknown. (2) Widespread impact—mixed: studies span coding and customer service and S6 tests simulated consultations, but population reach, exclusion and real cross-tier transformation are not established. (3) Paradigm shift—unresolved: interactive language generation could change task organization, but studies chiefly measure bounded assistance, not a durable replacement of foundational assumptions. (4) Catalytic effect—unresolved: novel downstream workflows are plausible but dependent innovations have not been independently documented here. (5) Democratizing effect—mixed: S2 reports larger novice gains, yet skill, accuracy, language, infrastructure, cost and concentration limits are not measured adequately. (6) Irreversibility—not yet observable: no long-run infrastructure-scale societal dependence or feasible suppression counterfactual is established; S4 task-selection effects and S5 perceived usefulness cannot substitute. Because barrier dissolution and cross-tier consequences remain unresolved, the latter criteria cannot complete a Promethean gate; their status descriptions are diagnostic, not a substitute for gate passage. Classification: qualified Breakthrough as a provisional working description of meaningful, cross-task assistance and constraint reduction, NOT a demonstrated Potential Promethean determination on this narrower dossier; the unresolved categorical gate prevents a confident upper-tier label, and the evidence also does not quantify the extent of general breakthrough reliably. C11 provisionally calls generative AI Potential Promethean, citing a cognitive barrier and first five criteria while recognizing unverified irreversibility; that is a legitimate author calibration, not independent proof that this bounded general-purpose LLM system has dissolved a categorical barrier across two tiers. Lack of long-run irreversibility by itself would not bar Potential Promethean if the prior gates were supported; here those prior gates, rather than irreversibility alone, are insufficiently demonstrated. Funding, valuations, publicity, adoption enthusiasm, and aggressive deployment posture have no evidentiary power to clear them.",
+  "application_finding": "Clinical documentation: potential assistance drafting or summarizing text could change clinician workload, but the supplied dossier has no original clinical-documentation effectiveness trial, quality-adjusted time saving, measured error rate or downstream patient-care study. Documentation remains an accountable clinical record; fabricated, omitted or misplaced details can propagate into later care. Clinician-facing decision support: S6 offers a positive signal for a specialized conversational diagnostic LLM in 149 simulated text consultations, compared against 20 physicians, but this is neither a general-purpose hospital implementation nor evidence of safe real-world advice, patient benefit, regulatory suitability or autonomous diagnostic competence. The greater risk of influencing diagnoses and treatment makes the decision-support evidentiary threshold distinctly higher than for supervised draft documentation. Neither application inherits a Potential Promethean classification or a 10x benefit from the broad technology.",
+  "organization_specific_finding": "The hospital and its six-month horizon are hypothetical. Its conservative posture, potential patient harm, privacy exposure, professional accountability and dependence on clinical workflows argue for separate, staged evaluations rather than a single LLM adoption decision. Clinician oversight, privacy protections, workflow integration and applicable regulatory review are stated prerequisites, not verified existing controls. Jurisdiction, staff capacity, local baselines, testing data, approval path and operational resources are unspecified. The hospital’s safety threshold and willingness to pilot change management action and acceptable residual uncertainty; they do not change the general technology evidence or classification.",
+  "evidence": [
+    {
+      "claim": "Chapter 11 uses a usable-system boundary, categorical barrier and suppression gates, cross-tier dissolution, and six non-additive criteria; its author provisionally offers generative AI as Potential Promethean.",
+      "source_or_reference": "C11 — Andres Fortino, Chapter 11: Identifying Promethean Technologies, August 2026 draft rev 0.1, supplied course PDF, §§11.2, 11.5, 11.7, pp. 3–4 and 9–11; no public URL supplied",
+      "date_or_recency": "August 2026 draft; dossier inspected 25 October 2026",
+      "evidence_type": "course framework / author calibration",
+      "notes": "C11; marked inspected in supplied dossier only; author’s working instrument, not scientific consensus or independent empirical proof."
+    },
+    {
+      "claim": "On a standardized JavaScript task, AI-assisted completers averaged 71.17 versus 160.89 minutes (~2.26x time ratio), not 10x; code quality was not studied.",
+      "source_or_reference": "S1 — Peng, Kalliamvakou, Cihon & Demirer, The Impact of AI on Developer Productivity: Evidence from GitHub Copilot, https://arxiv.org/abs/2302.06590v1",
+      "date_or_recency": "13 February 2023; May–June 2022 study",
+      "evidence_type": "supporting original study as reported in dossier",
+      "notes": "S1; original PDF reportedly inspected in evidence preparation, NOT reverified in this run. Randomized 95 professionals, 35 completers per arm; single task, 12 completion tests, conditional-completer analysis and developer-affiliated authors. Supports bounded assistance only."
+    },
+    {
+      "claim": "A staggered customer-support rollout found 14% more issues resolved per hour, with larger gains for less-experienced staff and little effect for the most experienced.",
+      "source_or_reference": "S2 — Brynjolfsson, Li & Raymond, Generative AI at Work, NBER Working Paper 31161, https://www.nber.org/papers/w31161",
+      "date_or_recency": "April 2023, revised November 2023",
+      "evidence_type": "supporting original quasi-experimental study as reported in dossier",
+      "notes": "S2; dossier-inspected, not independently reverified in this run; 5,179 agents, difference-in-differences rollout, not randomized. Single organizational setting; identification assumptions apply; no substitution of a later journal estimate."
+    },
+    {
+      "claim": "Experienced open-source contributors with early-2025 AI access took 19% longer on studied tasks; subjective expectations of benefit disagreed with observed times.",
+      "source_or_reference": "S3 — Becker, Rush, Barnes & Rein (METR), Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity, https://arxiv.org/abs/2507.09089v2",
+      "date_or_recency": "10 July 2025 report; arXiv v2 25 July 2025",
+      "evidence_type": "opposing original experimental study as reported in dossier",
+      "notes": "S3; reportedly inspected, not independently reverified in this run; 16 experienced contributors, 246 tasks, mature repositories, early-2025 tools. Not a claim about all current development. S3–S5 share METR as issuer."
+    },
+    {
+      "claim": "Later-2025 productivity follow-up signals were unreliable because task/developer selection, pay, quality and concurrent agents complicated causal measurement.",
+      "source_or_reference": "S4 — Becker, Rush, Cunningham, Rein & Mahamud (METR), We are Changing our Developer Productivity Experiment Design, https://metr.org/blog/2026-02-24-uplift-update/",
+      "date_or_recency": "24 February 2026",
+      "evidence_type": "qualifying methodological report as reported in dossier",
+      "notes": "S4; reportedly inspected, not independently reverified in this run. Authors suspect increased benefits but describe very weak evidence for magnitude; non-AI task reluctance is not societal irreversibility."
+    },
+    {
+      "claim": "Surveyed technical workers reported median perceived speed of 3x and median value measures of 1.4–2x; these were self-reports, not causal estimates.",
+      "source_or_reference": "S5 — Becker (METR), Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity, https://metr.org/blog/2026-05-11-ai-usage-survey/",
+      "date_or_recency": "11 May 2026; February–April 2026 survey",
+      "evidence_type": "supporting perceived-benefit evidence with major limitations",
+      "notes": "S5; reportedly inspected, not independently reverified in this run; 349 technical workers, convenience sample, low response and possible inflated estimates. Does not establish 10x gains or dependence."
+    },
+    {
+      "claim": "In simulated text consultations a specialized diagnostic LLM was reported to outperform comparison physicians on diagnostic accuracy and several rated dimensions.",
+      "source_or_reference": "S6 — Tu, Palepu, Schaekermann et al. (Google Research/Google DeepMind), Towards Conversational Diagnostic AI, https://arxiv.org/abs/2401.05654v1",
+      "date_or_recency": "11 January 2024",
+      "evidence_type": "supporting simulation study, application-adjacent only",
+      "notes": "S6; reportedly inspected, not independently reverified in this run; 149 simulated scenarios, 20 primary-care physicians, double-blind crossover, patient actors; specialized AMIE system and clinicians’ unfamiliar text interface limit transfer. Not real patient outcomes, routine documentation validation or approval."
+    },
+    {
+      "claim": "AI-assisted participants generally produced less secure code in a small security-task study, opposing assumptions that generated output is automatically reliable.",
+      "source_or_reference": "S7 — Perry, Srivastava, Kumar & Boneh, Do Users Write More Insecure Code with AI Assistants?, https://arxiv.org/abs/2211.03622v3; DOI 10.1145/3576915.3623157",
+      "date_or_recency": "Initial preprint 7 November 2022; CCS 2023; arXiv v3 18 December 2023",
+      "evidence_type": "opposing original study as reported in dossier",
+      "notes": "S7; reportedly inspected, not independently reverified in this run; 47 participants, five analyzed heterogeneous security tasks, older assistant, mostly student sample; cannot infer a current clinical error rate."
+    },
+    {
+      "claim": "The hospital, its conservative adoption posture, prerequisites, six-month horizon and no-autonomous-decision constraint are scenario assumptions, not observed operational facts.",
+      "source_or_reference": "Contrast 1 case context in attached packet, CASE CONTEXT",
+      "date_or_recency": "Hypothetical decision horizon: next six months from 25 October 2026",
+      "evidence_type": "hypothetical case assumption",
+      "notes": "No asserted deployment, clinical performance result, local compliance status or institutional metric verified."
+    },
+    {
+      "claim": "Present dossier does not establish categorical barrier dissolution, two-tier societal dependence, hospital documentation benefit, or local clinical readiness.",
+      "source_or_reference": "Analytical inference from C11, S1–S7 and supplied evidence-boundary notes",
+      "date_or_recency": "Assessment 25 October 2026",
+      "evidence_type": "bounded analytical inference / evidence gap",
+      "notes": "Not a newly verified source fact; draws on task limits and explicit absence of direct local evidence. No browsing or independent source inspection in this run."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "Categorical cognitive-work barrier is contestable because prior automation and human workflows existed, and independent human oversight still matters; the packet has no demonstrated dissolution or feasible societal suppression counterfactual.",
+    "S1 offers a ~2.26x task-time ratio and S2 a ~1.14x issue-resolution ratio, neither meaningful, quality-adjusted 10x evidence; S5 perceived 3x is noncausal and cost/access baselines are missing.",
+    "S3 finds 19% slower task completion for its experienced-developer setting; S4 says later estimates are unreliable, not that the earlier result generalizes to present systems. S3–S5 are issuer-linked rather than independent confirmations.",
+    "S7 identifies insecure AI-assisted code in its older, small study; this does not quantify hospital risk but challenges reliability assumptions.",
+    "S6 involves specialized AMIE, simulated text consultations and no patient outcomes; it neither validates routine documentation nor establishes real clinical decision-support safety.",
+    "Distinct sectors and professional tasks do not by themselves establish cross-tier societal dissolution, durable catalytic dependencies, democratization or irreversibility.",
+    "No direct clinical-documentation trial, local workflow metrics, costs, oversight burden, privacy/security validation, jurisdiction-specific regulatory review or staffing facts are supplied.",
+    "The seven-source dossier is bounded, not systematic; source contents are notes of prior review and were not independently rechecked in this evaluation. NIST, WHO and JAMA pages mentioned as inaccessible contribute no evidence."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence that the cited dossier supports bounded task assistance and material limitations; low confidence in the precise general Breakthrough-versus-Potential-Promethean boundary because categorical dissolution, cross-tier reach, true cost/access effects and suppression consequences are not demonstrated. The Breakthrough label is provisional and could be downgraded or revised with clearer boundary or contradictory evidence. Low confidence in either hospital application’s local benefit and readiness; no clinical documentation evaluation or real-world patient-outcome data is supplied. Very large possible societal significance is not the same as high evidence confidence. Historical studies use disparate tasks, populations and generations of tools, and the October 2026 dossier was not independently reverified in this run.",
+  "value_opportunity_implication": "For supervised documentation, a bounded pilot could measure drafting time, correction workload and completeness against established clinical baselines; any net value must subtract review, integration and error-resolution costs. For clinician-facing decision support, S6 supplies an investigation rationale only, not evidence of improved patient outcomes or permission to deploy; evaluation should emphasize whether decisions are improved with appropriate clinician oversight. Neither cross-industry productivity nor hypothetical civilization-scale value can be converted into local return on investment without tests.",
+  "risk_governance_implication": "Maintain clinician authority for all patient-care decisions. Treat documentation inaccuracies and privacy leaks as consequential even when output is called a draft; keep traceability and correction controls. For decision support, assess hallucinations, omissions, calibration, automation bias, subgroup performance, escalation and harmful advice under clinically appropriate evaluation before any live influence on care. Verify privacy, security, governance, jurisdiction-specific obligations and accountability with relevant specialists; this classification agent does not determine clinical safety or legal compliance.",
+  "recommendation_management_implication": "Do not infer that potential Promethean significance warrants adoption. During the hypothetical six-month horizon, first identify jurisdiction, ownership, staffing and review gates and define separate success and stop criteria. If required approvals and safeguards can be established, prioritize a tightly bounded, clinician-reviewed documentation study with baseline, blinded error review where feasible, measurable time and quality outcomes, clear exclusions, incident reporting and reversible rollout. Keep clinician-facing diagnostic or treatment support out of autonomous or unsupervised patient-care use; consider only separately governed retrospective/simulated evaluation until real-world validation and applicable review demonstrate acceptable performance. Return to management with measured local benefit, harm, resource costs, oversight feasibility and explicit go/no-go conditions; preserve human authority and stop or roll back on safety failures.",
+  "change_monitoring_triggers": [
+    "General gate: quality-adjusted comparisons against human/prior-software baselines across varied cognitive tasks demonstrating whether a genuinely categorical capability is now possible rather than merely faster.",
+    "Suppression/cross-tier gate: credible evidence of feasible substitution limits and durable dependent systems in at least two distinct tiers of human activity, beyond vendor lock-in or popularity.",
+    "Criteria: independently replicated approximately 10x task, cost or access gains with denominators, quality and integration costs; independently observed dependent innovations, access distribution and long-run infrastructure consequences.",
+    "New, methodologically stronger evaluations of later LLM systems that resolve S3–S5 uncertainty without treating self-reported multipliers as causal.",
+    "Documentation pathway: local baseline versus assisted results for clinician time, record accuracy/completeness, correction burden, downstream errors, privacy incidents and sustainable staffing.",
+    "Decision-support pathway: prospective clinically representative safety and utility evidence, subgroup errors, patient-relevant outcomes, clinician override patterns, monitoring and jurisdiction-specific review.",
+    "Management trigger: completion or failure of prerequisite clinician oversight, information-security/privacy controls, integration testing and approvals; pause or reverse upon serious errors or unresolved accountability."
+  ],
+  "abstention_or_more_information_needed": [
+    "Abstain from a definitive Potential Promethean or Confirmed Promethean designation: require testable evidence that the claimed categorical cognitive barrier dissolved and that the effect spans at least two human-activity tiers; historical durability alone is not an absolute prerequisite for a qualified potential finding.",
+    "Clarify measurable general-system boundary across deployable versions, included tools and prior substitutes to determine whether the Breakthrough label remains defensible.",
+    "Obtain credible comparative evidence on quality-adjusted cost, performance, accessibility, and persistence rather than inferring 10x from percent change or reported perceptions.",
+    "For documentation, obtain an original relevant effectiveness/safety study and local baseline, workflow, documentation quality, time and correction-cost measures before a deployment decision.",
+    "For clinician-facing decision support, obtain representative real-world clinical validation and patient-related safeguards; S6 simulation cannot supply live-use authorization.",
+    "Identify jurisdiction and applicable review process, data handling, privacy/security architecture, available clinician reviewers, staffing, budget, escalation, liability/accountability boundaries and operational stop rules.",
+    "No evidence is supplied that the hypothetical hospital has begun a pilot or satisfied prerequisites; do not infer one."
+  ]
+}

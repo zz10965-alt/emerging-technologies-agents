@@ -1,0 +1,182 @@
+{
+  "review_recorded_at": "2026-10-25T20:10:12.162282-04:00",
+  "prepared_candidate_commit": "96520a19a24e39b1ad371622c5287b8a2085e70c",
+  "status": "Phase 4A validation only; no instructions changed, retests performed, commits pushed or final reports produced",
+  "runs": [
+    {
+      "case": "primary",
+      "filename": "primary_v0.2_run1.json",
+      "bytes": 22959,
+      "sha256": "71196c009fbd0adb70cfa2d6b88b194c85e8177006f307b20a0465eec15d3206",
+      "upload_bytes_identical": true,
+      "original_validator": {
+        "command": "python tools/validate_response.py agents/promethean_agent/responses/primary_v0.2_run1.json",
+        "exit_status": 0,
+        "stdout": "VALIDATION PASSED\n",
+        "stderr": ""
+      },
+      "complete_schema": {
+        "engine": "jsonschema Draft202012Validator",
+        "engine_version": "4.26.0",
+        "schema_sha256": "02f991f08e02e43139e4aa80d9f5898aa022ed6ccf4dcf0c329fae670f03698e",
+        "schema_valid": true,
+        "valid": true,
+        "errors": [],
+        "duplicate_object_keys": [],
+        "note": "Top-level additionalProperties=false enforced. Nested agent/evidence objects permit extra properties by schema default; no stricter invented prohibition applied."
+      },
+      "metadata_matches_prepared_specialist": true,
+      "top_level_field_count": 13,
+      "evidence_entries": 10,
+      "expected_packet": "prompts/primary_v0.2_prompt.txt",
+      "expected_packet_sha256": "aa65fd53a868653581a286ef35175170b7425d3deb6761237e332ee2e4913b92",
+      "execution_provenance": {
+        "source": "User attests four original first-run ChatGPT responses, each from a separate fresh conversation using its corresponding complete v0.2 packet. Not independently audited.",
+        "exact_packet_used": "User confirms complete corresponding v0.2 packet copied from Codex and pasted into ChatGPT; interface displayed a Pasted Text attachment; corresponding execution instruction submitted.",
+        "fresh_conversation": "User confirms separate fresh conversation for each case.",
+        "model": "User-reported ChatGPT interface label: GPT-6; Medium thinking effort. Precise model identifier not independently logged.",
+        "execution_timestamp": "Unknown: exact execution timestamps were not recorded. Evidence-cutoff dates inside outputs are not timestamps.",
+        "settings_and_browsing": "User reports no browsing requested or intentionally enabled; submitted prompts explicitly prohibited external browsing and required embedded evidence only. Internal tool usage was not independently audited.",
+        "capture_method": "User downloaded resulting JSON files without manually editing analytical content; user identifies uploads as original first-run responses.",
+        "run_id": "run1, first-run status confirmed by user",
+        "execution_date": "2026-10-25, user-reported New York local date",
+        "timezone": "America/New_York (EDT, UTC-4)",
+        "provenance_basis": "User report; model/settings/timing/tool behavior not independently verified."
+      }
+    },
+    {
+      "case": "contrast_1",
+      "filename": "contrast_1_v0.2_run1.json",
+      "bytes": 22023,
+      "sha256": "bf7bf002e92e518fc3c7615eab6d22efb1f0c9ad0a8bcf3df90778ba01e5f926",
+      "upload_bytes_identical": true,
+      "original_validator": {
+        "command": "python tools/validate_response.py agents/promethean_agent/responses/contrast_1_v0.2_run1.json",
+        "exit_status": 0,
+        "stdout": "VALIDATION PASSED\n",
+        "stderr": ""
+      },
+      "complete_schema": {
+        "engine": "jsonschema Draft202012Validator",
+        "engine_version": "4.26.0",
+        "schema_sha256": "02f991f08e02e43139e4aa80d9f5898aa022ed6ccf4dcf0c329fae670f03698e",
+        "schema_valid": true,
+        "valid": true,
+        "errors": [],
+        "duplicate_object_keys": [],
+        "note": "Top-level additionalProperties=false enforced. Nested agent/evidence objects permit extra properties by schema default; no stricter invented prohibition applied."
+      },
+      "metadata_matches_prepared_specialist": true,
+      "top_level_field_count": 13,
+      "evidence_entries": 10,
+      "expected_packet": "prompts/contrast_1_v0.2_prompt.txt",
+      "expected_packet_sha256": "06f6354a754027f503fde57f76cf6b688daf9f59deb9f07d9b23c36b29238b03",
+      "execution_provenance": {
+        "source": "User attests four original first-run ChatGPT responses, each from a separate fresh conversation using its corresponding complete v0.2 packet. Not independently audited.",
+        "exact_packet_used": "User confirms complete corresponding v0.2 packet copied from Codex and pasted into ChatGPT; interface displayed a Pasted Text attachment; corresponding execution instruction submitted.",
+        "fresh_conversation": "User confirms separate fresh conversation for each case.",
+        "model": "User-reported ChatGPT interface label: GPT-6; Medium thinking effort. Precise model identifier not independently logged.",
+        "execution_timestamp": "Unknown: exact execution timestamps were not recorded. Evidence-cutoff dates inside outputs are not timestamps.",
+        "settings_and_browsing": "User reports no browsing requested or intentionally enabled; submitted prompts explicitly prohibited external browsing and required embedded evidence only. Internal tool usage was not independently audited.",
+        "capture_method": "User downloaded resulting JSON files without manually editing analytical content; user identifies uploads as original first-run responses.",
+        "run_id": "run1, first-run status confirmed by user",
+        "execution_date": "2026-10-25, user-reported New York local date",
+        "timezone": "America/New_York (EDT, UTC-4)",
+        "provenance_basis": "User report; model/settings/timing/tool behavior not independently verified."
+      }
+    },
+    {
+      "case": "contrast_2",
+      "filename": "contrast_2_v0.2_run1.json",
+      "bytes": 20732,
+      "sha256": "850411c3afd8810ecf9361f60d5f06821d25a5d4daefb3c60d28dde89f995e9b",
+      "upload_bytes_identical": true,
+      "original_validator": {
+        "command": "python tools/validate_response.py agents/promethean_agent/responses/contrast_2_v0.2_run1.json",
+        "exit_status": 0,
+        "stdout": "VALIDATION PASSED\n",
+        "stderr": ""
+      },
+      "complete_schema": {
+        "engine": "jsonschema Draft202012Validator",
+        "engine_version": "4.26.0",
+        "schema_sha256": "02f991f08e02e43139e4aa80d9f5898aa022ed6ccf4dcf0c329fae670f03698e",
+        "schema_valid": true,
+        "valid": true,
+        "errors": [],
+        "duplicate_object_keys": [],
+        "note": "Top-level additionalProperties=false enforced. Nested agent/evidence objects permit extra properties by schema default; no stricter invented prohibition applied."
+      },
+      "metadata_matches_prepared_specialist": true,
+      "top_level_field_count": 13,
+      "evidence_entries": 10,
+      "expected_packet": "prompts/contrast_2_v0.2_prompt.txt",
+      "expected_packet_sha256": "11d7785e1cd9aba144ab9daabd3a7bedce17f97e17097c4b3289af63e4ac7c9f",
+      "execution_provenance": {
+        "source": "User attests four original first-run ChatGPT responses, each from a separate fresh conversation using its corresponding complete v0.2 packet. Not independently audited.",
+        "exact_packet_used": "User confirms complete corresponding v0.2 packet copied from Codex and pasted into ChatGPT; interface displayed a Pasted Text attachment; corresponding execution instruction submitted.",
+        "fresh_conversation": "User confirms separate fresh conversation for each case.",
+        "model": "User-reported ChatGPT interface label: GPT-6; Medium thinking effort. Precise model identifier not independently logged.",
+        "execution_timestamp": "Unknown: exact execution timestamps were not recorded. Evidence-cutoff dates inside outputs are not timestamps.",
+        "settings_and_browsing": "User reports no browsing requested or intentionally enabled; submitted prompts explicitly prohibited external browsing and required embedded evidence only. Internal tool usage was not independently audited.",
+        "capture_method": "User downloaded resulting JSON files without manually editing analytical content; user identifies uploads as original first-run responses.",
+        "run_id": "run1, first-run status confirmed by user",
+        "execution_date": "2026-10-25, user-reported New York local date",
+        "timezone": "America/New_York (EDT, UTC-4)",
+        "provenance_basis": "User report; model/settings/timing/tool behavior not independently verified."
+      }
+    },
+    {
+      "case": "hype_probe",
+      "filename": "hype_probe_v0.2_run1.json",
+      "bytes": 22884,
+      "sha256": "050a727d3f20f7b72fa404f90219cc7588682708f50a97e428e6bab407f5c840",
+      "upload_bytes_identical": true,
+      "original_validator": {
+        "command": "python tools/validate_response.py agents/promethean_agent/responses/hype_probe_v0.2_run1.json",
+        "exit_status": 0,
+        "stdout": "VALIDATION PASSED\n",
+        "stderr": ""
+      },
+      "complete_schema": {
+        "engine": "jsonschema Draft202012Validator",
+        "engine_version": "4.26.0",
+        "schema_sha256": "02f991f08e02e43139e4aa80d9f5898aa022ed6ccf4dcf0c329fae670f03698e",
+        "schema_valid": true,
+        "valid": true,
+        "errors": [],
+        "duplicate_object_keys": [],
+        "note": "Top-level additionalProperties=false enforced. Nested agent/evidence objects permit extra properties by schema default; no stricter invented prohibition applied."
+      },
+      "metadata_matches_prepared_specialist": true,
+      "top_level_field_count": 13,
+      "evidence_entries": 11,
+      "expected_packet": "prompts/hype_probe_v0.2_prompt.txt",
+      "expected_packet_sha256": "d6b024b32a5e4231eccf8188fc2a454aef0ba31bfba55da7df667016e85e2475",
+      "execution_provenance": {
+        "source": "User attests four original first-run ChatGPT responses, each from a separate fresh conversation using its corresponding complete v0.2 packet. Not independently audited.",
+        "exact_packet_used": "User confirms complete corresponding v0.2 packet copied from Codex and pasted into ChatGPT; interface displayed a Pasted Text attachment; corresponding execution instruction submitted.",
+        "fresh_conversation": "User confirms separate fresh conversation for each case.",
+        "model": "User-reported ChatGPT interface label: GPT-6; Medium thinking effort. Precise model identifier not independently logged.",
+        "execution_timestamp": "Unknown: exact execution timestamps were not recorded. Evidence-cutoff dates inside outputs are not timestamps.",
+        "settings_and_browsing": "User reports no browsing requested or intentionally enabled; submitted prompts explicitly prohibited external browsing and required embedded evidence only. Internal tool usage was not independently audited.",
+        "capture_method": "User downloaded resulting JSON files without manually editing analytical content; user identifies uploads as original first-run responses.",
+        "run_id": "run1, first-run status confirmed by user",
+        "execution_date": "2026-10-25, user-reported New York local date",
+        "timezone": "America/New_York (EDT, UTC-4)",
+        "provenance_basis": "User report; model/settings/timing/tool behavior not independently verified."
+      }
+    }
+  ],
+  "integrity": {
+    "original_checker": {
+      "command": "python tools/check_frozen_core.py",
+      "exit_status": 0,
+      "stdout": "FROZEN CORE INTACT\n",
+      "stderr": ""
+    },
+    "original_archive_files_identical": 32,
+    "raw_response_bytes_rechecked_identical": true,
+    "specialist_instructions_unchanged": true
+  }
+}

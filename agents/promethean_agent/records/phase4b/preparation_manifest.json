@@ -1,0 +1,27 @@
+{
+  "agent_version": "0.3-suppression-fix",
+  "case": "cases/primary.json",
+  "case_sha256": "e74994e6b0601e9a994f12d720c6e1e510e730c8efa9b25ea392077c1575a365",
+  "evidence_snapshot": "evidence/shared_snapshot_v0.2.txt",
+  "evidence_snapshot_sha256": "8ee69cc52c778fc5b37c443a8b68261413ef85d648cc484ebe48698a9ad88e22",
+  "packet": "prompts/primary_v0.3_prompt.txt",
+  "packet_sha256": "791339b05fb3ff8eeee4f638c98f3edfe24d70cda7308166bb86325948ca1f45",
+  "instructions_before_sha256": "96e868b32cbb50609024c56f02f9b1828f8e83af1be6a7e4eae63d128819907e",
+  "instructions_after_sha256": "28495cf809f43e20b00b052dca941228881d5e4a1244fe2191830ed79822d196",
+  "baseline_response": "responses/primary_v0.2_run1.json",
+  "baseline_response_sha256": "71196c009fbd0adb70cfa2d6b88b194c85e8177006f307b20a0465eec15d3206",
+  "baseline_preparation_commit": "96520a19a24e39b1ad371622c5287b8a2085e70c",
+  "checks": {
+    "only_step3_instruction_change": true,
+    "packet_diff_only_instructions_and_metadata": true,
+    "all_four_cases_unchanged": true,
+    "shared_evidence_unchanged": true,
+    "all_v0_2_packets_unchanged": true,
+    "all_four_original_responses_unchanged": true,
+    "original_archive_files_identical": 32,
+    "original_checker_exit_status": 0,
+    "original_checker_stdout": "FROZEN CORE INTACT\n"
+  },
+  "retest_status": "NOT EXECUTED; manual ChatGPT inference required; no response generated",
+  "version_control": "Working-tree changes only; no commit or push performed in Phase 4B."
+}

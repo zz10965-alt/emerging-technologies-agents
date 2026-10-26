@@ -1,0 +1,27 @@
+{
+  "scope": "Phase 5A record/version-history finalization; no final ZIP or DOCX deliverables",
+  "five_raw_response_hashes": {
+    "primary_v0.2_run1.json": "71196c009fbd0adb70cfa2d6b88b194c85e8177006f307b20a0465eec15d3206",
+    "contrast_1_v0.2_run1.json": "bf7bf002e92e518fc3c7615eab6d22efb1f0c9ad0a8bcf3df90778ba01e5f926",
+    "contrast_2_v0.2_run1.json": "850411c3afd8810ecf9361f60d5f06821d25a5d4daefb3c60d28dde89f995e9b",
+    "hype_probe_v0.2_run1.json": "050a727d3f20f7b72fa404f90219cc7588682708f50a97e428e6bab407f5c840",
+    "primary_v0.3_run1.json": "e94745da421b9c491839cc07ed784ac2f991a80eda0be493e3ff69e68808f787"
+  },
+  "uploaded_response_bytes_identical": true,
+  "approved_v03_instructions_unchanged": true,
+  "cases_evidence_and_packets_unchanged": true,
+  "original_archive_files_identical": 32,
+  "original_frozen_core_checker": {
+    "exit_status": 0,
+    "stdout": "FROZEN CORE INTACT\n",
+    "stderr": ""
+  },
+  "staging_boundary": "Only agents/promethean_agent/; all current changed paths checked within boundary",
+  "residual_limitation": "impossible in principle may be stricter than Chapter 11; retained without revision",
+  "retest_outcome": "One actual Primary v0.3 retest corrected targeted inconsistency; no v0.3 contrast/hype outcomes claimed",
+  "prior_commits_preserved": [
+    "7c6a4e0f47e22858623da4f6ffced9fbabc799c7",
+    "63f816a1791cb0f708348b41f6a779ada2e124db",
+    "96520a19a24e39b1ad371622c5287b8a2085e70c"
+  ]
+}

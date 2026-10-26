@@ -1,0 +1,38 @@
+{
+  "response": "responses/primary_v0.3_run1.json",
+  "bytes": 22616,
+  "sha256": "e94745da421b9c491839cc07ed784ac2f991a80eda0be493e3ff69e68808f787",
+  "upload_bytes_identical": true,
+  "original_validator": {
+    "command": "python tools/validate_response.py agents/promethean_agent/responses/primary_v0.3_run1.json",
+    "exit_status": 0,
+    "stdout": "VALIDATION PASSED\n",
+    "stderr": ""
+  },
+  "complete_frozen_schema": {
+    "engine": "jsonschema Draft202012Validator",
+    "version": "4.26.0",
+    "valid": true,
+    "errors": [],
+    "duplicate_object_keys": []
+  },
+  "agent_metadata_matches": true,
+  "case_evidence_and_packet_match_phase4b_manifest": true,
+  "all_four_v02_responses_unchanged": true,
+  "provenance": {
+    "source": "User-uploaded primary_v0.3_run1.json following manual retest handoff; treated as submitted retest artifact.",
+    "model_settings_timestamp_browsing_capture_method": "Not supplied for this v0.3 run; do not inherit v0.2 run provenance or use evidence-cutoff dates as execution time.",
+    "exact_packet_execution": "Expected v0.3 packet association and matching returned metadata; execution conditions not independently confirmed."
+  },
+  "integrity": {
+    "original_checker_exit_status": 0,
+    "original_checker_stdout": "FROZEN CORE INTACT\n",
+    "original_archive_files_identical": 32
+  },
+  "diagnosis": {
+    "targeted_suppression_inversion": "Not observed in submitted v0.3 response; branches explicitly and consistently distinguish reduction, dissolution evidence and unresolved dependency.",
+    "general_classification": "Qualified Breakthrough, unchanged from Primary v0.2; no forced Potential Promethean upgrade.",
+    "evidence_scope": "Single Primary retest artifact; no proof of causal attribution, repeatability, or revised contrast/hype performance.",
+    "remaining_limitation": "abstention_or_more_information_needed[1] asks whether activity was impossible in principle; this can impose a stricter standard than Chapter 11 categorical constraint/feasible substitution. No further instruction revision applied."
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "agent": {
+    "name": "Promethean Technology Classification Agent",
+    "specialty": "Chapter 11 technology significance classification and bounded contextual implications",
+    "version": "0.2-evidence-prep"
+  },
+  "analytical_question": "Under Chapter 11, are deployable general-purpose LLM-based systems incremental, breakthrough, or potentially civilization-changing, and how much should that qualified general significance affect a hypothetical mid-sized software company’s decision about a controlled LLM-assisted development workflow over the next six months?",
+  "general_et_finding": "System boundary: deployable general-purpose LLM-based systems capable of supporting multiple kinds of cognitive/knowledge work, not a foundation model alone, all AI, a specialized clinical system, or a particular coding assistant. Mode: prospective, based solely on the supplied evidence snapshot dated 25 October 2026. Proposed barrier: \"Before this technology, producing and revising varied knowledge-work outputs required humans to perform or closely direct the substantive cognitive work; this was not experienced as a limitation but as the definition of skilled knowledge work.\" This is a plausible framing, not a demonstrated categorical historical barrier: earlier software automation, human delegation and expert systems were alternatives, and present LLM outputs still need task-dependent human supervision. Barrier result: evidence demonstrates constraint reduction and task-specific performance changes; genuine categorical dissolution remains unresolved. Suppression test: removing the LLM-system category would plausibly restore some human effort and established tool workflows, but the dossier does not establish which essential societal systems would collapse or whether substitutes could preserve them; a vendor shutdown or users disliking no-AI work would not prove the counterfactual. Tiers: coding and customer service support a cognitive/economic reach hypothesis, and specialized simulated diagnosis suggests possible biological/health relevance, but these are not verified dissolution across two independent tiers; multiple work sectors are insufficient. Cross-tier gate unresolved, so six criteria are diagnostic observations, not an earned score or downstream confirmation. (1) Order-of-magnitude improvement: unsupported on supplied measured evidence; S1 completers took 71.17 rather than 160.89 minutes on one task, 160.89/71.17 about 2.26x task-time ratio, without quality or oversight accounting; S2 reports about 1.14x issues/hour; S5 perceived 3x speed is self-reported, not causal. No valid broad 10x quality-adjusted performance, cost or access ratio, with integration and supervision costs included. (2) Widespread impact: mixed; programming, support work and a specialized clinical simulation suggest breadth, but representative reach, exclusions and multiple-tier transformation are unmeasured. (3) Paradigm shift: unresolved; generated drafts and interactive cognitive assistance may change human-machine work allocation, but persistent replacement of a defining constraint is unverified. (4) Catalytic effect: unsupported as a demonstrated broader dependency; derivative workflows are plausible, with no verified systematic secondary innovations that could not exist otherwise. (5) Democratizing effect: mixed; novice gains in S2 suggest diffusion of some expertise, countered by uneven advanced-worker benefits and unknown access, cost, language, infrastructure and skill barriers. (6) Irreversibility: not yet observable; no established durable infrastructure-scale dependence or viable societal suppression counterfactual. The first five are neither uniformly strong nor independent proof: S3–S5 share an issuer, and results vary across settings. Classification: qualified Breakthrough on demonstrated transferable constraint reduction across some knowledge-work tasks, WITHOUT a finding of categorical dissolution; Potential Promethean remains a live but unproven hypothesis, not the present conclusion. Chapter 11 pp. 10–11 provisionally assigns generative AI Potential Promethean; this bounded LLM-specific dossier supports that possibility but departs from treating the author’s calibration as proof because the barrier, suppression and cross-tier gates are unresolved. Lack of long-term irreversibility alone would not defeat Potential Promethean if those gates were supported; here prospective promise cannot replace missing gate evidence. Confirmed Promethean is inappropriate.",
+  "application_finding": "For LLM-assisted software development, S1 supports faster completion on a standardized JavaScript task for study completers, but not general production quality or a 10x integrated gain. S3 instead found 19% longer task times for experienced contributors in mature repositories using early-2025 tools; S4 says later productivity estimates are unreliable due to selection and measurement problems, while S5 provides only perceived benefits. S7 indicates that assistance may increase insecure-code outcomes for some historical security tasks. The application therefore presents plausible productivity and knowledge-sharing opportunities but does not dissolve the need for testing, engineering judgment, secure coding, or human review. These application-level opportunities and hazards do not change the general technology classification.",
+  "organization_specific_finding": "The company and six-month horizon are hypothetical, not observations. For a mid-sized software company with an established workflow and human code review, a moderate fast-follower posture supports a bounded, reversible evaluation rather than treating putative civilization-scale significance as an adoption mandate. Developers may benefit differently by seniority, task and codebase maturity; engineering managers must account for review time and integration, security reviewers must evaluate defects and vulnerabilities, and customers/data owners have confidentiality interests. No local productivity, spending, security or satisfaction measurement is provided, so neither local net value nor deployment readiness can be asserted. Organization-specific constraints shape acceptable risk and the pilot, not the general barrier evidence.",
+  "evidence": [
+    {
+      "claim": "Chapter 11 proposes the usable-system, categorical-barrier, suppression and cross-tier approach and provisionally calls generative AI Potential Promethean; this is methodological calibration rather than independent proof.",
+      "source_or_reference": "C11 — Andres Fortino, Chapter 11: Identifying Promethean Technologies, August 2026 draft rev 0.1; supplied course PDF, §§11.2, 11.5, 11.7, pp. 3–4 and 9–11",
+      "date_or_recency": "August 2026 draft; provided snapshot reviewed 25 October 2026",
+      "evidence_type": "course framework",
+      "notes": "C11; course material described in inspected supplied packet; author’s working instrument, not settled scientific consensus; author’s calibration concerns generative AI broadly, not proof for each LLM-based deployable system."
+    },
+    {
+      "claim": "On a standardized JavaScript HTTP-server task, study completers with Copilot averaged 71.17 minutes versus 160.89 minutes in the comparison arm, a 55.8% lower completion time and about 2.26x baseline-to-assisted time ratio, not 10x.",
+      "source_or_reference": "S1 — Peng, Kalliamvakou, Cihon and Demirer, The Impact of AI on Developer Productivity: Evidence from GitHub Copilot; https://arxiv.org/abs/2302.06590v1",
+      "date_or_recency": "13 February 2023 v1; experiment May–June 2022",
+      "evidence_type": "source evidence — supportive, bounded",
+      "notes": "S1; original study reported inspected in supplied evidence snapshot; not independently re-retrieved during this run. Randomized 95 professionals; 35 completers per group; 12 completion tests; no code-quality assessment; narrow task, older tools, conditional-completer results and author affiliations limit extrapolation."
+    },
+    {
+      "claim": "Customer-support workers with generative assistance resolved 14% more issues per hour, with greater benefits among novices and lower-skilled workers and little gain among the most experienced; evidence of some cross-domain usefulness, not tenfold gain or barrier dissolution.",
+      "source_or_reference": "S2 — Brynjolfsson, Li and Raymond, Generative AI at Work, NBER Working Paper 31161; https://www.nber.org/papers/w31161",
+      "date_or_recency": "April 2023; working paper revised November 2023",
+      "evidence_type": "source evidence — supportive, bounded",
+      "notes": "S2; original working-paper version reported inspected in supplied evidence snapshot; no independent source retrieval this run. 5,179 agents, staggered rollout/difference-in-differences with identification and generalizability limits; not an individually randomized trial. No substitution of 2025 journal estimates."
+    },
+    {
+      "claim": "In experienced open-source contributors’ familiar mature repositories, early-2025 AI access increased task completion time by 19%, contrary to universal productivity-gain claims.",
+      "source_or_reference": "S3 — Becker, Rush, Barnes and Rein (METR), Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity; https://arxiv.org/abs/2507.09089v2",
+      "date_or_recency": "Issuer report 10 July 2025; arXiv v2 25 July 2025",
+      "evidence_type": "source evidence — contrary, bounded",
+      "notes": "S3; original report/paper reported inspected in supplied snapshot; no independent retrieval this run. Randomized AI access across 246 tasks and 16 experienced contributors, mostly historical Cursor/Claude 3.5/3.7 Sonnet. Developers perceived improvement despite measured slowdown; METR warns historical result is dated. Shares issuer with S4–S5."
+    },
+    {
+      "claim": "METR states later-2025 developer-productivity experiment data do not yield a reliable magnitude due to selection into AI conditions, pay changes, quality differences and concurrent-agent measurement difficulties.",
+      "source_or_reference": "S4 — Becker, Rush, Cunningham, Rein and Mahamud (METR), We are Changing our Developer Productivity Experiment Design; https://metr.org/blog/2026-02-24-uplift-update/",
+      "date_or_recency": "24 February 2026",
+      "evidence_type": "source evidence — methodological qualification",
+      "notes": "S4; original issuer report described as inspected in snapshot; not independently re-retrieved. Authors suspect larger modern speedups but label the signal very weak for a precise effect; avoidance of no-AI tasks is not societal suppression-test evidence. Shares issuer with S3–S5."
+    },
+    {
+      "claim": "Early-2026 technical-worker respondents described median 1.4–2x gains across perceived value measures and median perceived speed 3x, without causally measured productivity multipliers.",
+      "source_or_reference": "S5 — Joel Becker (METR), Measuring the Self-Reported Impact of Early-2026 AI on Technical Worker Productivity; https://metr.org/blog/2026-05-11-ai-usage-survey/",
+      "date_or_recency": "11 May 2026; survey February–April 2026",
+      "evidence_type": "source evidence — supportive perception, weak causal inference",
+      "notes": "S5; original report described as inspected in snapshot; not independently re-retrieved. 349 respondents, convenience sampling, low response and possible overstatement; perceived speed differs from value. Shares issuer with S3–S4."
+    },
+    {
+      "claim": "A specialized LLM-based diagnostic conversational system outperformed physicians on some diagnostic accuracy and rated axes in simulated text consultations, suggesting exploration beyond software/support but not clinical-world safety or generic LLM outcomes.",
+      "source_or_reference": "S6 — Tu, Palepu, Schaekermann et al. (Google Research/Google DeepMind), Towards Conversational Diagnostic AI; https://arxiv.org/abs/2401.05654v1",
+      "date_or_recency": "11 January 2024 v1",
+      "evidence_type": "source evidence — qualified cross-domain signal",
+      "notes": "S6; original study described as inspected in snapshot; not independently re-retrieved. AMIE is specialized, not identical to the general-purpose system boundary; 149 simulated scenarios, 20 primary-care physicians, actor-patient text consultations and unfamiliar interface. Not patient outcomes, clinical documentation efficacy or deployment approval."
+    },
+    {
+      "claim": "Participants using a historical AI code assistant generally produced less secure solutions; insecure answers were more frequent in four of five security tasks, contradicting assumptions that generation reliably yields safe code.",
+      "source_or_reference": "S7 — Perry, Srivastava, Kumar and Boneh, Do Users Write More Insecure Code with AI Assistants?, CCS 2023, DOI 10.1145/3576915.3623157; https://arxiv.org/abs/2211.03622v3",
+      "date_or_recency": "Initial preprint 7 November 2022; retrieved v3 18 December 2023",
+      "evidence_type": "source evidence — contrary security outcome",
+      "notes": "S7; original study described as inspected in snapshot; not independently re-retrieved. 47 participants, five analyzed tasks, codex-davinci-002; mostly-student small sample and task variation prohibit claims about present universal vulnerability rates."
+    },
+    {
+      "claim": "For the defined deployable LLM-system category, current evidence shows meaningful task-dependent reductions of cognitive work constraints but does not confirm categorical dissolution or a two-tier societal dependence counterfactual.",
+      "source_or_reference": "Analytical synthesis of C11 and S1–S7 within supplied Evidence Snapshot v0.2",
+      "date_or_recency": "Assessment evidence cutoff 25 October 2026",
+      "evidence_type": "analytical inference",
+      "notes": "Gate-level inference, not a measured observation. Code/support/specialized clinical simulation represent domains, not established independent tiers of constraint dissolution. Suppression is an untested counterfactual."
+    },
+    {
+      "claim": "The proposed mid-sized technology company, established human-review workflow, moderate fast-follower posture, next-six-month decision window and missing local outcomes are hypothetical test inputs.",
+      "source_or_reference": "Primary Case context, supplied prompt packet",
+      "date_or_recency": "Hypothetical six-month horizon from 25 October 2026 assessment",
+      "evidence_type": "case assumption",
+      "notes": "No actual implementation, organization-wide performance, financial outcomes, incidents or measured readiness supplied; no organization facts independently verified."
+    }
+  ],
+  "contrary_evidence_or_limitations": [
+    "S3 finds a 19% slowdown in historical experienced-developer tasks, contrasting with S1’s 2.26x task-time ratio in a different task/sample/tool era; these are not direct replications or a universal combined average.",
+    "S4 explicitly calls later-2025 speedup magnitude unreliable and S5 is self-report; the three METR reports share an issuer and should not be counted as independent confirmations.",
+    "S7 indicates real task-specific insecure-code risks with historical assistance; neither speed nor convincing output implies verified software quality.",
+    "S1 omits code-quality effects, includes only task completers in cited averages and does not measure full integration, human-review or downstream maintenance costs.",
+    "S2 reflects one customer-support environment and a difference-in-differences design; expertise diffusion cannot be generalized to universal democratization.",
+    "S6 tests specialized AMIE in simulated patient-actor consultations, not live clinical outcomes, routine documentation effectiveness or generic general-purpose LLM use.",
+    "Categorical prior constraint is contestable due to earlier automation and delegation; the apparent removal may be partial and dependent on ongoing human supervision.",
+    "No verified suppression of the technology category, old-state restoration study, collapse of dependent infrastructure, or dissolution across at least two human-activity tiers.",
+    "No broad, quality-adjusted measured 10x performance, cost or accessibility change; accessibility and cost denominators are missing.",
+    "No validated long-term irreversibility; paradigm change and catalytic spillovers remain substantially inferential.",
+    "Originals are represented by bounded packet notes: this run did not re-open source URLs or verify more recent changes; attempted inaccessible NIST/WHO/JAMA materials are excluded.",
+    "Funding, media attention, valuation, novelty, popularity and aggressive adoption are rejected as standalone Promethean evidence."
+  ],
+  "confidence_and_uncertainty": "Moderate confidence that bounded LLM-based systems can materially reduce effort for some knowledge-work tasks, and moderate confidence that this dossier cannot verify categorical dissolution or two-tier societal consequences. Low confidence in a definitive upper-level civilization-scale classification or general current gain size, because experimental samples, tools, tasks and measured outcomes differ; later signals include unreliable estimation or self-report. The chosen qualified Breakthrough label is a prospective evidence-limited judgment, not proof that Potential Promethean is false. Irreversibility is historically not yet observable, which is distinct from failure of the presently unresolved dissolution and cross-tier gates. Source assertions were taken solely from the supplied original-source review notes, not independently refreshed, replicated or supplemented. Confidence in hypothetical local net value is low because no local measurements exist.",
+  "value_opportunity_implication": "A controlled coding-assistance pilot could test faster routine code explanation, drafting, test preparation, debugging and documentation while preserving quality. Measure end-to-end accepted and maintained output, not merely generated tokens or perceived speed; separately examine developer experience, task mix, experienced versus novice users, review workload, integration cost and rework. S1 motivates investigation, not a guaranteed local ROI or tenfold benefit.",
+  "risk_governance_implication": "Preserve human ownership of design, review and merges; prohibit unapproved confidential-data disclosures; apply existing repository permissions, secure-development practices, tests, security scanning, audit trails and incident escalation to AI-assisted contributions. Treat S7’s security warning as a reason to measure vulnerabilities, not as a precise current failure rate. Verify tool/data handling and applicable internal requirements with appropriate security and legal specialists; this agent does not certify compliance or safe deployment.",
+  "recommendation_management_implication": "Run a reversible, time-bounded and approved six-month-or-shorter pilot with representative low- and higher-risk development tasks and a human-review baseline. Predefine task assignment/comparability, quality and security acceptance gates, end-to-end cycle time, rework, maintainer overhead, developer segmentation, incident/secret-exposure checks and full costs; use appropriate controls and stop/rollback criteria. Security reviewers and data owners should approve boundaries before use; engineering management decides any scale-up only on measured local risk-adjusted value. Do not accelerate adoption solely because the course provisionally calls generative AI Potential Promethean. No general classification warrants skipping code review or authorizing production use.",
+  "change_monitoring_triggers": [
+    "Reliable, independently replicated, quality-adjusted and fully costed comparisons documenting a roughly 10x change for clearly specified LLM-system tasks, baselines and populations would materially change criterion 1, though would not alone prove dissolution.",
+    "Evidence that formerly defining cognitive-work constraints no longer apply even with explicit accounting for residual human verification, and that this effect is not merely task acceleration, could resolve the categorical barrier gate.",
+    "A credible technology-category removal counterfactual showing indispensable cross-organizational systems falling back into the old constrained state, with substitution feasibility tested, could strengthen the suppression gate.",
+    "Documented dissolution in at least two meaningfully distinct tiers of human activity, rather than use across multiple sectors, could open Potential Promethean consideration.",
+    "Independent evidence of durable secondary innovations, representative equitable access and infrastructure-scale lock-in or dependence could revise criteria 2–6; long-run irreversibility may remain unobservable in the near term.",
+    "New randomized or otherwise credible developer studies using later systems, mature repositories, diverse developers and directly evaluated security/quality outcomes may reverse current workflow estimates.",
+    "Pilot evidence of accepted-code throughput, total cost, quality and security compared with a valid local baseline should govern any hypothetical company scale-up or rollback.",
+    "Any material leak, insecure-code incident, rising reviewer burden or product quality deterioration should trigger immediate reassessment of pilot permissions and continuation."
+  ],
+  "abstention_or_more_information_needed": [
+    "Abstain from declaring confirmed or even gate-cleared Potential Promethean status; obtain evidence that distinguishes genuine categorical dissolution from reduction and demonstrates the multi-tier suppression consequences.",
+    "Clarify which cognitive activity is supposedly impossible or definitionally human before LLM systems, and document historical alternative methods and remaining human reliance.",
+    "Provide independent, task-specific longitudinal data on quality-adjusted end-to-end performance, total cost, accessibility and an explicit tenfold baseline and denominator.",
+    "Document general-purpose systems separately from specialized clinical models and test actual tier-level consequences before extrapolating from simulated diagnosis.",
+    "Provide societal dependence and durable infrastructure evidence or acknowledge that irreversibility cannot yet be observed.",
+    "For a local decision, obtain security/data-usage permissions, tool configurations, baseline engineering metrics, representative tasks, review capacity, costs, risk thresholds and responsible pilot owners. These are missing case facts, not presumed defects.",
+    "No clinical deployment, legal compliance, current regulatory rule or organizational outcome can be certified from this snapshot; inaccessible NIST/WHO/JAMA material cannot be used as support."
+  ]
+}

@@ -1,36 +1,41 @@
-> Current status: evidence-preparation version **0.2-evidence-prep**. Seven original empirical sources/reports have been checked with explicit limits; four versioned v0.2 packets are ready for bounded, evidence-limited actual tests. No model execution has occurred. Use records/manual_execution.md and the v0.2 packets; v0.1 packets and the Phase 2 account below are preserved as history. Gaps in cost/access, clinical documentation, local validation and long-run irreversibility remain explicit, rather than claimed resolved.
+# Promethean Technology Classification Agent
 
-# Promethean Technology Classification Agent — Phase 2
+Current version: **0.3-suppression-fix**. Development record finalized through Phase 5A; final submission files have not been generated. Created with the original tools/new_agent.py; original scaffold and contracts preserved.
 
-Version: 0.1-phase2. Created with the original tools/new_agent.py. No original scaffold files are modified. No dependencies beyond the scaffold's standard-library Python workflow are added. All paths below are relative to the repository root.
+## Development and observed tests
 
-## Current status
+- v0.1-phase2: initial specialist and course-only preparation packets (commit 63f816a).
+- v0.2-evidence-prep: seven original studies/reports reviewed with documented limits and one shared snapshot; four packets prepared (commit 96520a1).
+- Four actual user-supplied v0.2 run1 responses passed the original validator and complete frozen schema. General classification remained qualified/provisional Breakthrough; hospital context changed implications; startup posture and unsupported hype did not upgrade significance. Primary contained a reversed suppression reassessment trigger.
+- v0.3-suppression-fix: only Layer 2 step 3 expanded to distinguish feasible restoration/reduction, causally supported dependent-system collapse, and unresolved evidence, with a cross-field direction check. Primary case/evidence remained identical. One actual Primary v0.3 response passed both validators and corrected the targeted contradiction. This is a single observed improvement, not proof of repeatability or revised contrast/hype performance.
 
-Implementation and four preparation packets only. No model tests, response validations, revision/retests, final Agent Record or final reports have been completed. responses/ intentionally contains only the inherited .gitkeep. Evidence is currently course-only: contemporary empirical verification remains a prerequisite for evidence-complete execution. The agent must qualify/abstain when evidence is insufficient; prepared packets must not be mistaken for completed tests.
+See records/version_history.md, records/test_log.md, records/revision_log.md, records/phase4a_diagnostic_review.md and records/phase4b/primary_v0.3_diagnostic_review.md. Five raw JSON responses and all earlier packets are retained unchanged. Preparation-time manifests and early status notes are historical records, not claims of current unexecuted status.
 
-## Rebuild a packet using the unchanged course builder
+## Remaining limitations
+
+The v0.3 response's "impossible in principle" wording may be more restrictive than Chapter 11's categorical/feasible-substitution framework. It remains documented; specialist instructions have not been changed further. Lower-label justification, conditional criterion presentation and pilot-scope variation remain review limits. Seven selected sources are not a systematic current review; broad 10x performance/cost/access, clinical-documentation effectiveness, local outcomes and long-run irreversibility are not established. No v0.3 contrast/hype tests exist. Runtime details for the v0.3 run remain unspecified rather than inherited from v0.2.
+
+## Reference workflow
+
+Standard-library Python builds prompts and runs the original validator; ChatGPT is the interactive runtime, with no API key needed. Complete-schema review used the already installed jsonschema package as a supplemental check; no original dependency file was changed.
+
+For a newly authorized future run, select a new unused output filename with the original builder, e.g.:
 
 ```sh
-python tools/build_prompt.py --agent agents/promethean_agent --case agents/promethean_agent/cases/primary.json --out agents/promethean_agent/prompts/primary_v0.1_prompt.txt
+python tools/build_prompt.py --agent agents/promethean_agent --case agents/promethean_agent/cases/primary.json --out agents/promethean_agent/prompts/primary_future_prompt.txt
 ```
 
-Repeat for contrast_1, contrast_2 and hype_probe with matching output names. The explicit --out keeps all assignment artifacts here rather than the ignored work/ directory. Do not overwrite an executed packet: preserve it and use a new version/run filename.
+Do not overwrite retained prompts or raw responses. For original validation, from the repository root:
 
-## Later execution — requires the next phase
+```sh
+python tools/validate_response.py agents/promethean_agent/responses/primary_v0.3_run1.json
+python tools/check_frozen_core.py
+```
 
-1. Verify contemporary evidence, update the shared snapshot consistently and regenerate affected packets. Review course-only qualifications if evidence remains unavailable.
-2. Submit one exact packet per fresh ChatGPT conversation with the same model/settings/evidence conditions where possible. Request JSON only. Record actual runtime model/version, date, agent commit, evidence snapshot and any browsing/source access. No API account is needed. A fresh conversation avoids cross-case contamination.
-3. Save the actual returned response unchanged under responses/<case>_<agent-version>_<run>.json. Preserve invalid JSON as returned too; any correction is a separately recorded run/artifact, never a silent rewrite.
-4. Run the original validator on the saved response:
-   `python tools/validate_response.py agents/promethean_agent/responses/<actual-response>.json`
-   Capture actual exit status/output in records/test_log.md. The validator is basic; additionally inspect all common-schema constraints and analytical requirements using that checklist.
-5. Preserve an actual weakness, revise only this agent folder, version the specialist, rebuild the affected packet and rerun the same case/evidence. Record differences and limitations without manufacturing a failure or improvement.
-6. Run `python tools/check_frozen_core.py` after edits. Compare every original file byte-for-byte to the original archive; never edit manifests to conceal changes.
+A JSON validator pass does not establish analytical correctness. records/manual_execution.md describes historical v0.2 execution; records/revision_log.md describes the v0.3 handoff and subsequently recorded result. Keep inference, provenance and verification claims distinct.
 
-## Team boundary
+## Team boundary and version control
 
-This specialist classifies significance; it does not authorize adoption, clinical practice or legal compliance. General classification must remain evidence-consistent across contexts. Keep application value, organization readiness and management action distinct. Potential Promethean status is never automatic near-term adoption advocacy.
+This specialist classifies significance; it does not authorize clinical use, certify legal compliance or decide overall adoption. Preserve three separate levels: general technology, application, organization. Potential Promethean status never mandates near-term adoption.
 
-## Version control
-
-Repository: zz10965-alt/emerging-technologies-agents. Baseline is the unchanged course archive, including its originally ignored toy prompt. Assignment branch: assignment4-promethean. Record actual commits in the working records. Local commits and a successful GitHub push are separate facts; do not claim a push without verifying it. Preserve the canonical uploaded ZIP unchanged. Budget work within the course's 60–90 minutes and record unresolved issues at the limit.
+Repository: zz10965-alt/emerging-technologies-agents; branch: assignment4-promethean. Frozen baseline: 7c6a4e0. Development versions, observed outcomes and Git association are documented in records/version_history.md. Earlier commits remain genuine history; local commits and verified remote pushes are distinct. All specialization stays within this agent folder. Final ZIP, Word Agent Record, Individual Report, student identification and independent judgment/reflection remain for a separately authorized submission phase.

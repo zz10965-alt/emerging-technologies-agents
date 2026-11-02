@@ -1,0 +1,442 @@
+{
+  "snapshot_id": "diffusion-v0.2",
+  "compiled_at_utc": "2026-11-02T01:52:27.613923+00:00",
+  "verified_original_artifacts": [
+    {
+      "id": "D1",
+      "title": "GitHub Copilot technical-preview repository",
+      "url": "https://raw.githubusercontent.com/github/copilot-docs/main/README.md",
+      "retrieved_at_utc": "2026-11-02T00:51:23.545126+00:00",
+      "status": "retrieved",
+      "sha256": "ff98b48fa93967035751ae71cffe5aae9edb6dc79c03bdbb2b3d2ce00a355376",
+      "bytes": 357,
+      "local_file": "raw/D1.md",
+      "commit": "1c0f525cff2f9ad62858b340f1c4726fb65c30a1",
+      "immutable_url": "https://raw.githubusercontent.com/github/copilot-docs/1c0f525cff2f9ad62858b340f1c4726fb65c30a1/README.md",
+      "claim": "GitHub’s own former technical-preview repository states Copilot is generally available and links to an announcement whose URL is dated 2022-06-21.",
+      "locator": "README, first paragraph",
+      "supports": "Historical commercialization/access signal for coding assistance, not a measured adoption rate.",
+      "limitations": "Retired documentation, no observation period, sampling frame, user count, denominator, sustained-use measure or independent validation. The linked announcement was not retrieved. Do not treat 2022-06-21 as a freshly verified survey date.",
+      "factor_mapping": "Possible access/trialability and ecosystem channel; causal diffusion effect is inference.",
+      "publication_date": "Not stated in the retrieved README snapshot",
+      "observation_period": "No population adoption measurement supplied",
+      "population_geography_unit_denominator": "Not applicable: technical repository document; no adoption denominator",
+      "evidence_class": "Original issuer technical/product artifact; retrieved bytes inspected, claims not independently replicated"
+    },
+    {
+      "id": "D2",
+      "title": "Microsoft VS Code Copilot Chat repository",
+      "url": "https://raw.githubusercontent.com/microsoft/vscode-copilot-chat/main/README.md",
+      "retrieved_at_utc": "2026-11-02T00:51:23.641439+00:00",
+      "status": "retrieved",
+      "sha256": "c33813a0bb4e7ad1f109c2956d90687d73376c938ecb98b187d5346682fa8601",
+      "bytes": 9154,
+      "local_file": "raw/D2.md",
+      "commit": "5863f5a7088958050792b5dccbe8b46c6e13eccc",
+      "immutable_url": "https://raw.githubusercontent.com/microsoft/vscode-copilot-chat/5863f5a7088958050792b5dccbe8b46c6e13eccc/README.md",
+      "claim": "Microsoft’s archived Copilot Chat README describes inline suggestions, chat, agent workflows, free sign-up and enterprise-admin access. Its version-compatibility section states new Copilot Chat releases require the latest VS Code and model access depends on extension updates; it directs active development to microsoft/vscode.",
+      "locator": "README: archive notice; Getting access; Customize AI for your workflow; Version compatibility; Resources & next steps",
+      "supports": "Verified issuer descriptions of access channels, integration and update dependencies for a coding-assistant ecosystem.",
+      "limitations": "Vendor-authored promotional/technical document, not an effectiveness study or population survey. Repository is archived; current pricing, entitlement terms, model performance, actual use, market share and current product behavior were not tested. Same corporate ecosystem as D1, not independent replication.",
+      "factor_mapping": "Integration/free entry potentially improves compatibility/trialability; administrative and update requirements can add complexity. No measured effect sizes.",
+      "publication_date": "Not stated in the retrieved README snapshot",
+      "observation_period": "No population adoption measurement supplied",
+      "population_geography_unit_denominator": "Not applicable: technical repository document; no adoption denominator",
+      "evidence_class": "Original issuer technical/product artifact; retrieved bytes inspected, claims not independently replicated"
+    },
+    {
+      "id": "D3",
+      "title": "Google Health MedGemma repository",
+      "url": "https://raw.githubusercontent.com/google-health/medgemma/main/README.md",
+      "retrieved_at_utc": "2026-11-02T00:51:23.738896+00:00",
+      "status": "retrieved",
+      "sha256": "b41c24f6594b405fdc99134302a0a874c2606cbf27fb6b050e7395e0401b1590",
+      "bytes": 2360,
+      "local_file": "raw/D3.md",
+      "commit": "a60a66024f6153496dfa9490dba12d4f1fbd092e",
+      "immutable_url": "https://raw.githubusercontent.com/google-health/medgemma/a60a66024f6153496dfa9490dba12d4f1fbd092e/README.md",
+      "claim": "Google Health’s MedGemma README describes medical text/image model variants, evaluation claims, notebooks and model-access links, and separates the model license from repository code licensing.",
+      "locator": "README: opening; evaluation paragraph; Get started; License",
+      "supports": "Existence of a medical-model development ecosystem and issuer-described complementary assets.",
+      "limitations": "No hospital documentation adoption rate, ambient-scribe deployment, local workflow benefit, independent benchmark verification, clinical safety finding, regulatory authorization or patient outcome is established. Linked model card/intended-use pages and benchmark evidence were not retrieved. Medical comprehension is not the clinical-documentation application.",
+      "factor_mapping": "Potential developer trialability/complementary assets only; not evidence of routine clinical deployment.",
+      "publication_date": "Not stated in the retrieved README snapshot",
+      "observation_period": "No population adoption measurement supplied",
+      "population_geography_unit_denominator": "Not applicable: technical repository document; no adoption denominator",
+      "evidence_class": "Original issuer technical/product artifact; retrieved bytes inspected, claims not independently replicated"
+    }
+  ],
+  "empirical_sources": [
+    {
+      "id": "E1",
+      "title": "DORA State of AI-assisted Software Development 2025: original infographic and survey instrument",
+      "publisher": "DORA / Google Cloud",
+      "publication_date": "2025 (year printed on infographic); associated report released September 2025 according to original issuer 2026-01-07 year review; report landing front matter 2025-09-15 is page metadata, not a verified first-publication day",
+      "observation_period": "2025 survey context; instrument asks about current use and the last 3 months. Exact fieldwork start/end dates not available in inspected materials.",
+      "population": "Nearly 5,000 technology professionals around the world; infographic also reports over 100 hours of qualitative material. Per-item sample sizes and country weighting not supplied.",
+      "scope": "Software-development/technology work; question wording says AI tools, not an isolated LLM-only measure. Not a general population, organization census or hospital clinician sample.",
+      "methodology": "Issuer’s cross-sectional self-report survey summary with original questionnaire. Binary current-use question; ordinal frequency over last 3 months. Full 2025 methods section inaccessible at cloud.google.com; do not infer recruitment/weighting from 2024.",
+      "claims": [
+        {
+          "id": "E1-C1",
+          "exact_supported_claim": "The original 2025 DORA infographic reports 90% of technology professionals using AI at work.",
+          "measure": "individual current use",
+          "denominator": "Surveyed technology professionals; exact item n unavailable",
+          "locator": "One-page infographic, panel 01 Adoption; instrument category Artificial Intelligence, current-use question",
+          "qualification": "Survey report, not a claim that 90% of global professionals, firms or hospitals deploy LLMs."
+        },
+        {
+          "id": "E1-C2",
+          "exact_supported_claim": "The infographic reports 60% of AI users surveyed use AI about half the time or more when encountering a problem/task; original question specifies the last 3 months.",
+          "measure": "self-reported individual frequency over a retrospective 3-month window",
+          "denominator": "AI users surveyed; exact item n unavailable",
+          "locator": "Infographic panel 04 Reflexive use; instrument Artificial Intelligence, frequency question",
+          "qualification": "Not 60% using daily; not 60% of all developers or firms; not telemetry or longitudinal retention."
+        }
+      ],
+      "limitations": [
+        "Original publisher empirical summary, not raw microdata replication.",
+        "Unknown recruitment, per-item n and weighting in inspected 2025 materials; do not claim probability representativeness.",
+        "AI-tools scope is broader than LLM-only coding assistants.",
+        "Google Cloud/vendor ecosystem affiliation; D1–D3 and DORA documents are not independent replicated adoption surveys.",
+        "2025 observations are historical as of November 2026 and cross the proposed 12-month refresh flag.",
+        "No sustained enterprise deployment, hospital documentation penetration or exact Rogers-stage measurement."
+      ],
+      "primary_artifacts": [
+        "raw/E1_infographic.pdf",
+        "raw/E1_questions.json",
+        "raw/E1_report_landing.md",
+        "raw/E1_questions_landing.md",
+        "raw/E1_errata.md"
+      ],
+      "immutable_url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/research/2025/2025-DORA-Report-Infographic.pdf",
+      "classification": "Empirical adoption evidence at individual surveyed-technical-worker level; original instrument verified; methods incomplete"
+    },
+    {
+      "id": "E2",
+      "title": "Impact of Generative AI in Software Development, v.2025.2",
+      "publisher": "DORA / Google Cloud",
+      "publication_date": "March 2025 release month stated by issuer’s 2026-01-07 year review; PDF stamped v.2025.2. Exact first-publication day not verified. Landing-page metadata (2025-10-17, updated 2026-04-13) differs from original release and is not substituted for it.",
+      "observation_period": "Draws on 2024 DORA survey and September 2024 interviews, not a fresh 2025 prevalence sample.",
+      "population": "Underlying 2024 annual survey: nearly 3,000 working professionals, 104 countries (E4). Additional qualitative section: 10 development professionals, approximately 90-minute interviews in September 2024.",
+      "scope": "Technical/development work and respondent-reported team incorporation. Not clinician documentation or nationally representative enterprise penetration.",
+      "methodology": "Observational self-report survey analyses and qualitative interviews; Bayesian posterior/scenario modeling for team incorporation. Team incorporation defined by respondent estimate of percentage of team work supported by AI in last 3 months. Not a randomized tool-adoption intervention.",
+      "claims": [
+        {
+          "id": "E2-C1",
+          "exact_supported_claim": "The report reiterates that 76% of technologists rely on AI in some part of daily work; this summarizes 2024 data, not new 2025 sampling. E4 gives the unrounded 75.9%.",
+          "measure": "individual reported reliance; underlying 2024 results",
+          "denominator": "2024 DORA respondents, not all firms",
+          "locator": "PDF printed pages 3 and 30; E4 printed page 19",
+          "qualification": "Daily professional responsibilities is the task context, not an independently measured daily-active-user rate."
+        },
+        {
+          "id": "E2-C2",
+          "exact_supported_claim": "The report describes team adoption/incorporation as the respondent-reported percentage of team work supported by AI over the last 3 months.",
+          "measure": "respondent perception of team-work incorporation",
+          "denominator": "Work supported within respondent’s team, not percentage of organizations deployed",
+          "locator": "PDF printed page 37, note beneath Figure 5",
+          "qualification": "Neither audited enterprise deployment nor longitudinal sustained use."
+        },
+        {
+          "id": "E2-C3",
+          "exact_supported_claim": "The report separately recommends license-allocation and daily-active-user telemetry, and warns these metrics alone do not assess the impact of coding assistants.",
+          "measure": "proposed measurement guidance, not observed usage result",
+          "denominator": "Not applicable: measurement design guidance",
+          "locator": "PDF printed page 41, Code assistant metrics",
+          "qualification": "Do not turn proposed telemetry into collected local data."
+        }
+      ],
+      "limitations": [
+        "2025 publication reuses 2024 evidence; not independent confirmation of E4 or 2025 trend points.",
+        "Underlying data over 12 months old.",
+        "Model associations and strategies are not randomized causal effects; no percentage strategy uplift is admitted to this dossier.",
+        "Editorial report wording can overstate causal interpretation; use original methods and uncertainty rather than promotional headings.",
+        "Quoted prioritization of integrating AI into applications is strategic intent, not deployed coding-assistant penetration."
+      ],
+      "primary_artifacts": [
+        "raw/E2_report.pdf",
+        "raw/E2_questions.json",
+        "raw/E2_errata.md",
+        "raw/E2_release_context.md"
+      ],
+      "immutable_url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf",
+      "classification": "Original 2025 empirical synthesis and measurement framework with explicitly historical underlying data"
+    },
+    {
+      "id": "E3",
+      "title": "Managing AI dependency: How students are establishing guardrails with AI",
+      "publisher": "DORA authors Andrew Harlan, Kenny Ly, Mindy Tsai",
+      "publication_date": "2026-02-17 (original article front matter, both date and updated)",
+      "observation_period": "Eight-month mixed-methods project; exact calendar fieldwork dates not specified in this article.",
+      "population": "UC Berkeley students in Electrical Engineering, Computer Science, Design and Data Science; article does not provide participant n or a population sampling frame.",
+      "scope": "Student academic/coding workflows, not professional company deployment or clinical practice.",
+      "methodology": "Original author-reported mixed-methods project using in-depth interviews and survey responses; this article presents qualitative themes and participant quotations, not a penetration estimate.",
+      "claims": [
+        {
+          "id": "E3-C1",
+          "exact_supported_claim": "Participants describe deliberately moderating AI use, attempting problems unaided, alternating assisted/unassisted work and verifying generated code, alongside concerns about dependence and skill development.",
+          "measure": "qualitative use practices and concerns",
+          "denominator": "No numerical prevalence claim; bounded student participants",
+          "locator": "Introduction; Maintaining skill development; Deliberate moderation; Strategies for modulated behavior",
+          "qualification": "Supports plausible trust/training/verification mechanisms in this study context; does not estimate their prevalence or causal effects in firms."
+        }
+      ],
+      "limitations": [
+        "Single university and selected fields; no inference to all students, software firms or hospitals.",
+        "n, response rate and exact fieldwork dates not reported in inspected article.",
+        "Article repeats 2025 DORA statistics and cites other external studies; these repetitions are not new independent evidence and external contents are not admitted.",
+        "Recent publication does not make historical cross-referenced statistics fresh."
+      ],
+      "primary_artifacts": [
+        "raw/E3_qualitative_study.md"
+      ],
+      "immutable_url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/insights/managing-ai-dependency/index.md",
+      "classification": "2026 original qualitative empirical mechanism evidence; not an adoption rate"
+    },
+    {
+      "id": "E4",
+      "title": "Accelerate State of DevOps Report 2024, v.2024.3",
+      "publisher": "DORA / Google Cloud",
+      "publication_date": "2024 report year; archived PDF v.2024.3. Exact release day not verified; inconsistent landing metadata is not used as the publication date.",
+      "observation_period": "2024 annual survey; exact fieldwork dates not established from inspected sections.",
+      "population": "Nearly 3,000 working professionals across industries; respondents from 104 countries. Figure/item denominators vary; no claim all 3,000 answered each item.",
+      "scope": "Technology and adjacent roles, with software-task denominators. A respondent’s employer being in Healthcare & Pharmaceuticals does not make the sample one of clinical-documentation users.",
+      "methodology": "Original full report inspected at printed pages 19, 91, 97 and 102. Organic recruitment via blogs/email/social media/snowball plus supplementary panels; respondents assigned one of three survey flows (AI, workplace, platform engineering). Randomized survey flows are not randomized AI treatment.",
+      "claims": [
+        {
+          "id": "E4-C1",
+          "exact_supported_claim": "75.9% of respondents report relying at least in part on AI in one or more daily professional responsibilities.",
+          "measure": "individual task reliance, self-report",
+          "denominator": "DORA respondents for that item; exact n not stated in inspected result section",
+          "locator": "Printed/PDF page 19",
+          "qualification": "Broader AI measure; not an LLM-only daily active metric or enterprise deployment rate."
+        },
+        {
+          "id": "E4-C2",
+          "exact_supported_claim": "Among respondents whose job responsibilities include writing code, 74.9% report relying on AI to perform that task at least in part.",
+          "measure": "coding-task assistance reliance",
+          "denominator": "Respondents whose responsibilities include writing code, not all survey respondents, employees or organizations",
+          "locator": "Printed/PDF page 19, paragraph before Figure 3",
+          "qualification": "Historical 2024 survey result, not sustained authorized enterprise use or an audit."
+        },
+        {
+          "id": "E4-C3",
+          "exact_supported_claim": "The report describes nearly 3,000 participants, 104 countries and organic plus supplementary panel recruitment, with three survey flows.",
+          "measure": "population and methodology context",
+          "denominator": "Overall survey versus item-level denominators must remain distinct",
+          "locator": "Printed/PDF pages 91, 97, 102",
+          "qualification": "Do not substitute cumulative research-program participation for this year’s sample."
+        }
+      ],
+      "limitations": [
+        "Old 2024 evidence; source confidence does not imply current representativeness.",
+        "Self-selection, recall, respondent perception and employer/role coverage limits; not a random census of firms.",
+        "Survey-flow differences mean overall sample size is not every item’s denominator.",
+        "No causal productivity estimate, longitudinal retention or hospital documentation penetration admitted."
+      ],
+      "primary_artifacts": [
+        "raw/E4_report_2024.pdf",
+        "raw/E4_verified_pages_extracted.txt"
+      ],
+      "immutable_url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/research/2024/dora-report/2024-dora-accelerate-state-of-devops-report.pdf",
+      "classification": "Original historical survey with methods inspected; dependency source for E2, not an independent 2025 replication"
+    }
+  ],
+  "archived_artifacts": [
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/research/2025/2025-DORA-Report-Infographic.pdf",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/research/2025/2025-DORA-Report-Infographic.pdf",
+      "sha256": "bea0808e54e9a0a7d2ee1e8f0ea60874c6960115f26329018eeeda7401781f30",
+      "retrieved_at_utc": "2026-11-02T01:45:27.255417+00:00",
+      "local_file": "raw/E1_infographic.pdf",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/data/survey_questions/2025-state-of-ai-assisted-software-development.json",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/data/survey_questions/2025-state-of-ai-assisted-software-development.json",
+      "sha256": "a9e54fa388c53b2f4ed0dd906e0ff530555b790404f88cec91e0753ac8e64e17",
+      "retrieved_at_utc": "2026-11-02T01:44:49.073938+00:00",
+      "local_file": "raw/E1_questions.json",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/research/2025/dora-report/index.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/research/2025/dora-report/index.md",
+      "sha256": "e9c34951b9292a19907994bb1dde5a63b274004c34a11c4fe9241e4534b041e9",
+      "retrieved_at_utc": "2026-11-02T01:44:12.533297+00:00",
+      "local_file": "raw/E1_report_landing.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/research/2025/questions.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/research/2025/questions.md",
+      "sha256": "4cb503a680bb8cfa7e45ff3e2688ea6b08b333ad7c109969ae038efcff2259d4",
+      "retrieved_at_utc": "2026-11-02T01:44:12.517828+00:00",
+      "local_file": "raw/E1_questions_landing.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/research/2025/errata/index.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/research/2025/errata/index.md",
+      "sha256": "71b3959db4a535053d66f332259e5a9bf23d4bb3be98f8ded5c0fa646def60ab",
+      "retrieved_at_utc": "2026-11-02T01:44:12.540784+00:00",
+      "local_file": "raw/E1_errata.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf",
+      "sha256": "2d4358f6fbc496e13d29b992445854a7bf8eea510f6a642502a0d2dec1bff7a6",
+      "retrieved_at_utc": "2026-11-02T01:44:49.812270+00:00",
+      "local_file": "raw/E2_report.pdf",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/data/survey_questions/gen-ai-report.json",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/data/survey_questions/gen-ai-report.json",
+      "sha256": "3c1166c9c2539a79fb7fe4a928632b13fd169d75d725623e9911c4ef249db129",
+      "retrieved_at_utc": "2026-11-02T01:44:49.297096+00:00",
+      "local_file": "raw/E2_questions.json",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/ai/gen-ai-report/errata.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/ai/gen-ai-report/errata.md",
+      "sha256": "d3f7c61611607dee9df383ae9a452a95dbce2558b2200fe99348d9004b34ecfa",
+      "retrieved_at_utc": "2026-11-02T01:45:28.024719+00:00",
+      "local_file": "raw/E2_errata.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/ai/gen-ai-report/report/index.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/ai/gen-ai-report/report/index.md",
+      "sha256": "d78d6bd82b30723ecd8db4ac2724222610e267f230dd5c3cf148d32617c37401",
+      "retrieved_at_utc": "2026-11-02T01:44:12.795470+00:00",
+      "local_file": "raw/E2_report_landing.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/insights/dora-2025-year-in-review/index.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/insights/dora-2025-year-in-review/index.md",
+      "sha256": "18c7854e9fade5617530c4732842dccb44880b4ea5d97f1cd157c0dbfc56f797",
+      "retrieved_at_utc": "2026-11-02T01:44:12.537651+00:00",
+      "local_file": "raw/E2_release_context.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/insights/managing-ai-dependency/index.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/insights/managing-ai-dependency/index.md",
+      "sha256": "95773e2aa5c4756b85a8eba517d2e4b1aa4bfd4cdb5ceec461673285ec289c9b",
+      "retrieved_at_utc": "2026-11-02T01:44:12.742468+00:00",
+      "local_file": "raw/E3_qualitative_study.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/research/2024/dora-report/2024-dora-accelerate-state-of-devops-report.pdf",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/research/2024/dora-report/2024-dora-accelerate-state-of-devops-report.pdf",
+      "sha256": "45a1b62564c603e0e356a951e4553d01eafaa200de801480feed5a4c4685e40e",
+      "retrieved_at_utc": "2026-11-02T01:45:48.529977+00:00",
+      "local_file": "raw/E4_report_2024.pdf",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "CC-BY-4.0",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/CC-BY-4.0",
+      "sha256": "064fc80a94c764e0defd2447e24fb6f346f2ec0cd276f382f482a4fa4617d53e",
+      "retrieved_at_utc": "2026-11-02T01:44:12.972500+00:00",
+      "local_file": "raw/DORA_CC_BY_4.0.txt",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "local_file": "raw/E2_report_extracted.txt",
+      "sha256": "5378bc9046d8b54dab22077ba87b755b3241faf4f6134fc64fc00a433942654c",
+      "derivative": true,
+      "description": "Local text extraction of archived original PDF; original PDF takes precedence. Not a separate source."
+    },
+    {
+      "local_file": "raw/E4_verified_pages_extracted.txt",
+      "sha256": "1cc1f56c618b7a577998d905a776aee47300722fc164642502c2aea6284dd0cd",
+      "derivative": true,
+      "description": "Local text extraction of archived original PDF; original PDF takes precedence. Not a separate source."
+    },
+    {
+      "local_file": "raw/E1_visual_transcription.md",
+      "sha256": "c07ac95a5f860bd13b4747d047ec985df83d30dad37c91230c12aa6a0e575134",
+      "derivative": true,
+      "description": "Human-readable visual transcription inspected by Codex against rendered original infographic; not a new source."
+    }
+  ],
+  "inaccessible_primary_sources": [
+    {
+      "url": "https://survey.stackoverflow.co/2025/ai",
+      "attempted_at_utc": "2026-11-02T01:46:53.949537+00:00",
+      "status": "inaccessible",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claims_admitted": false
+    },
+    {
+      "url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
+      "attempted_at_utc": "2026-11-02T01:46:53.965019+00:00",
+      "status": "inaccessible",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claims_admitted": false
+    },
+    {
+      "url": "https://www.ama-assn.org/practice-management/digital-health/physician-ai-use-has-doubled-key-findings-new-ama-survey",
+      "attempted_at_utc": "2026-11-02T01:46:53.968911+00:00",
+      "status": "inaccessible",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claims_admitted": false
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "attempted_at_utc": "2026-11-02T01:46:53.972461+00:00",
+      "status": "inaccessible",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claims_admitted": false
+    },
+    {
+      "url": "https://www.healthit.gov/data/data-briefs/hospital-trends-use-evaluate-and-monitor-predictive-ai-2023-2024",
+      "attempted_at_utc": "2026-11-02T01:46:53.976296+00:00",
+      "status": "inaccessible",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claims_admitted": false
+    },
+    {
+      "url": "https://cloud.google.com/dora?hl=en&region=US",
+      "attempted_at_utc": "2026-11-02T01:46:53.980016+00:00",
+      "status": "inaccessible",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claims_admitted": false
+    }
+  ],
+  "independence_note": "E1–E4 all originate from DORA/Google Cloud; E2 explicitly reuses E4. They provide original empirical material, not independent triangulation. D1/D2 share Microsoft/GitHub ecosystem; D3 is Google Health.",
+  "verification_scope": "Original content retrieved via publisher-owned GitHub source, pinned and inspected. Source analyses not independently replicated. No inaccessible healthcare/Stack Overflow/METR claims admitted."
+}

@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-11-02T06:06:45.502208+00:00",
+  "command": [
+    "python",
+    "agents/diffusion_agent/tests/check_final_submission.py",
+    "--full-repository"
+  ],
+  "exit_code": 0,
+  "stdout": "FROZEN CORE INTACT\nVALIDATION PASSED\nVALIDATION PASSED\nVALIDATION PASSED\nFrozen core manifest: PASS\nAll 78 original repository files unchanged: PASS\nEntire v0.1 baseline (30 files) and original live packets: PASS\nprimary: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS\ncontrast_1: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS\ncontrast_2: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS\nThree-case technology/evidence equality and intended application contrast: PASS\nPreserved original product-source hashes and immutable references: PASS\nEmpirical source metadata, 9 claim mappings, 16 archived-artifact hashes, original question wording and numeric locators: PASS\nExplicit local-versus-intended branch provenance and v0.2 version consistency: PASS\nThree actual output basic validators and strict frozen-schema shape checks: PASS; semantic review still required\nVALIDATION PASSED\nVALIDATION PASSED\nVALIDATION PASSED\nVALIDATION PASSED\nVALIDATION PASSED\nFINAL CHECK PASS: five exact actual outputs; 3 original v0.2 + 2 targeted v0.3; Startup v0.2 preserved; no Startup v0.3 file.\nFrozen core, source hashes, version-specific packets, six-month assumption and schema checks: PASS.\nAnalytical conclusions are documented manual review of these outputs, not proof of repeatability.\n",
+  "stderr": "",
+  "pre_existing_protected_files_byte_identical": 124,
+  "previous_assignment4_and_frozen_core": "UNCHANGED",
+  "existing_v0.2_outputs": "UNCHANGED",
+  "five_original_outputs_preserved": true,
+  "startup_v0.3_test": "NOT RUN / NO FILE",
+  "six_month_duration": "UNCHANGED",
+  "shared_evidence_snapshot": "diffusion-v0.2 UNCHANGED"
+}

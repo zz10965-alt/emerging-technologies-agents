@@ -1,0 +1,49 @@
+{
+  "version": "0.2-test-ready",
+  "checked_at_utc": "2026-11-02T01:53:51.970254+00:00",
+  "command": "python agents/diffusion_agent/tests/check_development.py --full-repository",
+  "exit_code": 0,
+  "results": [
+    "FROZEN CORE INTACT",
+    "Frozen core manifest: PASS",
+    "All 78 original repository files unchanged: PASS",
+    "Entire v0.1 baseline (30 files) and original live packets: PASS",
+    "primary: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS",
+    "contrast_1: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS",
+    "contrast_2: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS",
+    "Three-case technology/evidence equality and intended application contrast: PASS",
+    "Preserved original product-source hashes and immutable references: PASS",
+    "Empirical source metadata, 9 claim mappings, 16 archived-artifact hashes, original question wording and numeric locators: PASS",
+    "Explicit local-versus-intended branch provenance and v0.2 version consistency: PASS",
+    "Actual model execution, output validation and semantic review: PENDING / NOT EXECUTED"
+  ],
+  "outside_agent_existing_files_checked": 81,
+  "outside_agent_existing_files_unchanged": true,
+  "v0.1_baseline_files": 30,
+  "v0.1_baseline_archive_sha256": "19fb91ee2b046112f232055502b217b240e00fb5b2f494edc8c5e1dcc7a2ad20",
+  "empirical_sources": 4,
+  "empirical_claim_records": 9,
+  "archived_new_artifacts": 16,
+  "actual_chatgpt_runs": {
+    "primary": "NOT RUN",
+    "contrast_1": "NOT RUN",
+    "contrast_2": "NOT RUN"
+  },
+  "output_validation": "NOT RUN \u2014 no actual outputs created",
+  "analytical_behavior": "NOT VALIDATED",
+  "empirical_limitations": [
+    "Single empirical issuer; E2 reuses E4",
+    "Full 2025 recruitment and weighting methods inaccessible",
+    "No verified healthcare clinical-documentation penetration",
+    "No longitudinal enterprise retention or authorized deployment denominator",
+    "2024/2025 rates historical and broad AI rather than LLM-only"
+  ],
+  "branch_verification": "Local work; intended/live-verified remote assignment4-promethean at same HEAD; no branch change",
+  "no_commit_or_push_in_v0.2": true,
+  "portable_package_checks": {
+    "zip_crc": "PASS",
+    "extracted_standalone_checker_exit_code": 0,
+    "tampered_survey_artifact_correctly_rejected": true,
+    "note": "Negative test changed only a temporary extracted source artifact; it is not a model response or model-behavior test."
+  }
+}

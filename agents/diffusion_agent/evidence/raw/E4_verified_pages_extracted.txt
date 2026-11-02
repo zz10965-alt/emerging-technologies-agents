@@ -1,0 +1,273 @@
+ORIGINAL PDF PAGE 19
+Participants from all surveyed industries 
+reported statistically identical levels of 
+reliance on AI in their daily work, which 
+suggests that this rapid adoption of AI 
+is unfolding uniformly across all industry 
+sectors. This was somewhat surprising 
+to us. Individual industries can vary 
+widely with respect to their levels of 
+regulatory constraints and historical pace 
+of innovation, each of which can impact 
+rates of technology adoption. 
+However, we did find that respondents 
+working in larger organizations report 
+less reliance on AI in their daily work 
+than respondents working in smaller 
+organizations, which is consistent with 
+prior literature indicating larger firms 
+more slowly adapt to technological 
+change because of their higher 
+organizational complexities and 
+coordination costs.5
+Artificial intelligence: Adoption and attitudes
+Individual adoption of  
+artificial intelligence
+At the individual level, we found that 
+75.9% of respondents are relying, at 
+least in part, on AI in one or more of 
+their daily professional responsibilities. 
+Among those whose job responsibilities 
+include the following tasks, a majority of 
+respondents relied on AI for:
+1.	 Writing code
+2.	Summarizing information
+3.	Explaining unfamiliar code
+4.	Optimizing code
+5.	Documenting code
+6.	Writing tests
+7.	Debugging code
+8.	Data analysis
+Of all tasks included in our survey 
+responses, the most common use cases 
+for AI in software development work 
+were writing code and summarizing 
+information, with 74.9% and 71.2% of 
+respondents whose job responsibilities 
+include these tasks relying on AI to 
+perform them — at least in part. This data 
+is visualized in Figure 3.
+19
+v. 2024.3
+
+
+ORIGINAL PDF PAGE 91
+Demographics and firmographics
+Demographics and 
+firmographics
+Over 90,000 respondents participated 
+in the 2023 Stack Overflow Developer 
+Survey.1 That survey didn't reach every 
+technical practitioner, but is about as 
+close as you can get to a census of the 
+developer world. 
+With a sense of the population provided 
+from that survey, we can locate response 
+bias in our data and understand how far 
+we might want to generalize our findings. 
+Further, the demographic and 
+firmographic questions asked in this 
+Stack Overflow Developer Survey are 
+well-crafted and worth borrowing. 
+In short, there are no major discrepancies 
+between our sample and Stack 
+Overflow’s. This means we have every 
+reason to believe that our sample is 
+reflective of the population.
+Who took the survey
+The DORA research program has been 
+researching the capabilities, practices, 
+and measures of high-performing, 
+technology-driven organizations for 
+over a decade. We've heard from 
+roughly 39,000 professionals working in 
+organizations of every size and across 
+many different industries. Thank you for 
+sharing your insights! This year, nearly 
+3,000 working professionals from a 
+variety of industries around the world 
+shared their experiences to help grow 
+our understanding of the factors that 
+drive high-performing, technology-
+driven organizations.
+This year's demographic and 
+firmographic questions leveraged 
+research done by Stack Overflow. 
+91
+v. 2024.3
+
+
+ORIGINAL PDF PAGE 97
+We had respondents from 104 different countries. We are always thrilled to see 
+people from all over the world participate in the survey. Thank you all! 
+Country
+Demographics and firmographics
+Country
+USA
+Italy
+Singapore
+Iceland
+Luxembourg
+Guatemala
+UK
+Switzerland
+Albania
+Iran
+Nicaragua
+Hong Kong (S.A.R.)
+Canada
+Argentina
+Georgia
+Jordan
+Pakistan
+Malta
+Germany
+Mexico
+Greece
+Kenya
+Peru
+Mauritius
+Japan
+Portugal
+Philippines
+Saudi Arabia
+South Korea
+Morocco
+India
+Austria
+Hungary
+Slovakia
+Sri Lanka
+Nepal
+France
+Romania
+Serbia
+Slovenia
+Tunisia
+Paraguay
+Brazil
+Finland
+Afghanistan
+Thailand
+Andorra
+Swaziland
+Spain
+Turkey
+Algeria
+Uzbekistan
+Barbados
+Syrian Arab Republic
+Australia
+Bulgaria
+Egypt
+Angola
+Belize
+Taiwan
+Netherlands
+Ireland
+Indonesia
+Armenia
+Benin
+The former Yugoslav 
+Republic of 
+Macedonia
+China
+Israel
+Russian Federation
+Bosnia and 
+Herzegovina
+Bolivia
+Trinidad and Tobago
+Sweden
+Belgium
+Ukraine
+Dominican Republic
+Burkina Faso
+Uruguay
+Norway
+Chile
+Viet Nam
+Ecuador
+Comoros
+Venezuela, 
+Bolivarian Republic 
+of..
+New Zealand
+Colombia
+Bangladesh
+Estonia
+Côte d'Ivoire
+Poland
+Czech Republic
+Belarus
+Kazakhstan
+El Salvador
+South Africa
+Malaysia
+Costa Rica
+Latvia
+Ethiopia
+Denmark
+Nigeria
+Croatia
+Lithuania
+Gambia
+97
+v. 2024.3
+
+
+ORIGINAL PDF PAGE 102
+Collect survey responses
+We use multiple channels to recruit. 
+These channels fall into two categories: 
+organic and panel. 
+The organic approach is to use all the 
+social means at our disposal to let 
+people know that there is a survey that 
+we want them to take. We create blog 
+posts. We use email campaigns. We post 
+on social media, and we ask people in 
+the community to do the same (that is, 
+snowball sampling). 
+We use the panel approach to 
+supplement the organic channel. 
+Here we try to recruit people who are 
+traditionally underrepresented in the 
+broader technical community and try 
+to get adequate responses from certain 
+industries and organization types. 
+In short, this is where we get some 
+control over our recruitment—control  
+we don’t have with the organic approach. 
+The panel approach also allows us to 
+simply make sure that we get enough 
+respondents, because we never know 
+if the organic approach is going to yield 
+the responses necessary to do the types 
+of analyses we do. This year we had 
+sufficient organic responses to run our 
+analysis and the panel helped round out 
+our group of participants.
+Methodology
+Survey flow
+This year we had a lot of questions we 
+wanted to ask, but not enough time to 
+ask them. Our options were…
+•	 Make an extremely long survey
+•	 Choose a subset of areas  
+to focus on
+•	 Randomly assign people  
+to different topics
+We didn’t want to give up on any of 
+our interests, so we chose to randomly 
+assign participants to one of three 
+separate flows. There was a lot of  
+overlap among the three different  
+flows, but each flow dove deeply in  
+a different space. 
+Here are the three different pathways:
+•	 AI
+•	 Workplace
+•	 Platform Engineering 
+102
+v. 2024.3

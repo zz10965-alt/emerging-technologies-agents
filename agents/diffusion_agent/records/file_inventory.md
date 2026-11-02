@@ -1,0 +1,70 @@
+# Exact v0.2 development inventory
+
+Paths below are relative to agents/diffusion_agent/. Complete original v0.1 files are independently preserved in baselines/v0.1_complete_candidate.zip.
+
+## Modified active files
+
+- `README.md`
+- `agent_metadata.json`
+- `cases/contrast_1.json`
+- `cases/contrast_2.json`
+- `cases/primary.json`
+- `evidence/README.md`
+- `evidence/shared_snapshot.md`
+- `evidence/source_register.json`
+- `records/ai_verification_note.md`
+- `records/development_log.md`
+- `records/file_inventory.md`
+- `records/packet_manifest.json`
+- `records/requirements_traceability.md`
+- `records/structural_checks.json`
+- `records/test_log.md`
+- `specialist_instructions.md`
+- `tests/README.md`
+- `tests/check_development.py`
+- `tests/test_plan.json`
+
+## Added files
+
+- `baselines/v0.1_complete_candidate.zip`
+- `baselines/v0.1_files_sha256.json`
+- `evidence/raw/DORA_CC_BY_4.0.txt`
+- `evidence/raw/E1_errata.md`
+- `evidence/raw/E1_infographic.pdf`
+- `evidence/raw/E1_questions.json`
+- `evidence/raw/E1_questions_landing.md`
+- `evidence/raw/E1_report_landing.md`
+- `evidence/raw/E1_visual_transcription.md`
+- `evidence/raw/E2_errata.md`
+- `evidence/raw/E2_questions.json`
+- `evidence/raw/E2_release_context.md`
+- `evidence/raw/E2_report.pdf`
+- `evidence/raw/E2_report_extracted.txt`
+- `evidence/raw/E2_report_landing.md`
+- `evidence/raw/E3_qualitative_study.md`
+- `evidence/raw/E4_report_2024.pdf`
+- `evidence/raw/E4_verified_pages_extracted.txt`
+- `evidence/retrievals_v0.2.json`
+- `prompts/contrast_1_v0.2_prompt.txt`
+- `prompts/contrast_2_v0.2_prompt.txt`
+- `prompts/primary_v0.2_prompt.txt`
+- `records/branch_verification.json`
+- `records/change_manifest_v0.2.json`
+- `records/packet_manifest_v0.1.json`
+- `records/structural_checks_v0.1.json`
+
+## Unchanged retained files
+
+- `evidence/access_log.json`
+- `evidence/raw/D1.md`
+- `evidence/raw/D2.md`
+- `evidence/raw/D3.md`
+- `prompts/contrast_1_v0.1_prompt.txt`
+- `prompts/contrast_2_v0.1_prompt.txt`
+- `prompts/primary_v0.1_prompt.txt`
+- `records/agent_record.md`
+- `records/course_documents.json`
+- `records/predevelopment_sha256.json`
+- `responses/.gitkeep`
+
+Generated portable ZIP: `work/assignment5_diffusion_development_v0.2.zip`. Earlier ZIPs and all existing files outside the agent are unchanged. No commit or push. No actual model responses created.

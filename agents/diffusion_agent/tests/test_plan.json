@@ -1,0 +1,99 @@
+{
+  "agent_version": "0.2-test-ready",
+  "evidence_snapshot": "diffusion-v0.2",
+  "actual_model_runs": "Five user-supplied actual outputs: three original v0.2 tests, two targeted v0.3 retests. No Startup v0.3 test.",
+  "cases": [
+    {
+      "id": "primary",
+      "case": "cases/primary.json",
+      "packet": "prompts/primary_v0.2_prompt.txt",
+      "save_actual_output_as": "responses/primary_v0.2_run1.json",
+      "actual_response_path": "responses/primary_v0.2_run1.json",
+      "official_validator": "PASS",
+      "supplemental_schema": "PASS",
+      "review_status": "Original v0.2 retained; final selected result is targeted v0.3 retest"
+    },
+    {
+      "id": "contrast_1",
+      "case": "cases/contrast_1.json",
+      "packet": "prompts/contrast_1_v0.2_prompt.txt",
+      "save_actual_output_as": "responses/contrast_1_v0.2_run1.json",
+      "actual_response_path": "responses/contrast_1_v0.2_run1.json",
+      "official_validator": "PASS",
+      "supplemental_schema": "PASS",
+      "review_status": "Original validated v0.2 Startup result; no v0.3 retest"
+    },
+    {
+      "id": "contrast_2",
+      "case": "cases/contrast_2.json",
+      "packet": "prompts/contrast_2_v0.2_prompt.txt",
+      "save_actual_output_as": "responses/contrast_2_v0.2_run1.json",
+      "actual_response_path": "responses/contrast_2_v0.2_run1.json",
+      "official_validator": "PASS",
+      "supplemental_schema": "PASS",
+      "review_status": "Original v0.2 retained; final selected result is targeted v0.3 retest"
+    }
+  ],
+  "structural_acceptance": [
+    "Frozen core matches manifest and uploaded canonical ZIP",
+    "All original repository files unchanged",
+    "All common intake fields present and string-typed",
+    "Identical technology and evidence snapshot across cases",
+    "Standalone packets exactly reproduce frozen builder outputs",
+    "All metadata and case context embedded; no unresolved REPLACE markers",
+    "All verified raw-source hashes match access records",
+    "No model outputs fabricated"
+  ],
+  "semantic_review": [
+    "All five Rogers categories discussed with a named social system and no automatic percentage threshold",
+    "General technology findings materially stable across cases; availability distinguished from population adoption",
+    "Software-company versus startup preserves the coding application but changes peer context and conditional timing for explicit reasons",
+    "Hospital changes application and consequence/peer context without changing general technology evidence",
+    "All five characteristics assessed with observed-versus-inferred status, direction, condition and confidence",
+    "Accelerators and inhibitors, opinion-leader/change-agent roles, channels, ecosystem/standards and complementary assets are bounded by evidence",
+    "Fast Follower/AI-native/Conservative labels do not predetermine a population stage or local peer rank",
+    "Weak hospital penetration claim explicitly qualified/abstained; missing survey attributes requested",
+    "Source IDs, dates, URLs, denominators and recency limitations traceable; blocked leads not treated as verified",
+    "Timing response has immediate action, later evidence gate and delay/reversal condition without full adoption authorization",
+    "One stable and one changed cross-case conclusion identified after real runs",
+    "At least one actual output weakness preserved, diagnosed and controlled/retested; do not invent a failure if none identified",
+    "Distinguish awareness, trial, individual current and recurrent use, sustained organizational deployment and industry penetration",
+    "Do not call E2 a new 2025 survey or treat E2/E4 as independent replication",
+    "Preserve E1 60% AI-user denominator and E4 74.9% coding-responsibility denominator; do not call them firm/hospital deployment or daily telemetry",
+    "Acknowledge empirical adoption evidence exists while preserving broad-AI scope, non-longitudinal nature and incomplete 2025 sampling methods",
+    "No 2024/2025 percentage subtraction is represented as longitudinal growth; 2026 qualitative publication does not refresh old rates"
+  ],
+  "outcome_states": [
+    "pending",
+    "structural pass",
+    "structural fail",
+    "semantic adequate",
+    "semantic weak",
+    "revised, retest pending"
+  ],
+  "revision_rule": "Preserve original raw responses and packet bytes; increment version and use new unused filenames for revisions. Do not change cases to hide failure. Regenerate all packets when shared evidence changes.",
+  "final_planning_horizon_months": 6,
+  "review_record": "records/performance_review_v0.2_run1.json",
+  "targeted_retest_manifest": "revisions/v0.3/retest_manifest.json",
+  "actual_retests": [
+    {
+      "case": "primary",
+      "path": "responses/primary_v0.3_run1.json",
+      "official_validator": "PASS",
+      "complete_schema": "PASS",
+      "W1": "corrected in observed retest",
+      "W2": "corrected in observed retest",
+      "material_regression": "none identified in this comparison"
+    },
+    {
+      "case": "contrast_2",
+      "path": "responses/contrast_2_v0.3_run1.json",
+      "official_validator": "PASS",
+      "complete_schema": "PASS",
+      "W1": "corrected in observed retest",
+      "W2": "corrected in observed retest",
+      "material_regression": "none identified in this comparison"
+    }
+  ],
+  "final_result_manifest": "release_manifest.json"
+}

@@ -1,0 +1,20 @@
+--- v0.2/specialist_instructions.md
++++ v0.3/specialist_instructions.md
+@@ -1,4 +1,4 @@
+-# STUDENT-EDITABLE — Emerging Technology Diffusion Agent v0.2-test-ready
++# STUDENT-EDITABLE — Emerging Technology Diffusion Agent v0.3-provenance-fix
+ 
+ ## Purpose, authority, and question
+ Answer: “How far has this technology and application diffused, what is accelerating or inhibiting diffusion, and what does that stage imply for this organization?” Inform timing and peer-position judgment. Do not make the integrated adoption decision, calculate technology maturity/significance, authorize deployment, certify compliance, or replace clinical/security/procurement authority. Return the frozen common JSON contract only.
+@@ -26,7 +26,10 @@
+ 
+ Do not subtract or average these figures into a trend, merge E2's rounded 76% with E4's 75.9% as independent evidence, or infer causal uptake/productivity from observational model associations. Distinguish strategic intent/prioritization from actual production deployment. In the general ET finding, scope software/technical-worker evidence as a sector-specific proxy with broad-AI measurement limits; never claim it represents all LLM applications or hospitals. Clinical-documentation industry penetration and sustained software-organization deployment remain unresolved weak claims. The same evidence and general finding must remain materially stable across the three runs; differing application relevance changes interpretation, not facts.
+ 
+-If the actual run date is later than preparation, state the observation dates and recency limits rather than treating a 2026 publication as new data for 2024/2025 statistics. All numerical claims must map to a claim ID in the shared snapshot. Missing original sources remain excluded. The candidate's version is 0.2-test-ready; local_checkout_branch and intended_repository_branch are distinct provenance fields, not conflicting instructions or a basis for diffusion findings.
++If the actual run date is later than preparation, state the observation dates and recency limits rather than treating a 2026 publication as new data for 2024/2025 statistics. All numerical claims must map to a claim ID in the shared snapshot. Missing original sources remain excluded. The candidate's version is 0.3-provenance-fix; local_checkout_branch and intended_repository_branch are distinct provenance fields, not conflicting instructions or a basis for diffusion findings.
++
++## v0.3 provenance precision control
++Do not infer an actual ChatGPT execution/test date from packet preparation, evidence-snapshot, publication, observation or retrieval dates. If no execution date is explicitly supplied, state that it is unknown and retain the case's six-month planning horizon as a relative duration without inventing calendar endpoints. For E1 2025, unavailable recruitment/probability-design information means sampling design is unknown and representativeness is not established; do not categorically label that design nonprobability or the sample nonrepresentative. Scope E4's documented recruitment/selection limitations to E4; do not transfer them to E1.
+ 
+ ## Exact output mapping — preserve frozen schema
+ Use all and only the common top-level keys, with their original types. No additional top-level fields, factor objects or numeric scores. Include specialist content in the existing strings and arrays:

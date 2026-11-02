@@ -1,0 +1,41 @@
+[
+  {
+    "case": "primary",
+    "uploaded_filename": "primary_v0.2_run1 (1).json",
+    "saved_path": "agents/diffusion_agent/responses/primary_v0.2_run1.json",
+    "bytes": 22819,
+    "sha256": "9890da63e26b4ead0209184179f9b075e81bda72ee45a83e66d044b5b14b816f",
+    "exact_uploaded_bytes_preserved": true,
+    "copied_at_utc": "2026-11-02T03:02:28.021897+00:00",
+    "runtime_provenance": "User reports independent ChatGPT execution. Exact model/settings, chat references and timestamps were not provided; dates asserted inside output are not independently verified runtime metadata.",
+    "official_validator_exit_code": 0,
+    "official_validator_stdout": "VALIDATION PASSED",
+    "official_validator_stderr": ""
+  },
+  {
+    "case": "contrast_1",
+    "uploaded_filename": "contrast_1_v0.2_run1 (1).json",
+    "saved_path": "agents/diffusion_agent/responses/contrast_1_v0.2_run1.json",
+    "bytes": 24785,
+    "sha256": "087b43b407982efb24e132a07bfd35cd7799176005c992ec099b149f603d9183",
+    "exact_uploaded_bytes_preserved": true,
+    "copied_at_utc": "2026-11-02T03:02:28.050319+00:00",
+    "runtime_provenance": "User reports independent ChatGPT execution. Exact model/settings, chat references and timestamps were not provided; dates asserted inside output are not independently verified runtime metadata.",
+    "official_validator_exit_code": 0,
+    "official_validator_stdout": "VALIDATION PASSED",
+    "official_validator_stderr": ""
+  },
+  {
+    "case": "contrast_2",
+    "uploaded_filename": "contrast_2_v0.2_run1 (1).json",
+    "saved_path": "agents/diffusion_agent/responses/contrast_2_v0.2_run1.json",
+    "bytes": 24958,
+    "sha256": "2450e5a0b16b381f384d2268448d1f250185247e693b2fcd77a24b4fb58225db",
+    "exact_uploaded_bytes_preserved": true,
+    "copied_at_utc": "2026-11-02T03:02:28.080121+00:00",
+    "runtime_provenance": "User reports independent ChatGPT execution. Exact model/settings, chat references and timestamps were not provided; dates asserted inside output are not independently verified runtime metadata.",
+    "official_validator_exit_code": 0,
+    "official_validator_stdout": "VALIDATION PASSED",
+    "official_validator_stderr": ""
+  }
+]

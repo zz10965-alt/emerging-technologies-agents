@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-11-02T00:57:38.477559+00:00",
+  "command": "python agents/diffusion_agent/tests/check_development.py --full-repository",
+  "exit_code": 0,
+  "results": [
+    "FROZEN CORE INTACT",
+    "Frozen core manifest: PASS",
+    "All 78 original repository files unchanged: PASS",
+    "primary: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS",
+    "contrast_1: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS",
+    "contrast_2: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS",
+    "Three-case technology/evidence equality and intended application contrast: PASS",
+    "Three admitted original-source snapshots and immutable-reference hashes: PASS",
+    "Actual model execution, output validation and semantic review: PENDING / NOT EXECUTED"
+  ],
+  "canonical_uploaded_zip_sha256": "3875e8924556b2801c572390fb2c90e5957aea452d33312a31084e1f3712e754",
+  "canonical_frozen_files_byte_equal": [
+    "core/common_instructions.md",
+    "core/input_schema.json",
+    "core/output_schema.json",
+    "tools/build_prompt.py",
+    "tools/check_frozen_core.py",
+    "tools/new_agent.py",
+    "tools/validate_response.py"
+  ],
+  "actual_chatgpt_runs": {
+    "primary": "NOT RUN",
+    "contrast_1": "NOT RUN",
+    "contrast_2": "NOT RUN"
+  },
+  "output_validation": "NOT RUN \u2014 no actual outputs exist",
+  "analytical_quality": "NOT TESTED",
+  "evidence_limit": "Three original issuer technical artifacts verified. No original population adoption study or hospital documentation diffusion study retrieved; CONNECT 403 blocked required original-source hosts.",
+  "no_commit_or_push": true
+}

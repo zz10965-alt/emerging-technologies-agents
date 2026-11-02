@@ -1,0 +1,20 @@
+{
+  "name": "Emerging Technology Diffusion Agent",
+  "specialty": "Rogers diffusion, application and peer diffusion, and bounded organizational timing",
+  "version": "0.3-provenance-fix",
+  "development_date": "2026-11-01",
+  "date_timezone": "America/New_York",
+  "assignment": "Assignment 5 / Week 7",
+  "status": "Targeted provenance-control candidate; Primary and Hospital retests NOT RUN",
+  "repository": "zz10965-alt/emerging-technologies-agents",
+  "local_checkout_branch": "work",
+  "intended_repository_branch": "assignment4-promethean",
+  "remote_tracking_ref": "origin/assignment4-promethean",
+  "base_commit": "d3a7c8f97baea9c7ef53d9d2dcd2dc09ee72fd38",
+  "evidence_snapshot": "diffusion-v0.2",
+  "revision_date": "2026-11-01",
+  "parent_version": "0.2-test-ready",
+  "revision_recorded_at_utc": "2026-11-02T03:06:23.704063+00:00",
+  "planning_horizon_months": 6,
+  "revision_scope": "Execution-date versus evidence-date separation; unknown E1 sampling design stays unknown. No substantive case/evidence change."
+}

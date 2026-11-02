@@ -1,0 +1,62 @@
+{
+  "reviewed_at_utc": "2026-11-02T06:05:37.397239+00:00",
+  "scope": "Two targeted retests only; no Startup v0.3 run",
+  "comparisons": [
+    {
+      "case": "primary",
+      "original": "responses/primary_v0.2_run1.json",
+      "retest": "responses/primary_v0.3_run1.json",
+      "W1_execution_date": {
+        "observed_status": "Resolved in this retest",
+        "v0.2_quote": "As of the 2026-11-01 test date",
+        "v0.3_quote": "actual test execution date are unknown.",
+        "v0.3_field": "analytical_question"
+      },
+      "W2_unknown_sampling": {
+        "observed_status": "Resolved in this retest",
+        "v0.3_quote": "Representativeness is not established, and design must not be asserted nonprobability.",
+        "v0.3_field": "evidence[0].notes"
+      },
+      "regression_review": {
+        "result": "No material new regression identified in this observed comparison",
+        "preserved": [
+          "Scoped historical individual broad-AI evidence, original denominators and E2/E4 dependence",
+          "All five Rogers characteristics and three-level/context distinctions",
+          "No posture-driven exact global stage; no hospital uptake from coding/model availability",
+          "Weak hospital and sustained-enterprise claims remain abstentions",
+          "Conditional specialist timing, human authority and relative six-month duration"
+        ],
+        "benign_variation": "Primary review proposal changed from 6–8 to 4–8 weeks; both are labeled local proposals within six months, not measured benchmarks or a change in the final planning duration."
+      }
+    },
+    {
+      "case": "contrast_2",
+      "original": "responses/contrast_2_v0.2_run1.json",
+      "retest": "responses/contrast_2_v0.3_run1.json",
+      "W1_execution_date": {
+        "observed_status": "Resolved in this retest",
+        "v0.2_quote": "a six-month planning horizon from the 2026-11-01 test date",
+        "v0.3_quote": "actual test execution date are unspecified.",
+        "v0.3_field": "analytical_question"
+      },
+      "W2_unknown_sampling": {
+        "observed_status": "Resolved in this retest",
+        "v0.3_quote": "E1 sampling design is unknown, NOT proven nonprobability; E4's documented recruitment methods are source-specific.",
+        "v0.3_field": "confidence_and_uncertainty"
+      },
+      "regression_review": {
+        "result": "No material new regression identified in this observed comparison",
+        "preserved": [
+          "Scoped historical individual broad-AI evidence, original denominators and E2/E4 dependence",
+          "All five Rogers characteristics and three-level/context distinctions",
+          "No posture-driven exact global stage; no hospital uptake from coding/model availability",
+          "Weak hospital and sustained-enterprise claims remain abstentions",
+          "Conditional specialist timing, human authority and relative six-month duration"
+        ],
+        "benign_variation": "More explicit clinical data/safety and peer evidence gates; no newly claimed clinical diffusion or deployment authorization."
+      }
+    }
+  ],
+  "conclusion": "Both precision controls are reflected in the two supplied v0.3 outputs; no material regression found. Single observed retest per affected case is not proof of repeatability or universal correction.",
+  "startup": "Preserve contrast_1_v0.2_run1.json as original validated startup contrast; never label it a v0.3 result."
+}

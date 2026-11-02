@@ -1,0 +1,19 @@
+{
+  "name": "Emerging Technology Diffusion Agent",
+  "specialty": "Rogers diffusion, application and peer diffusion, and bounded organizational timing",
+  "version": "0.2-test-ready",
+  "development_date": "2026-11-01",
+  "date_timezone": "America/New_York",
+  "assignment": "Assignment 5 / Week 7",
+  "status": "Structurally test-ready development candidate; formal model tests NOT RUN; healthcare diffusion and sustained organizational penetration unsupported",
+  "repository": "zz10965-alt/emerging-technologies-agents",
+  "local_checkout_branch": "work",
+  "intended_repository_branch": "assignment4-promethean",
+  "remote_tracking_ref": "origin/assignment4-promethean",
+  "base_commit": "930017f5814c7ee85052d8fcb863cb99a2e3e6f2",
+  "remote_branch_commit_verified": "930017f5814c7ee85052d8fcb863cb99a2e3e6f2",
+  "branch_verification_at_utc": "2026-11-02T01:52:27.613923+00:00",
+  "branch_verification": "Local symbolic HEAD is work; live git ls-remote confirmed assignment4-promethean has the same HEAD. No upstream is configured for work. No branch was renamed, created or switched.",
+  "evidence_snapshot": "diffusion-v0.2",
+  "revision_date": "2026-11-01"
+}

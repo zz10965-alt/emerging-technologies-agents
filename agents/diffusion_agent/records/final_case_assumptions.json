@@ -1,0 +1,34 @@
+{
+  "recorded_at_utc": "2026-11-02T03:06:23.704063+00:00",
+  "planning_horizon_months": 6,
+  "applies_to": [
+    "primary",
+    "contrast_1",
+    "contrast_2"
+  ],
+  "user_decision": "Retain the consistently tested six-month horizon; the earlier proposed twelve-month design is superseded.",
+  "assignment_basis": "Assignment 5 and common intake require a decision/time horizon but do not prescribe six or twelve months.",
+  "validity": "Valid controlled-case assumption, not an agent-reasoning failure. No repetition of all three runs is required just for this duration.",
+  "calendar_anchor": "Actual execution date not supplied. Retain a relative six-month horizon; do not infer a calendar start from packet preparation or evidence as-of dates.",
+  "case_review": [
+    {
+      "case": "primary",
+      "case_time_horizon_exact": "Scenario assumption: a six-month planning horizon from the actual test date; choose a near-term evidence review event/window explicitly rather than inventing a committed rollout date.",
+      "response_ref": "responses/primary_v0.2_run1.json",
+      "six_month_duration_present": true
+    },
+    {
+      "case": "contrast_1",
+      "case_time_horizon_exact": "Scenario assumption: the same six-month planning horizon from the actual test date; any faster feedback cycle is an analyst proposal, not empirical proof of advantage.",
+      "response_ref": "responses/contrast_1_v0.2_run1.json",
+      "six_month_duration_present": true
+    },
+    {
+      "case": "contrast_2",
+      "case_time_horizon_exact": "Scenario assumption: the same six-month planning horizon from the actual test date; no requirement to deploy within that period if evidence or governance prerequisites remain unmet.",
+      "response_ref": "responses/contrast_2_v0.2_run1.json",
+      "six_month_duration_present": true
+    }
+  ],
+  "case_files_and_v0.2_packets": "Unchanged. The final assumption records user preference without rewriting tested inputs or outputs."
+}

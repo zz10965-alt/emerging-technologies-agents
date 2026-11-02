@@ -1,0 +1,41 @@
+{
+  "release_label": "Assignment 5 Diffusion Agent — v0.3-provenance-fix with mixed-version actual test lineage",
+  "current_instruction_candidate": "revisions/v0.3",
+  "evidence_snapshot": "diffusion-v0.2",
+  "shared_evidence_sha256": "2623cb3b2d5f1a2033080517cb1e2323569698d89dc9cf3f379f8f450e67a72f",
+  "planning_horizon_months": 6,
+  "calendar_execution_anchor": "Unknown unless separately supplied",
+  "selected_case_results": {
+    "primary": {
+      "path": "responses/primary_v0.3_run1.json",
+      "version": "0.3-provenance-fix"
+    },
+    "contrast_1": {
+      "path": "responses/contrast_1_v0.2_run1.json",
+      "version": "0.2-test-ready"
+    },
+    "contrast_2": {
+      "path": "responses/contrast_2_v0.3_run1.json",
+      "version": "0.3-provenance-fix"
+    }
+  },
+  "actual_test_totals": {
+    "v0.2_originals": 3,
+    "v0.3_targeted_retests": 2,
+    "total": 5,
+    "startup_v0.3": 0
+  },
+  "reproduction": "Use original version-specific packets; v0.3 Primary/Hospital cases are byte-identical to v0.2. No claim of completed Startup v0.3 testing.",
+  "review_conclusion": "Observed core reasoning adequate with evidence limits; both targeted provenance weaknesses corrected in observed v0.3 retests without identified material regression.",
+  "remaining_limits": [
+    "One observed run per original context and one targeted retest per affected case, not repeatability evidence",
+    "No supplied exact runtime model/settings or test execution timestamps",
+    "Single-issuer empirical material with E2/E4 dependence and old broad-AI observations",
+    "No verified hospital documentation penetration or sustained authorized software-firm deployment denominator",
+    "Independent professional judgment and Craft Gained are AI-assisted drafts for student confirmation before submission"
+  ],
+  "authoring_history_note": "Metadata/packet NOT RUN wording records preparation-time state and is preserved for reproducibility; this release manifest and validation records give current actual test status.",
+  "git_branch": "assignment4-promethean",
+  "local_checkout_branch": "work",
+  "student_identity_provenance": "Zhixian Zhang (Freya Zhang), NYU MS in Management and Analytics, copied from existing Assignment4_Agent_Record.docx without changing that file."
+}

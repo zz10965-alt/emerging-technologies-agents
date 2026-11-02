@@ -1,0 +1,70 @@
+{
+  "recorded_at_utc": "2026-11-02T06:05:37.397239+00:00",
+  "actual_test_count": 5,
+  "original_v0.2_test_count": 3,
+  "targeted_v0.3_retest_count": 2,
+  "outputs": [
+    {
+      "filename": "primary_v0.2_run1.json",
+      "path": "responses/primary_v0.2_run1.json",
+      "case": "primary",
+      "version": "0.2-test-ready",
+      "test_kind": "original v0.2 test",
+      "sha256": "9890da63e26b4ead0209184179f9b075e81bda72ee45a83e66d044b5b14b816f",
+      "bytes": 22819,
+      "official_validator": "PASS",
+      "complete_schema": "PASS",
+      "execution_metadata": "User reports independent ChatGPT execution; exact model/settings, timestamps and chat references not supplied."
+    },
+    {
+      "filename": "contrast_1_v0.2_run1.json",
+      "path": "responses/contrast_1_v0.2_run1.json",
+      "case": "contrast_1",
+      "version": "0.2-test-ready",
+      "test_kind": "original v0.2 test",
+      "sha256": "087b43b407982efb24e132a07bfd35cd7799176005c992ec099b149f603d9183",
+      "bytes": 24785,
+      "official_validator": "PASS",
+      "complete_schema": "PASS",
+      "execution_metadata": "User reports independent ChatGPT execution; exact model/settings, timestamps and chat references not supplied."
+    },
+    {
+      "filename": "contrast_2_v0.2_run1.json",
+      "path": "responses/contrast_2_v0.2_run1.json",
+      "case": "contrast_2",
+      "version": "0.2-test-ready",
+      "test_kind": "original v0.2 test",
+      "sha256": "2450e5a0b16b381f384d2268448d1f250185247e693b2fcd77a24b4fb58225db",
+      "bytes": 24958,
+      "official_validator": "PASS",
+      "complete_schema": "PASS",
+      "execution_metadata": "User reports independent ChatGPT execution; exact model/settings, timestamps and chat references not supplied."
+    },
+    {
+      "filename": "primary_v0.3_run1.json",
+      "path": "responses/primary_v0.3_run1.json",
+      "case": "primary",
+      "version": "0.3-provenance-fix",
+      "test_kind": "targeted v0.3 retest",
+      "sha256": "f62164e37020fe267935da8aeb90f419cb6e5eb20788a0ce7ca7358022d66b65",
+      "bytes": 21551,
+      "official_validator": "PASS",
+      "complete_schema": "PASS",
+      "execution_metadata": "User reports independent ChatGPT execution; exact model/settings, timestamps and chat references not supplied."
+    },
+    {
+      "filename": "contrast_2_v0.3_run1.json",
+      "path": "responses/contrast_2_v0.3_run1.json",
+      "case": "contrast_2",
+      "version": "0.3-provenance-fix",
+      "test_kind": "targeted v0.3 retest",
+      "sha256": "820cd9c78bf4bbb2a78a00eb828323abc9fd06e2c49820dee294aadfc9c070c5",
+      "bytes": 26678,
+      "official_validator": "PASS",
+      "complete_schema": "PASS",
+      "execution_metadata": "User reports independent ChatGPT execution; exact model/settings, timestamps and chat references not supplied."
+    }
+  ],
+  "nonexistent_test": "contrast_1_v0.3_run1.json — NOT RUN, NOT CREATED",
+  "immutable_outputs": "Exact uploaded bytes; original v0.2 hashes and new v0.3 upload equality verified."
+}

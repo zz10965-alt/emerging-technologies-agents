@@ -1,0 +1,46 @@
+[
+  {
+    "id": "D1",
+    "title": "GitHub Copilot technical-preview repository",
+    "url": "https://raw.githubusercontent.com/github/copilot-docs/main/README.md",
+    "retrieved_at_utc": "2026-11-02T00:51:23.545126+00:00",
+    "status": "retrieved",
+    "sha256": "ff98b48fa93967035751ae71cffe5aae9edb6dc79c03bdbb2b3d2ce00a355376",
+    "bytes": 357,
+    "local_file": "raw/D1.md",
+    "commit": "1c0f525cff2f9ad62858b340f1c4726fb65c30a1",
+    "immutable_url": "https://raw.githubusercontent.com/github/copilot-docs/1c0f525cff2f9ad62858b340f1c4726fb65c30a1/README.md"
+  },
+  {
+    "id": "D2",
+    "title": "Microsoft VS Code Copilot Chat repository",
+    "url": "https://raw.githubusercontent.com/microsoft/vscode-copilot-chat/main/README.md",
+    "retrieved_at_utc": "2026-11-02T00:51:23.641439+00:00",
+    "status": "retrieved",
+    "sha256": "c33813a0bb4e7ad1f109c2956d90687d73376c938ecb98b187d5346682fa8601",
+    "bytes": 9154,
+    "local_file": "raw/D2.md",
+    "commit": "5863f5a7088958050792b5dccbe8b46c6e13eccc",
+    "immutable_url": "https://raw.githubusercontent.com/microsoft/vscode-copilot-chat/5863f5a7088958050792b5dccbe8b46c6e13eccc/README.md"
+  },
+  {
+    "id": "D3",
+    "title": "Google Health MedGemma repository",
+    "url": "https://raw.githubusercontent.com/google-health/medgemma/main/README.md",
+    "retrieved_at_utc": "2026-11-02T00:51:23.738896+00:00",
+    "status": "retrieved",
+    "sha256": "b41c24f6594b405fdc99134302a0a874c2606cbf27fb6b050e7395e0401b1590",
+    "bytes": 2360,
+    "local_file": "raw/D3.md",
+    "commit": "a60a66024f6153496dfa9490dba12d4f1fbd092e",
+    "immutable_url": "https://raw.githubusercontent.com/google-health/medgemma/a60a66024f6153496dfa9490dba12d4f1fbd092e/README.md"
+  },
+  {
+    "id": "D4",
+    "title": "GitHub Copilot responsible-use documentation",
+    "url": "https://raw.githubusercontent.com/github/docs/main/content/copilot/responsible-use/copilot-code-completion.md",
+    "attempted_at_utc": "2026-11-02T00:51:23.966453+00:00",
+    "status": "blocked_or_unavailable",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

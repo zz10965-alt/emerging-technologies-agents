@@ -1,0 +1,32 @@
+[
+  {
+    "case": "primary",
+    "path": "prompts/primary_v0.2_prompt.txt",
+    "bytes": 47009,
+    "sha256": "7a4ae6ae3d1006e5365da1e03287976debb092badc809206e626fab1158d7f28",
+    "agent_version": "0.2-test-ready",
+    "evidence_snapshot_sha256": "2623cb3b2d5f1a2033080517cb1e2323569698d89dc9cf3f379f8f450e67a72f",
+    "runtime_status": "NOT RUN",
+    "response_path": "responses/primary_v0.2_run1.json"
+  },
+  {
+    "case": "contrast_1",
+    "path": "prompts/contrast_1_v0.2_prompt.txt",
+    "bytes": 47074,
+    "sha256": "b1433604c3c513efb18600a6ee5a5ffc265c7daf5753164197c099624d8471f5",
+    "agent_version": "0.2-test-ready",
+    "evidence_snapshot_sha256": "2623cb3b2d5f1a2033080517cb1e2323569698d89dc9cf3f379f8f450e67a72f",
+    "runtime_status": "NOT RUN",
+    "response_path": "responses/contrast_1_v0.2_run1.json"
+  },
+  {
+    "case": "contrast_2",
+    "path": "prompts/contrast_2_v0.2_prompt.txt",
+    "bytes": 47154,
+    "sha256": "fd9326c03ad8c3a98d2722ef374edc84e6b67eb430b47bab10c9e767b11a27cb",
+    "agent_version": "0.2-test-ready",
+    "evidence_snapshot_sha256": "2623cb3b2d5f1a2033080517cb1e2323569698d89dc9cf3f379f8f450e67a72f",
+    "runtime_status": "NOT RUN",
+    "response_path": "responses/contrast_2_v0.2_run1.json"
+  }
+]

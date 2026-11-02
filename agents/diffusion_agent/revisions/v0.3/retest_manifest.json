@@ -1,0 +1,40 @@
+{
+  "prepared_at_utc": "2026-11-02T03:06:23.704063+00:00",
+  "version": "0.3-provenance-fix",
+  "parent_instructions_sha256": "c579e5ba96ec50e663c64a09c036971788b5026ccd851dd6d5034c45f1faa3a4",
+  "instructions_sha256": "e5be9a71eb49f0281c87d40339423ec7dce4ebb14503320db97ab0da24de517f",
+  "shared_evidence_sha256": "2623cb3b2d5f1a2033080517cb1e2323569698d89dc9cf3f379f8f450e67a72f",
+  "affected_cases": [
+    {
+      "case": "primary",
+      "case_path": "revisions/v0.3/cases/primary.json",
+      "case_sha256": "1106888c1021cc58bfe62d0685ffe44a86d229644e1277f5afd2d5819c394d4d",
+      "case_identical_to_v0.2": true,
+      "packet_path": "revisions/v0.3/prompts/primary_v0.3_prompt.txt",
+      "packet_bytes": 47559,
+      "packet_sha256": "ed8804d6741e7dad711dfcc27cd80ccd6f46f07ddbf448b61c7e9bfda1269da3",
+      "expected_response_path": "responses/primary_v0.3_run1.json",
+      "runtime_status": "NOT RUN"
+    },
+    {
+      "case": "contrast_2",
+      "case_path": "revisions/v0.3/cases/contrast_2.json",
+      "case_sha256": "d57c9faa54279d05f3e85c77c974df9077df5df465ad4fd175a0f469e14ad9f3",
+      "case_identical_to_v0.2": true,
+      "packet_path": "revisions/v0.3/prompts/contrast_2_v0.3_prompt.txt",
+      "packet_bytes": 47704,
+      "packet_sha256": "db2a2f6b52c13c1c9ac2a6faca7d9cf067525dd3fb5451ebd442289af0e7727d",
+      "expected_response_path": "responses/contrast_2_v0.3_run1.json",
+      "runtime_status": "NOT RUN"
+    }
+  ],
+  "pass_criteria": [
+    "Actual execution date is unknown unless explicitly supplied; no invented 2026-11-01 test date or calendar anchor",
+    "Six-month planning duration retained without a new 12-month case",
+    "E1 design remains unknown; no categorical unverified nonprobability/nonrepresentative label",
+    "Same scoped diffusion evidence, five factors, narrow abstentions and bounded timing logic preserved",
+    "Official schema/validator pass for genuine supplied retest outputs"
+  ],
+  "retest_results": "NOT RUN; no outputs fabricated",
+  "startup_retest": "Optional regression, not required for these two observed weaknesses"
+}

@@ -1,0 +1,38 @@
+{
+  "recorded_at_utc": "2026-11-02T06:02:14.181549+00:00",
+  "new_actual_retests": [
+    {
+      "case": "primary",
+      "version": "0.3-provenance-fix",
+      "uploaded_filename": "primary_v0.3_run1 (1).json",
+      "saved_path": "agents/diffusion_agent/responses/primary_v0.3_run1.json",
+      "bytes": 21551,
+      "sha256": "f62164e37020fe267935da8aeb90f419cb6e5eb20788a0ce7ca7358022d66b65",
+      "byte_for_byte_equal_to_upload": true,
+      "official_validator_exit_code": 0,
+      "official_validator_stdout": "VALIDATION PASSED",
+      "official_validator_stderr": "",
+      "supplemental_complete_schema": "PASS",
+      "metadata_matches_v0.3": "PASS",
+      "execution_date_model_settings": "Not supplied; user reports independent runs. Do not infer from upload, preparation or record dates."
+    },
+    {
+      "case": "contrast_2",
+      "version": "0.3-provenance-fix",
+      "uploaded_filename": "contrast_2_v0.3_run1.json",
+      "saved_path": "agents/diffusion_agent/responses/contrast_2_v0.3_run1.json",
+      "bytes": 26678,
+      "sha256": "820cd9c78bf4bbb2a78a00eb828323abc9fd06e2c49820dee294aadfc9c070c5",
+      "byte_for_byte_equal_to_upload": true,
+      "official_validator_exit_code": 0,
+      "official_validator_stdout": "VALIDATION PASSED",
+      "official_validator_stderr": "",
+      "supplemental_complete_schema": "PASS",
+      "metadata_matches_v0.3": "PASS",
+      "execution_date_model_settings": "Not supplied; user reports independent runs. Do not infer from upload, preparation or record dates."
+    }
+  ],
+  "original_v0.2_outputs_preserved": true,
+  "actual_output_count": 5,
+  "startup_v0.3_test": "NOT RUN / NOT CREATED"
+}

@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-11-02T01:52:27.613923+00:00",
+  "local_symbolic_branch": "work",
+  "local_head": "930017f5814c7ee85052d8fcb863cb99a2e3e6f2",
+  "configured_upstream": null,
+  "intended_remote_branch": "refs/heads/assignment4-promethean",
+  "live_remote_sha": "930017f5814c7ee85052d8fcb863cb99a2e3e6f2",
+  "verification_commands": [
+    "git symbolic-ref --short HEAD",
+    "git config --get-regexp ^branch\\. (no branch entries)",
+    "git rev-parse HEAD refs/remotes/origin/assignment4-promethean",
+    "git ls-remote origin refs/heads/assignment4-promethean refs/heads/work"
+  ],
+  "interpretation": "work was a correct local branch name, but ambiguous as repository-branch provenance. v0.2 replaces working_branch with explicit local_checkout_branch and intended_repository_branch. Remote work was not listed; assignment4-promethean matches local HEAD. No new branch, commit or push."
+}

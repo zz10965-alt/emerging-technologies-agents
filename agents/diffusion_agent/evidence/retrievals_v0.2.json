@@ -1,0 +1,196 @@
+{
+  "retrieved": [
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/research/2025/2025-DORA-Report-Infographic.pdf",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/research/2025/2025-DORA-Report-Infographic.pdf",
+      "sha256": "bea0808e54e9a0a7d2ee1e8f0ea60874c6960115f26329018eeeda7401781f30",
+      "retrieved_at_utc": "2026-11-02T01:45:27.255417+00:00",
+      "local_file": "raw/E1_infographic.pdf",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/data/survey_questions/2025-state-of-ai-assisted-software-development.json",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/data/survey_questions/2025-state-of-ai-assisted-software-development.json",
+      "sha256": "a9e54fa388c53b2f4ed0dd906e0ff530555b790404f88cec91e0753ac8e64e17",
+      "retrieved_at_utc": "2026-11-02T01:44:49.073938+00:00",
+      "local_file": "raw/E1_questions.json",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/research/2025/dora-report/index.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/research/2025/dora-report/index.md",
+      "sha256": "e9c34951b9292a19907994bb1dde5a63b274004c34a11c4fe9241e4534b041e9",
+      "retrieved_at_utc": "2026-11-02T01:44:12.533297+00:00",
+      "local_file": "raw/E1_report_landing.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/research/2025/questions.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/research/2025/questions.md",
+      "sha256": "4cb503a680bb8cfa7e45ff3e2688ea6b08b333ad7c109969ae038efcff2259d4",
+      "retrieved_at_utc": "2026-11-02T01:44:12.517828+00:00",
+      "local_file": "raw/E1_questions_landing.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/research/2025/errata/index.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/research/2025/errata/index.md",
+      "sha256": "71b3959db4a535053d66f332259e5a9bf23d4bb3be98f8ded5c0fa646def60ab",
+      "retrieved_at_utc": "2026-11-02T01:44:12.540784+00:00",
+      "local_file": "raw/E1_errata.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/ai/gen-ai-report/dora-impact-of-generative-ai-in-software-development.pdf",
+      "sha256": "2d4358f6fbc496e13d29b992445854a7bf8eea510f6a642502a0d2dec1bff7a6",
+      "retrieved_at_utc": "2026-11-02T01:44:49.812270+00:00",
+      "local_file": "raw/E2_report.pdf",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/data/survey_questions/gen-ai-report.json",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/data/survey_questions/gen-ai-report.json",
+      "sha256": "3c1166c9c2539a79fb7fe4a928632b13fd169d75d725623e9911c4ef249db129",
+      "retrieved_at_utc": "2026-11-02T01:44:49.297096+00:00",
+      "local_file": "raw/E2_questions.json",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/ai/gen-ai-report/errata.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/ai/gen-ai-report/errata.md",
+      "sha256": "d3f7c61611607dee9df383ae9a452a95dbce2558b2200fe99348d9004b34ecfa",
+      "retrieved_at_utc": "2026-11-02T01:45:28.024719+00:00",
+      "local_file": "raw/E2_errata.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/ai/gen-ai-report/report/index.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/ai/gen-ai-report/report/index.md",
+      "sha256": "d78d6bd82b30723ecd8db4ac2724222610e267f230dd5c3cf148d32617c37401",
+      "retrieved_at_utc": "2026-11-02T01:44:12.795470+00:00",
+      "local_file": "raw/E2_report_landing.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/insights/dora-2025-year-in-review/index.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/insights/dora-2025-year-in-review/index.md",
+      "sha256": "18c7854e9fade5617530c4732842dccb44880b4ea5d97f1cd157c0dbfc56f797",
+      "retrieved_at_utc": "2026-11-02T01:44:12.537651+00:00",
+      "local_file": "raw/E2_release_context.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/insights/managing-ai-dependency/index.md",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/insights/managing-ai-dependency/index.md",
+      "sha256": "95773e2aa5c4756b85a8eba517d2e4b1aa4bfd4cdb5ceec461673285ec289c9b",
+      "retrieved_at_utc": "2026-11-02T01:44:12.742468+00:00",
+      "local_file": "raw/E3_qualitative_study.md",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "hugo/content/research/2024/dora-report/2024-dora-accelerate-state-of-devops-report.pdf",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/hugo/content/research/2024/dora-report/2024-dora-accelerate-state-of-devops-report.pdf",
+      "sha256": "45a1b62564c603e0e356a951e4553d01eafaa200de801480feed5a4c4685e40e",
+      "retrieved_at_utc": "2026-11-02T01:45:48.529977+00:00",
+      "local_file": "raw/E4_report_2024.pdf",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "repository": "dora-team/dora.dev",
+      "commit": "b14ae080c350ca7ff449889621a970e959203bd5",
+      "path": "CC-BY-4.0",
+      "url": "https://raw.githubusercontent.com/dora-team/dora.dev/b14ae080c350ca7ff449889621a970e959203bd5/CC-BY-4.0",
+      "sha256": "064fc80a94c764e0defd2447e24fb6f346f2ec0cd276f382f482a4fa4617d53e",
+      "retrieved_at_utc": "2026-11-02T01:44:12.972500+00:00",
+      "local_file": "raw/DORA_CC_BY_4.0.txt",
+      "verification": "Original publisher Git repository content, immutable commit URL; bytes inspected or supporting metadata reviewed. No independent replication of source analyses."
+    },
+    {
+      "local_file": "raw/E2_report_extracted.txt",
+      "sha256": "5378bc9046d8b54dab22077ba87b755b3241faf4f6134fc64fc00a433942654c",
+      "derivative": true,
+      "description": "Local text extraction of archived original PDF; original PDF takes precedence. Not a separate source."
+    },
+    {
+      "local_file": "raw/E4_verified_pages_extracted.txt",
+      "sha256": "1cc1f56c618b7a577998d905a776aee47300722fc164642502c2aea6284dd0cd",
+      "derivative": true,
+      "description": "Local text extraction of archived original PDF; original PDF takes precedence. Not a separate source."
+    },
+    {
+      "local_file": "raw/E1_visual_transcription.md",
+      "sha256": "c07ac95a5f860bd13b4747d047ec985df83d30dad37c91230c12aa6a0e575134",
+      "derivative": true,
+      "description": "Human-readable visual transcription inspected by Codex against rendered original infographic; not a new source."
+    }
+  ],
+  "blocked": [
+    {
+      "url": "https://survey.stackoverflow.co/2025/ai",
+      "attempted_at_utc": "2026-11-02T01:46:53.949537+00:00",
+      "status": "inaccessible",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claims_admitted": false
+    },
+    {
+      "url": "https://metr.org/blog/2026-05-11-ai-usage-survey/",
+      "attempted_at_utc": "2026-11-02T01:46:53.965019+00:00",
+      "status": "inaccessible",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claims_admitted": false
+    },
+    {
+      "url": "https://www.ama-assn.org/practice-management/digital-health/physician-ai-use-has-doubled-key-findings-new-ama-survey",
+      "attempted_at_utc": "2026-11-02T01:46:53.968911+00:00",
+      "status": "inaccessible",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claims_admitted": false
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "attempted_at_utc": "2026-11-02T01:46:53.972461+00:00",
+      "status": "inaccessible",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claims_admitted": false
+    },
+    {
+      "url": "https://www.healthit.gov/data/data-briefs/hospital-trends-use-evaluate-and-monitor-predictive-ai-2023-2024",
+      "attempted_at_utc": "2026-11-02T01:46:53.976296+00:00",
+      "status": "inaccessible",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claims_admitted": false
+    },
+    {
+      "url": "https://cloud.google.com/dora?hl=en&region=US",
+      "attempted_at_utc": "2026-11-02T01:46:53.980016+00:00",
+      "status": "inaccessible",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "claims_admitted": false
+    }
+  ]
+}

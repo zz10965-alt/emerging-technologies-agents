@@ -1,0 +1,62 @@
+{
+  "checked_at_utc": "2026-11-02T03:10:12.395258+00:00",
+  "preserved_existing_protected_files": 121,
+  "tested_v0.2_authoring_inputs_packets_and_evidence": "UNCHANGED",
+  "uploaded_response_hashes": "PASS \u2014 all three equal original uploaded bytes",
+  "v0.2_actual_contract_and_integrity_check": {
+    "exit_code": 0,
+    "stdout": "FROZEN CORE INTACT\nVALIDATION PASSED\nVALIDATION PASSED\nVALIDATION PASSED\nFrozen core manifest: PASS\nAll 78 original repository files unchanged: PASS\nEntire v0.1 baseline (30 files) and original live packets: PASS\nprimary: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS\ncontrast_1: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS\ncontrast_2: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS\nThree-case technology/evidence equality and intended application contrast: PASS\nPreserved original product-source hashes and immutable references: PASS\nEmpirical source metadata, 9 claim mappings, 16 archived-artifact hashes, original question wording and numeric locators: PASS\nExplicit local-versus-intended branch provenance and v0.2 version consistency: PASS\nThree actual output basic validators and strict frozen-schema shape checks: PASS; semantic review still required\n",
+    "stderr": ""
+  },
+  "v0.3_preparation_checks": [
+    {
+      "case": "primary",
+      "case_schema": "PASS",
+      "unchanged_case_and_evidence": "PASS",
+      "standalone_packet_completeness": "PASS",
+      "original_builder_byte_reproduction": "PASS",
+      "packet_hash": "PASS",
+      "actual_model_retest": "NOT RUN"
+    },
+    {
+      "case": "contrast_2",
+      "case_schema": "PASS",
+      "unchanged_case_and_evidence": "PASS",
+      "standalone_packet_completeness": "PASS",
+      "original_builder_byte_reproduction": "PASS",
+      "packet_hash": "PASS",
+      "actual_model_retest": "NOT RUN"
+    }
+  ],
+  "existing_files_modified_this_review": [
+    "agents/diffusion_agent/README.md",
+    "agents/diffusion_agent/tests/README.md",
+    "agents/diffusion_agent/tests/test_plan.json",
+    "agents/diffusion_agent/records/test_log.md",
+    "agents/diffusion_agent/records/development_log.md"
+  ],
+  "files_added_this_review": [
+    "agents/diffusion_agent/records/final_case_assumptions.json",
+    "agents/diffusion_agent/records/performance_review_v0.2_run1.json",
+    "agents/diffusion_agent/records/performance_review_v0.2_run1.md",
+    "agents/diffusion_agent/records/response_preservation_v0.2.json",
+    "agents/diffusion_agent/records/validation_results_v0.2_run1.json",
+    "agents/diffusion_agent/responses/contrast_1_v0.2_run1.json",
+    "agents/diffusion_agent/responses/contrast_2_v0.2_run1.json",
+    "agents/diffusion_agent/responses/primary_v0.2_run1.json",
+    "agents/diffusion_agent/revisions/v0.3/README.md",
+    "agents/diffusion_agent/revisions/v0.3/agent_metadata.json",
+    "agents/diffusion_agent/revisions/v0.3/cases/contrast_2.json",
+    "agents/diffusion_agent/revisions/v0.3/cases/primary.json",
+    "agents/diffusion_agent/revisions/v0.3/instruction_changes.diff",
+    "agents/diffusion_agent/revisions/v0.3/prompts/contrast_2_v0.3_prompt.txt",
+    "agents/diffusion_agent/revisions/v0.3/prompts/primary_v0.3_prompt.txt",
+    "agents/diffusion_agent/revisions/v0.3/retest_manifest.json",
+    "agents/diffusion_agent/revisions/v0.3/specialist_instructions.md"
+  ],
+  "git_head_unchanged": "d3a7c8f97baea9c7ef53d9d2dcd2dc09ee72fd38",
+  "agent_record_unchanged": true,
+  "new_zip_or_final_submission_package_created": false,
+  "v0.3_actual_outputs_created": false,
+  "commit_or_push": false
+}

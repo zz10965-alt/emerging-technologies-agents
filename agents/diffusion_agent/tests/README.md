@@ -1,3 +1,5 @@
+> Current final status: five actual outputs are now preserved and validated (three v0.2 originals, two targeted v0.3 retests). Startup remains v0.2. Both targeted controls are reflected in the observed retests. See release_manifest.json and records/retest_comparison_v0.3.md at the agent root. The preparation protocol below is retained as historical/reproduction guidance.
+
 # v0.2 independent ChatGPT test instructions
 
 Three original independent v0.2 run1 outputs have been supplied and reviewed. See records/performance_review_v0.2_run1.md relative to the agent root. The procedure below is the retained original v0.2 protocol; do not rerun all cases just for the valid six-month duration. Targeted v0.3 Primary/Hospital retest instructions are in revisions/v0.3/README.md relative to the agent root. No v0.3 retest has been run. Use only the three *_v0.2_prompt.txt packets. v0.1 packets and a complete original candidate archive are retained for comparison; do not mix versions.

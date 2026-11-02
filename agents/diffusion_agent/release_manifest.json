@@ -37,5 +37,15 @@
   "authoring_history_note": "Metadata/packet NOT RUN wording records preparation-time state and is preserved for reproducibility; this release manifest and validation records give current actual test status.",
   "git_branch": "assignment4-promethean",
   "local_checkout_branch": "work",
-  "student_identity_provenance": "Zhixian Zhang (Freya Zhang), NYU MS in Management and Analytics, copied from existing Assignment4_Agent_Record.docx without changing that file."
+  "student_identity_provenance": "Zhixian Zhang (Freya Zhang), NYU MS in Management and Analytics, copied from existing Assignment4_Agent_Record.docx without changing that file.",
+  "artifact_test_commit": "6db612dd3d6dba141c1ee711ae7a8cb7ed1e9903",
+  "submission_documents": [
+    "Assignment5_AI_Use_and_Verification_Note.docx",
+    "Assignment5_Agent_Record.docx",
+    "Assignment5_Craft_Gained.docx",
+    "Assignment5_Independent_Judgment.docx",
+    "Assignment5_Individual_Report.docx",
+    "Assignment5_Primary_Agent_Output_Report.docx"
+  ],
+  "document_record_date": "2026-11-02 America/New_York; not an execution timestamp"
 }

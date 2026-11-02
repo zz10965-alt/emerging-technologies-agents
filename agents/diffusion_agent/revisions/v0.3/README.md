@@ -1,3 +1,5 @@
+> Current final status: five actual outputs are now preserved and validated (three v0.2 originals, two targeted v0.3 retests). Startup remains v0.2. Both targeted controls are reflected in the observed retests. See release_manifest.json and records/retest_comparison_v0.3.md at the agent root. The preparation protocol below is retained as historical/reproduction guidance.
+
 # v0.3-provenance-fix — targeted retest candidate
 
 Parent v0.2 inputs, original packets, evidence and three uploaded outputs remain unchanged. This folder is an isolated authoring revision, not a new Git branch. It adds one short provenance-control paragraph plus version/provenance metadata. No evidence or case narrative was changed. Both case files are byte-identical to v0.2, including the final six-month duration.

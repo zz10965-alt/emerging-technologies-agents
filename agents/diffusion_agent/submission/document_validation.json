@@ -1,0 +1,57 @@
+{
+  "checked_at_utc": "2026-11-02T06:12:38.527687+00:00",
+  "documents": [
+    {
+      "file": "Assignment5_AI_Use_and_Verification_Note.docx",
+      "sha256": "638f9810dbf1ac9131b3ef14416b18f1bf9b1de69e5a1ad476c6eb8174cec364",
+      "bytes": 38720,
+      "editable_docx_reopens": true,
+      "rendered_pdf_pages": 1
+    },
+    {
+      "file": "Assignment5_Agent_Record.docx",
+      "sha256": "891695a79623c1ff920418bb9496d353ed9d464d311a5f484cabe710acc64753",
+      "bytes": 31710,
+      "editable_docx_reopens": true,
+      "rendered_pdf_pages": 4
+    },
+    {
+      "file": "Assignment5_Craft_Gained.docx",
+      "sha256": "120ad5c682551d556715c96f7a448904e9177e12029a179ef091a7d1d4109d45",
+      "bytes": 37837,
+      "editable_docx_reopens": true,
+      "rendered_pdf_pages": 1
+    },
+    {
+      "file": "Assignment5_Independent_Judgment.docx",
+      "sha256": "d415d7dd4a73796dee257b829e4d17e5d3bc4aa576c42fec58583f525a4a617d",
+      "bytes": 38309,
+      "editable_docx_reopens": true,
+      "rendered_pdf_pages": 1
+    },
+    {
+      "file": "Assignment5_Individual_Report.docx",
+      "sha256": "fe59f6997654f18ac545500012f360690bffdb0611f78f4e006c2318df4c9e74",
+      "bytes": 42857,
+      "editable_docx_reopens": true,
+      "rendered_pdf_pages": 4
+    },
+    {
+      "file": "Assignment5_Primary_Agent_Output_Report.docx",
+      "sha256": "cac0f4564093cd801ad9edd6b44ac12c0f2817f25bfdf845e9df875c7139f419",
+      "bytes": 45370,
+      "editable_docx_reopens": true,
+      "rendered_pdf_pages": 7
+    }
+  ],
+  "official_agent_record_fields": "All official A\u2013E fields filled",
+  "independent_judgment_words": 148,
+  "independent_judgment_rendered_body_bottom_pt": 298.25,
+  "half_page_boundary_pt": 396.0,
+  "independent_judgment_half_page": "PASS",
+  "craft_gained_body_words": 68,
+  "craft_gained_max_100_words": "PASS",
+  "actual_primary_report_contains_every_original_text_value": true,
+  "primary_raw_json_unchanged": true,
+  "personal_judgment_and_reflection": "AI-assisted wording for student confirmation, not a claimed endorsement"
+}

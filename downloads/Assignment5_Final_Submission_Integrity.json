@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-11-02T06:13:45.092496+00:00",
+  "archive": "downloads/Assignment5_Diffusion_Agent_Final_Submission.zip",
+  "archive_sha256": "dc30fb45eb05cb3a12d0bc069196303e0058ad2bbd57131e1581ef854506a363",
+  "bytes": 24143972,
+  "entries": 116,
+  "zip_crc": "PASS",
+  "member_and_extracted_sha256": "PASS",
+  "extracted_portable_final_checker": {
+    "exit_code": 0,
+    "stdout": "FROZEN CORE INTACT\nVALIDATION PASSED\nVALIDATION PASSED\nVALIDATION PASSED\nFrozen core manifest: PASS\nFull original repository comparison: NOT REQUESTED (use --full-repository in original checkout)\nEntire v0.1 baseline (30 files) and original live packets: PASS\nprimary: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS\ncontrast_1: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS\ncontrast_2: intake schema, complete standalone packet, original-builder byte match, manifest hashes: PASS\nThree-case technology/evidence equality and intended application contrast: PASS\nPreserved original product-source hashes and immutable references: PASS\nEmpirical source metadata, 9 claim mappings, 16 archived-artifact hashes, original question wording and numeric locators: PASS\nExplicit local-versus-intended branch provenance and v0.2 version consistency: PASS\nThree actual output basic validators and strict frozen-schema shape checks: PASS; semantic review still required\nVALIDATION PASSED\nVALIDATION PASSED\nVALIDATION PASSED\nVALIDATION PASSED\nVALIDATION PASSED\nFINAL CHECK PASS: five exact actual outputs; 3 original v0.2 + 2 targeted v0.3; Startup v0.2 preserved; no Startup v0.3 file.\nFrozen core, source hashes, version-specific packets, six-month assumption and schema checks: PASS.\nAnalytical conclusions are documented manual review of these outputs, not proof of repeatability.\n",
+    "stderr": ""
+  },
+  "actual_outputs": {
+    "v0.2": 3,
+    "v0.3": 2,
+    "startup_v0.3": 0
+  },
+  "word_documents": 6,
+  "artifact_test_commit": "6db612dd3d6dba141c1ee711ae7a8cb7ed1e9903",
+  "delivery_commit": "Remote final delivery SHA will be verified after committing this archive; not embedded in itself."
+}

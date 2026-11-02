@@ -1,14 +1,18 @@
-# v0.2 requirement coverage
+# Final Assignment 5 requirement coverage
 
-| Requirement | Implementation/evidence | Status |
+| Requirement | Delivered evidence | Result / limit |
 |---|---|---|
-| Preserve complete v0.1 | baselines/v0.1_complete_candidate.zip; per-file hashes; original packets | Baseline bytes checked |
-| Dated original empirical adoption evidence | E1 2025 summary/instrument; E2 2025 synthesis; E3 2026 qualitative; E4 original 2024 underlying survey/methods | Retrieved and inspected; all share issuer; E2/E4 dependent |
-| Awareness/trial/current/recurring/deployment/penetration distinction | shared snapshot ladder and v0.2 empirical controls | Implemented; behavior untested |
-| Publication versus observation versus retrieval, population/method/limits | source_register.json and snapshot | Explicit; missing dates/methods are identified rather than invented |
-| Weak-evidence claim and abstention | hospital routine-documentation penetration; sustained software-enterprise deployment | Preserved unsupported claims; original healthcare routes blocked |
-| Accurate branch/version provenance, no new branch | agent_metadata.json and branch_verification.json | Local work and intended assignment4-promethean separated; same verified HEAD |
-| Same three cases, all Rogers and three-level requirements | existing specialist logic plus empirical controls; same case identities and operational assumptions | Implemented; formal runs pending |
-| Three standalone v0.2 packets via original tools | prompts/*_v0.2_prompt.txt; packet_manifest.json | Structural byte comparisons required |
-| Previous assignments and frozen core protected | original protected-file manifests; original seven frozen hashes | Structural checks required; no source edits outside agent |
-| No fabricated model tests or final submissions | pending test_log; deferred agent_record | No real outputs exist; no final report/submission package |
+| Rogers categories and five characteristics | Version-specific specialist instructions and actual outputs | Explicitly applied in observed runs; no exact population category invented |
+| General/application/peer/organization separation | Three v0.2 originals plus Primary/Hospital v0.3 retests | Stable general evidence; defensible timing and clinical-context differences |
+| Actors, channels, ecosystem, standards and assets | Application findings | Documented channels separated from hypothesized local mechanisms |
+| Original dated evidence / weak-claim qualification | Shared diffusion-v0.2 snapshot, immutable source register and raw archives | Source content verified; hospital penetration and sustained enterprise deployment remain unsupported |
+| Preserve actual tests and real weakness/revision | Five original JSON files, hashes, official/schema results, W1/W2 quotes and instruction diff | 3 v0.2 originals + 2 v0.3 retests; Startup NOT retested v0.3 |
+| Targeted improvement without regression | Retest comparison report | Both precision controls reflected in observed retests; no material regression found; no reliability guarantee |
+| Common architecture and earlier work protected | Frozen manifest and protected-file checks | PASS; Assignment 4 unchanged |
+| Official Agent Record | submission/Assignment5_Agent_Record.docx | Official template fields A–E completed |
+| Actual output report | submission/Assignment5_Primary_Agent_Output_Report.docx and exact primary v0.3 JSON | Full readable original response, no new model run |
+| Short independent professional judgment | submission/Assignment5_Independent_Judgment.docx | 148 words, rendered under half a page; AI-assisted for student confirmation |
+| AI/verification note | submission/Assignment5_AI_Use_and_Verification_Note.docx | Actual roles, verification and limits recorded |
+| Craft Gained | submission/Assignment5_Craft_Gained.docx | 68-word proposed reflection; student confirmation needed |
+| Integrated individual account / team handoff | submission/Assignment5_Individual_Report.docx | Exact mixed-version lineage and adoption-authority boundary retained |
+| Reusable final package | Final ZIP, original tools and check_final_submission.py | Portable extraction/validation check required; delivery commit verified after push |

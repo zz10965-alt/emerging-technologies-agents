@@ -1,0 +1,31 @@
+{
+  "received_and_saved": 3,
+  "expected": 5,
+  "responses": {
+    "primary_v0.1_run1.json": {
+      "original_upload_byte_match": true,
+      "sha256": "21187442fd513648658dbeb10314140118f84ebcf9d419571a0c053c4cfd2738",
+      "original_validator": "passed",
+      "full_output_schema": "passed"
+    },
+    "contrast_1_v0.1_run1.json": {
+      "original_upload_byte_match": true,
+      "sha256": "bac7a2516ac2fe15e4065e4f6193010409bf7775c4c1fb300f0db47b618b368f",
+      "original_validator": "passed",
+      "full_output_schema": "passed"
+    },
+    "contrast_2_v0.1_run1.json": {
+      "original_upload_byte_match": true,
+      "sha256": "25a5f465293789979122bb38c9f95ed9a8c7cf6cf222b36fe0832010d3b18c1a",
+      "original_validator": "passed",
+      "full_output_schema": "passed"
+    }
+  },
+  "missing": [
+    "primary_v0.2_run1.json",
+    "contrast_1_v0.2_run1.json"
+  ],
+  "frozen_core": "passed; matches original uploaded scaffold",
+  "completion": "incomplete: two independent v0.2 responses were not received",
+  "additional_packets_generated": false
+}

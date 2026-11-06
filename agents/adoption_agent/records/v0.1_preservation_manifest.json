@@ -1,0 +1,18 @@
+{
+  "specialist_instructions.md": "8b42e44555bc1b13e3697ca6ed870213f7c89a671cbf154870e761e384af4653",
+  "agent_metadata.json": "fb41680db255776556b5c3dfd3d3f8762907c6baf136019eb3a25d68cc0e7a1f",
+  "cases/primary.json": "f3d52d8a652f63510c17cf8705bb143de79e99484f6d83f47200e6b86bece111",
+  "cases/contrast_1.json": "13cca4420b297326f96c3f4e6bfd2bfde0678ee7278b7ffdde224b5803cb4a19",
+  "cases/contrast_2.json": "d0af61b9f5581be7be70229e1cd0c7f779d9928dd0c00c79b581df09c1bb8e75",
+  "prompts/primary_prompt.txt": "00995646d94c70d32ba583957d05b97d39a2042a7dc01a4215a2690a7f7a70e8",
+  "prompts/contrast_1_prompt.txt": "ef9c4a3363419de7d79e1dbed0256322be8304de7171d07179d43d8e39ec0a7a",
+  "prompts/contrast_2_prompt.txt": "b0e5c60f7c915cb87f11fbbf7b6437064d77a12e791269b14111f76da6a06a6a",
+  "evidence/shared_evidence.txt": "068922f1beea6fe1a54f823ace4cfe31dfaf22a5e9aad214afdc20b547f51223",
+  "evidence/source_manifest.json": "8c2468065c30a52d67783394fe34256cf7d31cc0fd9065410c658aae0275439f",
+  "evidence/E1_inline-suggestions.md": "b5db1916ae8975efb52517d2464ae5bc805ef4aa3189ec54eb98d6e0bb7ce265",
+  "evidence/E2_chat.md": "e9a892abcf523507bf11be76baebb5bfd92b207b73d1be90e2e6b1e80efe59e5",
+  "records/phase1_preflight.json": "a96a48013a4b7fb8abbc7e72c573e9dfad7a0846ce49bb2a07d76ee9acc2cbe7",
+  "responses/primary_v0.1_run1.json": "21187442fd513648658dbeb10314140118f84ebcf9d419571a0c053c4cfd2738",
+  "responses/contrast_1_v0.1_run1.json": "bac7a2516ac2fe15e4065e4f6193010409bf7775c4c1fb300f0db47b618b368f",
+  "responses/contrast_2_v0.1_run1.json": "25a5f465293789979122bb38c9f95ed9a8c7cf6cf222b36fe0832010d3b18c1a"
+}

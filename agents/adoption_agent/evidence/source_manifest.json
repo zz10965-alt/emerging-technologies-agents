@@ -1,0 +1,26 @@
+[
+  {
+    "id": "E1",
+    "organization": "GitHub",
+    "title": "Application card: GitHub Copilot inline suggestions",
+    "source_url": "https://raw.githubusercontent.com/github/docs/d0c59c59fadf92c3a44676a3ed7ed38a015379ca/content/copilot/responsible-use/inline-suggestions.md",
+    "repository_commit": "d0c59c59fadf92c3a44676a3ed7ed38a015379ca",
+    "source_publication_date": "Not established; this is a versioned documentation snapshot, not a dated empirical study.",
+    "access_date": "2026-11-06",
+    "local_snapshot": "evidence/E1_inline-suggestions.md",
+    "sha256": "b5db1916ae8975efb52517d2464ae5bc805ef4aa3189ec54eb98d6e0bb7ce265",
+    "status": "Original vendor documentation inspected; not independent research. Unexpanded template references are not verified evidence."
+  },
+  {
+    "id": "E2",
+    "organization": "GitHub",
+    "title": "Application card: GitHub Copilot Chat",
+    "source_url": "https://raw.githubusercontent.com/github/docs/d0c59c59fadf92c3a44676a3ed7ed38a015379ca/content/copilot/responsible-use/chat.md",
+    "repository_commit": "d0c59c59fadf92c3a44676a3ed7ed38a015379ca",
+    "source_publication_date": "Not established; this is a versioned documentation snapshot, not a dated empirical study.",
+    "access_date": "2026-11-06",
+    "local_snapshot": "evidence/E2_chat.md",
+    "sha256": "e9a892abcf523507bf11be76baebb5bfd92b207b73d1be90e2e6b1e80efe59e5",
+    "status": "Original vendor documentation inspected; not independent research. Unexpanded template references are not verified evidence."
+  }
+]

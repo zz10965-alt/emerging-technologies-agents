@@ -1,0 +1,24 @@
+{
+  "branch": "assignment6-adoption",
+  "base_commit": "c55924dade1a0b7af3199cc36eda27a0e8e50783",
+  "v0.1_preservation": "all hashes match",
+  "frozen_core_and_output_schema": "matches canonical uploaded ZIP",
+  "checks": {
+    "primary": "Original validator and complete frozen JSON Schema: passed",
+    "contrast_1": "Original validator and complete frozen JSON Schema: passed",
+    "contrast_2": "Original validator and complete frozen JSON Schema: passed",
+    "primary_v0.2_packet": {
+      "sha256": "5f9c33daacc832f796243d939bd7010d7458018cb3d9a05b314485fad3a2564c",
+      "bytes": 35787,
+      "official_builder_reproduction": "passed"
+    },
+    "contrast_1_v0.2_packet": {
+      "sha256": "8347ff66a09bb57d137be78788a643ac74828a09da65234ada2561c19c87b953",
+      "bytes": 35931,
+      "official_builder_reproduction": "passed"
+    }
+  },
+  "v0.2_behavioral_validation": "NOT RUN",
+  "v0.2_responses_generated": 0,
+  "commit_created": false
+}

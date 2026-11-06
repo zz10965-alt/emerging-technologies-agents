@@ -1,8 +1,15 @@
 # Adoption Agent — Phase 1 test preparation
 
-Version: `0.1-phase1`. The reviewed specialist instructions are retained unchanged.
-All three organizations are synthetic test scenarios. No independent model run,
-observed behavioral result, or completed student judgment is recorded here.
+Current version: `0.2-current-action-precedence`. All five user-supplied independent
+ChatGPT responses are archived unchanged: three v0.1 files in `responses/` and
+`primary_v0.2_run1.json` / `contrast_1_v0.2_run1.json` in `records/`.
+All five pass the original validator and full frozen schema; see
+`records/final_validation.json` for original-upload byte checks and hashes.
+Both v0.2 outputs now select DEFER and distinguish the future conditional trial.
+This is one observed run per case, not proof of repeatability. All three
+organizations are synthetic scenarios. Model/settings and execution dates were
+not supplied. The instructions below preserve the original execution procedure;
+no additional execution or prompt generation is required for this archive.
 
 ## Independent ChatGPT execution
 
@@ -75,4 +82,6 @@ python tools/build_prompt.py --agent agents/adoption_agent --case agents/adoptio
 Do not overwrite retained packet versions after execution; version changes first.
 See `records/phase1_preflight.json` for structural checks of these exact files.
 Final Agent Record, independent report, actual failure/revision record and output
-report remain pending independent execution and the student's professional review.
+report remain subject to the student's professional review. Independent execution
+has now supplied all five responses; historical preflight notes saying otherwise
+describe the state when those notes were written.

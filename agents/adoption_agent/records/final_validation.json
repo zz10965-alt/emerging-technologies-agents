@@ -1,31 +1,43 @@
 {
-  "received_and_saved": 3,
+  "received_and_saved": 5,
   "expected": 5,
   "responses": {
-    "primary_v0.1_run1.json": {
+    "responses/primary_v0.1_run1.json": {
       "original_upload_byte_match": true,
       "sha256": "21187442fd513648658dbeb10314140118f84ebcf9d419571a0c053c4cfd2738",
       "original_validator": "passed",
       "full_output_schema": "passed"
     },
-    "contrast_1_v0.1_run1.json": {
+    "responses/contrast_1_v0.1_run1.json": {
       "original_upload_byte_match": true,
       "sha256": "bac7a2516ac2fe15e4065e4f6193010409bf7775c4c1fb300f0db47b618b368f",
       "original_validator": "passed",
       "full_output_schema": "passed"
     },
-    "contrast_2_v0.1_run1.json": {
+    "responses/contrast_2_v0.1_run1.json": {
       "original_upload_byte_match": true,
       "sha256": "25a5f465293789979122bb38c9f95ed9a8c7cf6cf222b36fe0832010d3b18c1a",
       "original_validator": "passed",
       "full_output_schema": "passed"
+    },
+    "records/primary_v0.2_run1.json": {
+      "original_upload_byte_match": true,
+      "sha256": "1e531010e03fa902989e93997ec36008faf81f55bb283563f1110a8870e89cc9",
+      "original_validator": "passed",
+      "full_output_schema": "passed"
+    },
+    "records/contrast_1_v0.2_run1.json": {
+      "original_upload_byte_match": true,
+      "sha256": "2f7bf4f4697a61d9aaa9ca7859ae8a8bf0f4ac90fa013857a1dc8b387477ed7d",
+      "original_validator": "passed",
+      "full_output_schema": "passed"
     }
   },
-  "missing": [
-    "primary_v0.2_run1.json",
-    "contrast_1_v0.2_run1.json"
-  ],
+  "missing": [],
   "frozen_core": "passed; matches original uploaded scaffold",
-  "completion": "incomplete: two independent v0.2 responses were not received",
-  "additional_packets_generated": false
+  "completion": "all five supplied independent responses archived and structurally validated",
+  "additional_packets_generated": false,
+  "decision_logic_modified": false,
+  "behavioral_observation": "Both supplied v0.2 outputs choose DEFER now and separate a future experiment; one run per case, not proof of repeatability.",
+  "runtime_provenance": "User identifies these as independent ChatGPT tests; exact model/settings and execution dates not supplied."
 }

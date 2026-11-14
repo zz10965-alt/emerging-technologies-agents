@@ -32,7 +32,10 @@ for n,h in load(A/'records/prior_work_sha256.json').items():
     if not p.exists() and args.portable: missing+=1;continue
     assert digest(p)==h,n
 print('PASS: frozen/template/source bytes; prior assignment preservation; portable omissions:',missing)
+receipt=load(A/'records/v0.1_archive_receipt.json')
+assert digest(A/'sources'/receipt['file'])==receipt['sha256']
 with ZipFile(A/'sources/Assignment7_v0.1_original_test_responses.zip') as z:
+    assert z.testzip() is None
     for n,m in load(A/'records/v0.1_response_manifest.json').items():
         p=A/'responses'/n
         assert z.read(m['archive_member'])==p.read_bytes()

@@ -2,8 +2,9 @@
   "repository": "zz10965-alt/emerging-technologies-agents",
   "branch": "assignment7-organizational-adoption",
   "base_commit": "c55924dade1a0b7af3199cc36eda27a0e8e50783",
-  "implementation_commit": "1a2c047a3be62e340487d92bf9f715c19f19101c",
-  "remote_read": "verified via git ls-remote origin HEAD",
+  "v0.1_preparation_commit": "1a2c047a3be62e340487d92bf9f715c19f19101c",
+  "genuine_v0.1_evidence_commit": "3ce8d91",
+  "v0.2_revision_preparation_commit": "48e59bdda0166f3ca5a98990dcbf8f8561b57448",
   "push": "NOT PERFORMED",
-  "note": "Agent Record references real implementation commit, not the later documentation commit. Earlier tracked work unchanged."
+  "note": "Actual independent v0.1 execution reported by user; exact runtime metadata not provided. v0.2 retests pending. Later documentation commit may follow."
 }

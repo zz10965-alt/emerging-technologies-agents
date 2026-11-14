@@ -1,15 +1,15 @@
-# Student review required — AI-assisted proposed text
+# Student endorsement required
 
-These drafts require the student's own endorsement and revision after actual model tests. The first-person statements are proposed wording, not a claim that the student has adopted the judgment or experienced this learning.
+AI-assisted proposed first-person wording grounded in actual v0.1 analysis. Student must adopt or revise the judgment and confirm a genuine learned insight; final review after v0.2 retests remains pending.
 
-## Independent professional judgment (under half-page length)
+## Independent professional judgment
 
-I would not yet approve live client-data processing, client delivery, or sustained rollout on the supplied hypothetical evidence. Strong research skills and management interest support a bounded internal experiment; they do not establish operating authority or demonstrated review performance.
+I would not yet approve actual-client-data processing, client delivery, or sustained rollout. The primary response distinguishes plausible drafting assistance from the organization’s ability to govern it. Research expertise and management interest support preparation, while permissions, review performance and sustained capacity remain unverified.
 
-The most consequential gap is undocumented accountable operating ownership, including who controls release, stops unsafe work, and handles incidents. I would ask the executive sponsor to appoint a service owner and establish an escalation and release path before consequential exposure. That would not replace the separate permission gate: the client-information rules and approved processing boundary must be verified before any live client data enters the workflow.
+The most consequential gap is accountable operating ownership with committed reviewer and support capacity. A sponsor should identify who can operate, review, stop and escalate the work before dependent testing begins. The contrast review sharpened this judgment: the small firm’s third-ranked capacity commitment should not be assumed available for earlier implementation work.
 
-I would permit only a segregated synthetic/public-data internal exercise with explicit oversight and no client delivery while the team defines source-checking gates, training, and resourcing. Broader use should wait for evidence that these controls work and continuing support is funded. Verified client permissions, a documented owner/coverage plan, and observed review performance could materially change my judgment. This is a provisional inference from supplied assumptions, not a tested agent conclusion.
+I would allow only locally authorized, segregated synthetic/public-data preparation, then staffed testing after minimum oversight and resources are committed. Client exposure needs separate verified permission, processing and human-release gates. A signed owner/coverage plan, protected review time, permitted-use records and observed source-checking results could change my judgment. This provisional assessment uses actual v0.1 evidence; I would review it again after v0.2 retesting.
 
-## Craft Gained (74 words; draft for student confirmation)
+## Craft Gained (84 words)
 
-While preparing the contrasts, I noticed that approved pilot funding and an identified service owner do not establish funded continuing operation. The larger-firm profile deliberately contains both those strengths and unresolved sustainability evidence. That distinction changed how I framed the gates: verify existing pilot controls rather than recreate them, then separately request support capacity and funding for scale. In future I would ask which exposure a control actually covers before calling an organization ready.
+Comparing the actual small-firm recommendation with its assumptions showed me that a correct control list can still have an unusable sequence. The response placed staffing and support commitment third, after workflow, training and access work that needed those resources. I now distinguish a control’s importance from its execution dependency: permission remains a hard exposure gate, but minimum reviewer and operating capacity must be established before staffed testing. Next time I would test the order of management actions, not just whether every required topic appears.

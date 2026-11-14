@@ -1,17 +1,15 @@
 # Assignment 7 — Organizational Adoption Agent / SubAgent 6
-Version 0.1-initial-unexecuted. **Development package; not submission-ready.**
+**Current state: genuine v0.1 evaluated; v0.2-context-sequencing prepared; final submission blocked on genuine retests.**
 
-Built with original tools/new_agent.py from the byte-verified canonical template. Existing earlier assignments and frozen core are preserved. No API key or package installation is needed for the original tools. Supplemental full-schema checks use already-installed jsonschema; document generation uses already-installed python-docx. The student-facing specialist remains a prompt specialist within the original scaffold.
+Start at deliverables/V0.2_RETEST_INSTRUCTIONS.md. Three original user-supplied v0.1 responses passed original validator and full frozen schema checks. Their exact bytes, source ZIP and packet hashes are preserved. records/v0.1_comparison.md contains actual stable/changed findings and quoted weaknesses. v0.2 changes only specialist instructions among runnable inputs; cases and metadata file remain unchanged. The specialist explicitly overrides response version to 0.2-context-sequencing.
 
-Start with deliverables/CHATGPT_RUN_INSTRUCTIONS.md. Three standalone packets are in prompts/. Genuine model execution, comparison, weakness/revision/retest and output report remain pending. Documents are drafts and distinguish case-based proposed judgment from unexecuted agent findings.
-
-From repository root:
+Run current local checks from repository root:
 ```
 python tools/check_frozen_core.py
-python agents/organizational_adoption_agent/tests/check_preparation.py
+python agents/organizational_adoption_agent/tests/check_review.py
 ```
-In the portable ZIP, add `--portable` to the preparation check: prior assignments are intentionally excluded; their preservation is checked in the original checkout. The preparation baseline check intentionally stops once response JSON files exist, at which point use the actual-response validation workflow.
+Add --portable in the standalone ZIP, which intentionally omits earlier assignments. All prior work remains unchanged in the original repository. The old check_preparation.py and preparation_validation.log are historical initial-stage evidence, not current output-validation instructions.
 
-For each returned result run original tools/validate_response.py and the full-schema command in the handoff instructions. Schema validity cannot establish analytical quality. Preserve all original responses and use the rubric in records/test_plan.md.
+Current outputs/documents: Primary_Output_Report_v0.1.docx derives from the actual primary; Agent_Record_DRAFT.docx has v0.1 evidence and real revision with final retest pending; first-person judgment/reflection drafts need student endorsement. v0.2 output validation and improvement are NOT RUN. Superseded primary-report placeholders are retained under revisions/pre_execution_placeholders/ and are not submission deliverables.
 
-The canonical ZIP and supplied course materials are unchanged under sources/. Earlier work is excluded from this assignment's portable package but is retained in Git. No final submission, external publication, remote push, or model execution is implied by a local commit.
+Original standard-library tools and frozen architecture are preserved; no API key is needed. Supplemental local full-schema checks use already-installed jsonschema, and document generation uses already-installed python-docx. Canonical ZIP/course sources are unchanged under sources/. No prior-assignment responses are used as this specialist's tests. No remote push or Brightspace submission is implied by local commits.

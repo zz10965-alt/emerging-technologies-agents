@@ -1,4 +1,4 @@
-# Original user-supplied ChatGPT responses
-Three genuine v0.1 responses supplied in Assignment7_v0.1_original_test_responses.zip are preserved byte-for-byte. See records/v0.1_response_manifest.json for hashes and records/v0.1_validation.log for local validation. The historical version string "0.1-initial-unexecuted" is the exact packet metadata; it is not a statement that these returned runs were unexecuted. Do not alter it. Actual model/settings/run times/chat references were not supplied.
+# Six original user-supplied independent ChatGPT outputs
+Three v0.1 and three v0.2 outputs are preserved byte-for-byte with original uploaded ZIPs, archive receipts and member SHA-256 manifests under records/ and sources/. All passed the original validator and full frozen output schema; version checks use the exact original packet version for each run.
 
-v0.2 responses are PENDING and must be saved separately; never replace these originals. No mock or anticipated retest result is present.
+The historical v0.1 version label "0.1-initial-unexecuted" is the exact original metadata echoed by the model, not a current execution-status claim. Runtime model/settings, exact times and chat references were not supplied for either batch. The user reports independent ChatGPT executions; Codex performed local validation and evidence review, not those remote conversations. No response was repaired, overwritten, or fabricated. v0.2-context-sequencing is the selected final candidate, with residual limitations documented.

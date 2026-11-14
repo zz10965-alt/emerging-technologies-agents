@@ -1,0 +1,18 @@
+COMMAND: /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python tools/validate_response.py agents/organizational_adoption_agent/responses/primary_v0.2_run1.json
+EXIT: 0
+VALIDATION PASSED
+
+
+FULL FROZEN DRAFT 2020-12 SCHEMA AND EFFECTIVE V0.2 METADATA: PASS
+COMMAND: /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python tools/validate_response.py agents/organizational_adoption_agent/responses/contrast_1_v0.2_run1.json
+EXIT: 0
+VALIDATION PASSED
+
+
+FULL FROZEN DRAFT 2020-12 SCHEMA AND EFFECTIVE V0.2 METADATA: PASS
+COMMAND: /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python tools/validate_response.py agents/organizational_adoption_agent/responses/contrast_2_v0.2_run1.json
+EXIT: 0
+VALIDATION PASSED
+
+
+FULL FROZEN DRAFT 2020-12 SCHEMA AND EFFECTIVE V0.2 METADATA: PASS

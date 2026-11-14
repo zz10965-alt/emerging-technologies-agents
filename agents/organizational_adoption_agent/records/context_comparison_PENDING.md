@@ -1,2 +1,4 @@
-# Superseded initial pending placeholder
-Actual v0.1 comparison is now complete: see v0.1_comparison.md and v0.1_validation.log. v0.2 before/after comparison remains PENDING genuine retests. Original v0.1 pending state remains available in Git history.
+# Historical placeholder superseded
+Completed v0.1 contrast review: v0.1_comparison.md.
+Completed before/after and v0.2 contrast review: v0.2_before_after_review.md.
+No model execution remains pending for the bounded required test set.

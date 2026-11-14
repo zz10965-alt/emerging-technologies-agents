@@ -1,38 +1,56 @@
 {
-  "status": "NOT RUN \u2014 fresh independent ChatGPT retests required",
+  "status": "Three user-reported independent genuine ChatGPT v0.2 retests received; locally validated; before/after reviewed",
   "runs": [
     {
       "case": "primary",
       "packet": "prompts/primary_v0.2_prompt.txt",
-      "expected_response": "responses/primary_v0.2_run1.json",
       "model": null,
       "settings": null,
       "browsing": null,
       "executed_at": null,
       "chat_reference": null,
-      "validation": null
+      "validation": {
+        "official_validator": "PASS; exit 0",
+        "full_frozen_schema": "PASS",
+        "effective_v0.2_metadata": "PASS",
+        "log": "records/v0.2_validation.log"
+      },
+      "response_file": "responses/primary_v0.2_run1.json",
+      "execution_status": "User reports executed independently in ChatGPT"
     },
     {
       "case": "contrast_1",
       "packet": "prompts/contrast_1_v0.2_prompt.txt",
-      "expected_response": "responses/contrast_1_v0.2_run1.json",
       "model": null,
       "settings": null,
       "browsing": null,
       "executed_at": null,
       "chat_reference": null,
-      "validation": null
+      "validation": {
+        "official_validator": "PASS; exit 0",
+        "full_frozen_schema": "PASS",
+        "effective_v0.2_metadata": "PASS",
+        "log": "records/v0.2_validation.log"
+      },
+      "response_file": "responses/contrast_1_v0.2_run1.json",
+      "execution_status": "User reports executed independently in ChatGPT"
     },
     {
       "case": "contrast_2",
       "packet": "prompts/contrast_2_v0.2_prompt.txt",
-      "expected_response": "responses/contrast_2_v0.2_run1.json",
       "model": null,
       "settings": null,
       "browsing": null,
       "executed_at": null,
       "chat_reference": null,
-      "validation": null
+      "validation": {
+        "official_validator": "PASS; exit 0",
+        "full_frozen_schema": "PASS",
+        "effective_v0.2_metadata": "PASS",
+        "log": "records/v0.2_validation.log"
+      },
+      "response_file": "responses/contrast_2_v0.2_run1.json",
+      "execution_status": "User reports executed independently in ChatGPT"
     }
   ]
 }

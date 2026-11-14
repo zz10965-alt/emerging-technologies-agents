@@ -1,0 +1,29 @@
+{
+  "contrast_1_v0.2_prompt.txt": {
+    "sha256": "8060b39835b755daa2b6d2b7a054b311f7b9bf69233b60d4ba7d885b2c2c4ee9",
+    "bytes": 22777,
+    "instruction_version": "0.2-context-sequencing",
+    "effective_response_version": "0.2-context-sequencing",
+    "historical_metadata_file": "unchanged v0.1; explicit specialist version instruction overrides version only",
+    "case_sha256": "582efc9417e1779b11246b7f728fb31529b8fd2d12756988eaf37005b64fdb45",
+    "execution_status": "NOT RUN"
+  },
+  "contrast_2_v0.2_prompt.txt": {
+    "sha256": "7515d4877f55fdb7c168ee4da829ba69c64b698adb926ff9ff10fefc07658856",
+    "bytes": 22569,
+    "instruction_version": "0.2-context-sequencing",
+    "effective_response_version": "0.2-context-sequencing",
+    "historical_metadata_file": "unchanged v0.1; explicit specialist version instruction overrides version only",
+    "case_sha256": "0ec03dba6fda522493f86bac4c6b7c642826e5e887eb8caaf093261c55a04a0a",
+    "execution_status": "NOT RUN"
+  },
+  "primary_v0.2_prompt.txt": {
+    "sha256": "43cd3d2478dc6c86d46986db4009183517f77189b64b580208d6476061809687",
+    "bytes": 22336,
+    "instruction_version": "0.2-context-sequencing",
+    "effective_response_version": "0.2-context-sequencing",
+    "historical_metadata_file": "unchanged v0.1; explicit specialist version instruction overrides version only",
+    "case_sha256": "911c4d4faa90da999e34e9e80760e9207e96a6aef761991bcb36226a2924f378",
+    "execution_status": "NOT RUN"
+  }
+}

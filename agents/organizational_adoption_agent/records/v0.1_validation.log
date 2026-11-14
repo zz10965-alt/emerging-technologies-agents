@@ -1,0 +1,19 @@
+COMMAND: python tools/validate_response.py agents/organizational_adoption_agent/responses/primary_v0.1_run1.json
+EXIT: 0
+VALIDATION PASSED
+
+
+FULL FROZEN DRAFT 2020-12 SCHEMA AND V0.1 PACKET METADATA: PASS
+COMMAND: python tools/validate_response.py agents/organizational_adoption_agent/responses/contrast_1_v0.1_run1.json
+EXIT: 0
+VALIDATION PASSED
+
+
+FULL FROZEN DRAFT 2020-12 SCHEMA AND V0.1 PACKET METADATA: PASS
+COMMAND: python tools/validate_response.py agents/organizational_adoption_agent/responses/contrast_2_v0.1_run1.json
+EXIT: 0
+VALIDATION PASSED
+
+
+FULL FROZEN DRAFT 2020-12 SCHEMA AND V0.1 PACKET METADATA: PASS
+FROZEN CORE INTACT

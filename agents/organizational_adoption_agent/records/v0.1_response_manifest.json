@@ -1,0 +1,23 @@
+{
+  "primary_v0.1_run1.json": {
+    "sha256": "2ffd97f05130b5603cabb21dc60ad4c43bb3fda8b6753dbb3c34b34a5b1fec83",
+    "bytes": 22711,
+    "archive_member": "primary_v0.1_run1.json",
+    "origin": "User-supplied original independent ChatGPT output; preserved byte-for-byte",
+    "run_metadata": "User reports independent ChatGPT run; model/settings/time/chat reference not supplied"
+  },
+  "contrast_1_v0.1_run1.json": {
+    "sha256": "e55cc54f77cea29d122a27d29270e9c86dc824a63f841b0fccfcb74469528620",
+    "bytes": 23742,
+    "archive_member": "contrast_1_v0.1_run1.json",
+    "origin": "User-supplied original independent ChatGPT output; preserved byte-for-byte",
+    "run_metadata": "User reports independent ChatGPT run; model/settings/time/chat reference not supplied"
+  },
+  "contrast_2_v0.1_run1.json": {
+    "sha256": "ff28902fa1bcd2bc01ea7b0b8b910e6bad0e4695f060c00f01b5b99ce10791e0",
+    "bytes": 19745,
+    "archive_member": "contrast_2_v0.1_run1.json",
+    "origin": "User-supplied original independent ChatGPT output; preserved byte-for-byte",
+    "run_metadata": "User reports independent ChatGPT run; model/settings/time/chat reference not supplied"
+  }
+}

@@ -1,15 +1,18 @@
 # Assignment 7 — Organizational Adoption Agent / SubAgent 6
-**Current state: genuine v0.1 evaluated; v0.2-context-sequencing prepared; final submission blocked on genuine retests.**
+Selected final specialist: **v0.2-context-sequencing**. Three genuine original v0.1 outputs and three genuine v0.2 retests are preserved unchanged. All six passed the official frozen validator and full frozen schema. Actual before/after review shows improved capacity-first sequencing and intermediate event checkpoints, with documented residual limits.
 
-Start at deliverables/V0.2_RETEST_INSTRUCTIONS.md. Three original user-supplied v0.1 responses passed original validator and full frozen schema checks. Their exact bytes, source ZIP and packet hashes are preserved. records/v0.1_comparison.md contains actual stable/changed findings and quoted weaknesses. v0.2 changes only specialist instructions among runnable inputs; cases and metadata file remain unchanged. The specialist explicitly overrides response version to 0.2-context-sequencing.
-
-Run current local checks from repository root:
+## Current workflow
+From repository/package root:
 ```
 python tools/check_frozen_core.py
-python agents/organizational_adoption_agent/tests/check_review.py
+python agents/organizational_adoption_agent/tests/check_final.py
 ```
-Add --portable in the standalone ZIP, which intentionally omits earlier assignments. All prior work remains unchanged in the original repository. The old check_preparation.py and preparation_validation.log are historical initial-stage evidence, not current output-validation instructions.
+Add --portable to check_final.py in the standalone final package, which intentionally omits earlier assignment agents. Prior work remains unchanged in the original repository. Historical checks check_preparation.py and check_review.py reflect earlier stages and intentionally assert their historical pending states; use check_final.py for current validation.
 
-Current outputs/documents: Primary_Output_Report_v0.1.docx derives from the actual primary; Agent_Record_DRAFT.docx has v0.1 evidence and real revision with final retest pending; first-person judgment/reflection drafts need student endorsement. v0.2 output validation and improvement are NOT RUN. Superseded primary-report placeholders are retained under revisions/pre_execution_placeholders/ and are not submission deliverables.
+Current submission documents are under deliverables/: Agent_Record, Primary_Output_Report, Independent_Professional_Judgment, AI_Verification_Note, Craft_Gained and Team_Handoff (Word plus Markdown), with Submission_Checklist.md and Validation_Summary.md. The actual primary report uses responses/primary_v0.2_run1.json. Original instructions/patch and both packet versions remain under revisions/, records/ and prompts/. Superseded draft documents/handoffs are historical evidence, not final submission files.
 
-Original standard-library tools and frozen architecture are preserved; no API key is needed. Supplemental local full-schema checks use already-installed jsonschema, and document generation uses already-installed python-docx. Canonical ZIP/course sources are unchanged under sources/. No prior-assignment responses are used as this specialist's tests. No remote push or Brightspace submission is implied by local commits.
+Only specialist_instructions.md changed among runnable v0.1 inputs for v0.2. Cases and metadata file remain unchanged. The specialist explicitly overrides response agent.version to 0.2-context-sequencing while preserving the name/specialty; complete frozen schemas remain unchanged. No API key or replacement architecture is needed. Original tools use Python standard library; supplemental full-schema checks use jsonschema already installed here.
+
+Known limits: synthetic classroom profiles, unverified permission/capacity/performance, single original/retest per case, governance-awareness framing and small-case permission/protocol wording. See records/v0.2_before_after_review.md. Model/settings/run times/chat references were not supplied; no runtime metadata invented.
+
+Student must enter identity/team in Agent Record, endorse/revise the independent judgment and confirm genuine Craft Gained learning before submission. GitHub final push/verification is recorded in the delivery package's BUILD_PROVENANCE.json, rather than assumed from local commits. Brightspace upload is the student's action.

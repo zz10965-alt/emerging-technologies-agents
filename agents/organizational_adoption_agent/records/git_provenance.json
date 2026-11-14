@@ -2,9 +2,7 @@
   "repository": "zz10965-alt/emerging-technologies-agents",
   "branch": "assignment7-organizational-adoption",
   "base_commit": "c55924dade1a0b7af3199cc36eda27a0e8e50783",
-  "v0.1_preparation_commit": "1a2c047a3be62e340487d92bf9f715c19f19101c",
-  "genuine_v0.1_evidence_commit": "3ce8d91",
-  "v0.2_revision_preparation_commit": "48e59bdda0166f3ca5a98990dcbf8f8561b57448",
-  "push": "NOT PERFORMED",
-  "note": "Actual independent v0.1 execution reported by user; exact runtime metadata not provided. v0.2 retests pending. Later documentation commit may follow."
+  "selected_tested_v0.2_instruction_commit": "48e59bdda0166f3ca5a98990dcbf8f8561b57448",
+  "actual_v0.2_evidence_commit": "68c6e4cb7c3d1335a9f990a41d79f474c651ca4d",
+  "final_delivery_result_location": "Final delivery BUILD_PROVENANCE.json and Git_Push_Verification.log are generated after the document commit and actual push attempt. No push outcome is assumed here."
 }

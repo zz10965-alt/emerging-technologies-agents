@@ -1,7 +1,4 @@
-# Remaining mandatory work — after genuine v0.1 review
-1. Run the three exact v0.2 packets in separate fresh ChatGPT chats and return unchanged outputs plus actual runtime metadata where available. No additional diagnostic is required to invent a weakness: genuine W1/W2 are already documented.
-2. Validate retests with original tool and complete frozen schema/effective version; compare unchanged cases before/after, recording improvements, regressions and limits without assuming success.
-3. Finalize Agent Record revision/retest evidence, final-candidate primary report, comparison and handoff. Current v0.1 report is actual-output-derived, not a placeholder; selection of v0.2 as final remains contingent.
-4. Student supplies identity and endorses/revises independent judgment and genuine <=100-word reflection. Missing v0.1 model/settings/timestamps/chat references should remain not supplied unless recoverable.
-5. Commit final tested state, push/verify GitHub when authorized and accessible, build final package and submit required artifacts to Brightspace.
-All currently executable local validation, review, justified instruction revision, packet generation and document updates are done. Current package is RETEST_PENDING, not final submission.
+# Remaining steps — final development/testing complete
+No further mandatory ChatGPT run is outstanding. Six original outputs are validated; actual before/after review is complete; v0.2 selected with documented limits. No further revision or simulated improvement is claimed.
+
+Student actions: enter name/team, review/endorse independent judgment, confirm or rewrite genuine <=100-word Craft Gained, optionally recover unavailable runtime metadata from chats, and submit required artifacts to Brightspace. If personal edits alter deliverables, commit them and refresh the package for consistency. Final GitHub push outcome and portable-package verification are recorded in delivery BUILD_PROVENANCE.json and logs; do not infer them merely from repository instructions.

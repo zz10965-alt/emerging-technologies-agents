@@ -1,19 +1,18 @@
-# Assignment 7 — actual v0.1 review and v0.2 retest status
-| Item | Status | Evidence/path relative to specialist folder |
+# Final validation summary
+| Requirement | Result | Evidence relative to specialist folder |
 |---|---|---|
-| Genuine original v0.1 responses | Received; unchanged bytes | responses/*_v0.1_run1.json; sources/Assignment7_v0.1_original_test_responses.zip; records/v0.1_response_manifest.json |
-| Official response validator | PASS, all 3; each exit 0 | records/v0.1_validation.log |
-| Complete frozen output schema | PASS, all 3; packet metadata matches | records/v0.1_validation.log; tests/check_review.py |
-| Stable/changed actual findings | Reviewed with direct field quotations | records/v0.1_comparison.md |
-| Genuine weakness | Documented W1 dependency/timing; W2 strength framing | records/v0.1_comparison.md; records/revision_log.md |
-| Targeted v0.2 revision | Prepared; only specialist instructions changed among inputs | specialist_instructions.md; revisions/; records/v0.1_to_v0.2.diff |
-| v0.2 packets | 3 generated; hashes/exact rebuilds verified | prompts/*_v0.2_prompt.txt; records/v0.2_packet_manifest.json |
-| v0.2 execution/validation/improvement | NOT RUN / NOT ESTABLISHED | records/v0.2_execution_manifest.json |
-| Frozen core/canonical/prior work | PASS; unchanged | records/review_validation.log |
-| Agent Record | A–E populated with actual v0.1 evidence; final retest/student fields pending | deliverables/Agent_Record_DRAFT.docx |
-| Primary output report | Actual v0.1 report complete; final candidate selection awaits retest | deliverables/Primary_Output_Report_v0.1.docx |
-| Judgment/Craft/AI note/handoff | Updated from actual evidence; student endorsement/final retest review pending | deliverables/ |
-| Git provenance | Real local evidence/revision commits; no push | records/git_provenance.json |
-| Package | Review handoff; RETEST_PENDING, not submission-ready | Assignment7_v0.2_RETEST_PENDING.zip |
+| Frozen core/template/canonical ZIP | PASS; unchanged | records/final_validation.log; original ZIP in sources/ |
+| Prior assignment work | PASS; unchanged in repository | records/prior_work_sha256.json; final_validation.log |
+| 3 input cases / technology-application invariants | PASS | tests/check_final.py; cases/ |
+| 3 original v0.1 outputs | Official validator + full schema + metadata PASS; original bytes preserved | records/v0.1_validation.log; v0.1_response_manifest.json |
+| 3 genuine v0.2 retests | Official validator + full schema + effective version PASS; original bytes preserved | records/v0.2_validation.log; v0.2_response_manifest.json |
+| Original uploaded response ZIPs | Byte/hash/member preservation verified | records/v0.1_archive_receipt.json; v0.2_archive_receipt.json |
+| Both instruction/packet versions | Preserved; v0.2 exact rebuilds PASS; cases unchanged | revisions/; records/v0.1_to_v0.2.diff; prompts/ |
+| Eight dimensions / stable and changed findings | Actual qualitative review complete | records/v0.1_comparison.md; v0.2_before_after_review.md |
+| Genuine failure and revision/retest | W1 improved in all 3; W2 funding/ownership examples improved; limits retained | records/revision_log.md; v0.2_before_after_review.md |
+| Final selected primary report | Actual primary v0.2 source; not a simulated report | deliverables/Primary_Output_Report.docx; responses/primary_v0.2_run1.json |
+| Agent Record and short texts | Evidence finalized; student identity/endorsement remains | deliverables/Agent_Record.docx; Submission_Checklist.md |
+| Word formatting and portable package | Checked separately with actual results | records/document_validation.md; delivery validation logs |
+| GitHub branch/push | See actual post-commit delivery verification | final package BUILD_PROVENANCE.json / Git_Push_Verification.log |
 
-No output weakness, result, validation pass, improvement or GitHub push was fabricated. Validation does not establish real-world readiness. See V0.2_RETEST_INSTRUCTIONS.md for the exact external action and records/remaining_steps.md for finalization.
+Six schema-valid outputs do not establish audited controls, compliance, business benefit or repeatable model reliability. Selected final v0.2 keeps low real-world readiness confidence and explicit missing-evidence conditions. Actual runtime metadata was not supplied. Final student-specific actions are listed in Submission_Checklist.md.

@@ -1,6 +1,16 @@
-# Current document validation — actual v0.1 review
-All five current DOCX deliverables opened successfully and passed ZIP integrity checks. The official Agent Record preserves A–E, all six original tables and field names, with every record cell populated or explicitly pending. Times New Roman, black text and neutral table fills are used; table header rows repeat and rows avoid splitting.
+# Final document validation
 
-LibreOffice converted all five current Word files successfully. PDF text extraction confirmed readable text and black text throughout: Agent Record 4 pages; actual-v0.1 primary report 3 pages; AI note, independent judgment and Craft Gained each 1 page. The Agent Record first page and all three primary-report pages were visually inspected on a contact sheet; no overlapping or clipped content was observed. The judgment body remains half-page length; Craft Gained is under 100 words and marked proposed/student endorsement required. Final text still needs retest review; formatting checks do not validate analytical conclusions.
+All six DOCX deliverables opened and passed ZIP integrity checks. Official Agent Record A–E field names and six tables preserved; every record cell populated, with student identity explicitly unprovided. Times New Roman and black text with neutral tables; rows avoid splitting and table headers repeat.
 
-Superseded initial primary-report placeholders are preserved under revisions/pre_execution_placeholders/; they are not current deliverables.
+LibreOffice rendered all six documents successfully. PDF extraction confirmed readable black text throughout.
+
+AI_Verification_Note.pdf: 1 pages
+Agent_Record.pdf: 4 pages
+Craft_Gained.pdf: 1 pages
+Independent_Professional_Judgment.pdf: 1 pages
+Primary_Output_Report.pdf: 3 pages
+Team_Handoff.pdf: 1 pages
+
+Independent judgment body: 152 words, half-page length. Craft Gained body: 83 words. Student endorsement/genuine-learning confirmation required. Formatting checks do not establish analytical correctness.
+
+Visual inspection completed on final Agent Record first page, judgment, reflection and all primary-report pages; no overlapping or clipped content observed.

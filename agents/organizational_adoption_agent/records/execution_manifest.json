@@ -1,0 +1,38 @@
+{
+  "status": "NOT RUN — external interactive ChatGPT execution required",
+  "runs": [
+    {
+      "case": "primary",
+      "packet": "prompts/primary_v0.1_prompt.txt",
+      "expected_response": "responses/primary_v0.1_run1.json",
+      "model": null,
+      "settings": null,
+      "browsing": null,
+      "executed_at": null,
+      "chat_reference": null,
+      "validation": null
+    },
+    {
+      "case": "contrast_1",
+      "packet": "prompts/contrast_1_v0.1_prompt.txt",
+      "expected_response": "responses/contrast_1_v0.1_run1.json",
+      "model": null,
+      "settings": null,
+      "browsing": null,
+      "executed_at": null,
+      "chat_reference": null,
+      "validation": null
+    },
+    {
+      "case": "contrast_2",
+      "packet": "prompts/contrast_2_v0.1_prompt.txt",
+      "expected_response": "responses/contrast_2_v0.1_run1.json",
+      "model": null,
+      "settings": null,
+      "browsing": null,
+      "executed_at": null,
+      "chat_reference": null,
+      "validation": null
+    }
+  ]
+}

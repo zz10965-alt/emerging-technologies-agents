@@ -1,0 +1,20 @@
+{
+  "contrast_1_v0.1_prompt.txt": {
+    "sha256": "a965309754b577586378ea0ace8f8b82f4aea4123d3c59c047a5dc28850334bf",
+    "bytes": 18523,
+    "specialist_version": "0.1-initial-unexecuted",
+    "execution_status": "NOT RUN"
+  },
+  "contrast_2_v0.1_prompt.txt": {
+    "sha256": "2fa0f82decaf86358f18ce5b9ecf325e265560c63da9c5ae1fa5397d0cd3db35",
+    "bytes": 18315,
+    "specialist_version": "0.1-initial-unexecuted",
+    "execution_status": "NOT RUN"
+  },
+  "primary_v0.1_prompt.txt": {
+    "sha256": "a3ae70d010a3f4e08c4253dfe1d7bf569f6338f0c9780345aace1f033d00b70c",
+    "bytes": 18082,
+    "specialist_version": "0.1-initial-unexecuted",
+    "execution_status": "NOT RUN"
+  }
+}

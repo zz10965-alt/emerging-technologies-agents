@@ -1,6 +1,6 @@
 FROZEN CORE INTACT
 PASS: canonical frozen files and original template match uploaded ZIP byte-for-byte
-PASS: supplied sources and all pre-existing tracked files unchanged
+PASS: supplied sources and all available prior tracked files unchanged
 PASS: 3 full-schema-valid cases; technology/application/scope/evidence invariant; profiles differ
 PASS: 3 packet hashes and exact rebuilds; instruction snapshot; invalid-fixture rejection
 PREPARATION VERIFIED; specialist ChatGPT executions: 0; output validation/revision: NOT RUN

@@ -1,0 +1,4 @@
+# Document validation
+All five generated DOCX files opened through python-docx and passed ZIP integrity checks. Official Agent Record template retains six tables including all original A–E field names, with each record cell populated or explicitly pending. Text styles are Times New Roman and black, with neutral fills. Table rows avoid splitting and header rows repeat.
+
+All five documents converted successfully with LibreOffice to PDFs in a temporary build directory. PDF text extraction confirmed readable text and black text throughout: Agent Record 3 pages; each other document 1 page. A contact sheet was visually inspected; initial inherited colored formatting and the placeholder report table were corrected, followed by re-rendering and final Agent Record visual inspection. No claim of model-result completeness is made. Craft proposed reflection is 74 words. Independent judgment body is under half-page length; student endorsement remains pending.

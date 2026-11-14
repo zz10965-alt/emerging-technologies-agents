@@ -2,11 +2,16 @@
 from pathlib import Path
 from zipfile import ZipFile
 import hashlib
+import argparse
 import json
 import subprocess
 import sys
 import tempfile
 from jsonschema import Draft202012Validator
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--portable', action='store_true', help='Canonical scaffold plus this specialist; earlier assignments are intentionally absent.')
+args = parser.parse_args()
 
 A = Path(__file__).resolve().parents[1]
 R = A.parents[1]
@@ -30,9 +35,16 @@ with ZipFile(next((A/'sources').glob('*.zip'))) as archive:
 print('PASS: canonical frozen files and original template match uploaded ZIP byte-for-byte')
 for name, expected in read(A/'records/source_manifest.json').items():
     assert digest(A/'sources'/name) == expected, name
+missing_prior = []
 for name, expected in read(A/'records/prior_work_sha256.json').items():
-    assert digest(R/name) == expected, name
-print('PASS: supplied sources and all pre-existing tracked files unchanged')
+    path = R/name
+    if not path.exists() and args.portable:
+        missing_prior.append(name)
+        continue
+    assert digest(path) == expected, name
+print('PASS: supplied sources and all available prior tracked files unchanged')
+if missing_prior:
+    print(f'PORTABLE: {len(missing_prior)} earlier-assignment files excluded; preservation verified separately in original checkout')
 input_validator = Draft202012Validator(read(R/'core/input_schema.json'))
 output_validator = Draft202012Validator(read(R/'core/output_schema.json'))
 # Deliberate invalid fixture is confined to a temporary directory, never responses/.

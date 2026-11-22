@@ -1,0 +1,12 @@
+{
+  "run_date": "2026-11-22",
+  "model": "GPT-6",
+  "browsing_availability": "Available; consulted dated original NIST, Stanford HAI, OWASP, EU Commission sources for shared and context-specific evidence",
+  "execution_note": "Three separate case analyses in one ChatGPT conversation; not three separate ChatGPT conversations. Each output is a fresh response for its own supplied prompt; no Assignment 7 responses reused.",
+  "original_response_note": "These are saved as generated; no post-generation analytical changes.",
+  "files": [
+    "assignment8_primary_v0.1_run1.json",
+    "assignment8_contrast_1_v0.1_run1.json",
+    "assignment8_contrast_2_v0.1_run1.json"
+  ]
+}

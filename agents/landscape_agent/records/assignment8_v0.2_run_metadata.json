@@ -1,0 +1,14 @@
+{
+  "run_date": "2026-11-22",
+  "model": "GPT-6",
+  "browsing_available": true,
+  "source_verification": "Original NIST, Stanford HAI, OWASP and EUR-Lex web pages checked; no product-specific performance verified",
+  "execution_context": "Three case outputs generated in one ChatGPT conversation; not independent isolated conversations as Codex requested",
+  "preservation": "JSON files are generated original outputs of this run; no post-generation modifications should be represented as model responses",
+  "source_urls": [
+    "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+    "https://hai.stanford.edu/ai-index/2026-ai-index-report/economy",
+    "https://github.com/GenAI-Security-Project/GenAI-LLM-Top10/blob/main/2026/README.md",
+    "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+  ]
+}

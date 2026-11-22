@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Generative AI, including large language models and retrieval-supported research and drafting capabilities.",
+  "intended_application": "Draft patient-facing appointment and preparation messages from approved hospital templates, including translated drafts. Clinical staff review every message before sending. Diagnosis, triage, and treatment suggestions are outside scope.",
+  "organization": "Hypothetical regional hospital network with a central patient communications team and limited multilingual reviewer capacity.",
+  "industry_sector": "Healthcare service operations and patient communications.",
+  "business_need": "Improve turnaround and consistency of messages across languages while preserving clinical meaning, accessibility, and patient confidentiality.",
+  "users_stakeholders": "Scheduling staff, clinical reviewers, interpreters, accessibility staff, privacy and security teams, and patients and caregivers.",
+  "adoption_posture": "Conservative, with safety and governance approval required before patient-facing use.",
+  "capabilities_constraints": "Assume approved message templates, an interpreter service, and a secure messaging workflow exist. Evaluations using synthetic cases are possible. Patient-data processing, integration permissions, qualified reviewer capacity, and applicable requirements are unverified.",
+  "risk_consequence_context": "A mistranslated or unsupported instruction may lead to missed preparation, delay, or harm. Exposure of patient information or inaccessible messaging can harm patients and trust.",
+  "management_question": "In six months, should the hospital permit a narrow supervised trial, and what evidence on language fidelity, workflow integration, and data handling would justify revisiting the decision?",
+  "time_horizon": "Six months for a supervised-trial decision.",
+  "additional_context": "Assignment 8 classroom scenario. Organization details, workflows, capabilities and constraints are hypothetical assumptions. No external market evidence, local performance measurements, vendor terms, or jurisdiction-specific legal determinations are stipulated. For comparability across cases, assess evidence available as of 2026-11-22 and identify the actual source dates and access status. Keep the broad technology evidence independent of the organization and qualify any gaps."
+}

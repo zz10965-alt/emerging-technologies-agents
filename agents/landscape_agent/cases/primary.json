@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Generative AI, including large language models and retrieval-supported research and drafting capabilities.",
+  "intended_application": "Assist analysts researching cross-border markets and preparing client-facing reports: gather authorized sources, synthesize and compare markets, organize evidence, and draft under expert human review.",
+  "organization": "Hypothetical mid-sized cross-border market consulting company serving international business clients.",
+  "industry_sector": "International market research and management consulting across multiple markets and languages.",
+  "business_need": "Improve research and reporting efficiency while maintaining factual reliability, source traceability, confidentiality, client trust, and professional quality.",
+  "users_stakeholders": "Market analysts, regional and language reviewers, report editors, account leads, legal and security reviewers, and international clients.",
+  "adoption_posture": "Moderate / cautious fast follower.",
+  "capabilities_constraints": "Assume analysts can compare tools on public or separately approved material and review every draft before release. Client-data permissions, source licenses, input retention terms, local-language coverage, and reviewer capacity remain unverified.",
+  "risk_consequence_context": "Hallucinations, weak or outdated references, regional and language blind spots, client-data exposure, vendor dependence, regulatory differences, and inaccurate recommendations can damage client decisions and reputation.",
+  "management_question": "Should management launch a controlled human-reviewed pilot in roughly three months? Which external developments should affect provider and tool selection, and what should trigger reassessment?",
+  "time_horizon": "Approximately three months to decide on the pilot and shortlist tools.",
+  "additional_context": "Assignment 8 classroom scenario. Organization details, workflows, capabilities and constraints are hypothetical assumptions. No external market evidence, local performance measurements, vendor terms, or jurisdiction-specific legal determinations are stipulated. For comparability across cases, assess evidence available as of 2026-11-22 and identify the actual source dates and access status. Keep the broad technology evidence independent of the organization and qualify any gaps."
+}

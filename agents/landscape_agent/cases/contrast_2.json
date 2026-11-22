@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Generative AI, including large language models and retrieval-supported research and drafting capabilities.",
+  "intended_application": "Create optional first drafts of internal ecommerce listing copy and tags from approved structured catalog attributes. Merchandisers edit and approve drafts before publication.",
+  "organization": "Hypothetical small domestic online retailer with a lean merchandising team and seasonal catalog changes.",
+  "industry_sector": "Domestic ecommerce catalog operations in a single working language.",
+  "business_need": "Reduce repetitive editing and speed up listing preparation while preserving factual product attributes and consistent wording.",
+  "users_stakeholders": "Merchandisers, catalog operations, the ecommerce platform owner, and shoppers downstream.",
+  "adoption_posture": "Early experimenter for bounded, reversible internal workflows.",
+  "capabilities_constraints": "Assume a structured catalog and deterministic templates are available, customer information is excluded, and existing editorial approval can be retained. Budget, export compatibility, and time savings are unverified.",
+  "risk_consequence_context": "Invented attributes, unsupported product claims, inconsistent tags, and platform lock-in could cause rework or mislead shoppers if missed at review. Drafts can be discarded before publication.",
+  "management_question": "Should the retailer run a four-week sandbox using a platform-native feature or a standalone model, and under what conditions should it prefer templates or switch tools?",
+  "time_horizon": "Four weeks to compare tools against the current template baseline before the next catalog update.",
+  "additional_context": "Assignment 8 classroom scenario. Organization details, workflows, capabilities and constraints are hypothetical assumptions. No external market evidence, local performance measurements, vendor terms, or jurisdiction-specific legal determinations are stipulated. For comparability across cases, assess evidence available as of 2026-11-22 and identify the actual source dates and access status. Keep the broad technology evidence independent of the organization and qualify any gaps."
+}

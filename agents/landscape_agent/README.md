@@ -2,21 +2,19 @@
 
 Assignment 8, v0.2, revised on 2026-11-22. This specialist compares Generative AI, incumbent workflows, and complementary tools to identify which external changes could alter an organization's decision.
 
-## Reproduce or repeat the tests
+Repository branch: `assignment8-landscape`. Tested v0.2 prompt commit: `80d9f753652b451cbfaa8f0e10094f18aea67f39`. Archived test evidence and source review commit: `0369014c62f0a5e87c9e88d125987959e04cd887`.
 
-Each round contains three fresh case runs. The user confirmed that v0.2 began in a newly opened ChatGPT conversation, with the three prompts submitted separately in that conversation. See the internal Agent Record for results and the outstanding independent checks. Version 0.1 prompt packets are retained as historical test inputs.
+## Reproduce the packaged checks
 
-Start a separate ChatGPT conversation for each packet. Use the same model and source-access settings where possible. Submit the entire packet and save the original JSON response without edits. Record the run date, displayed model, and whether original-source browsing was available separately from the raw response.
+The completed package contains three cases and six original responses across v0.1 and v0.2. See the internal Agent Record for testing metadata, verified findings, and remaining limitations. The v0.1 prompt packets document the earlier test round.
 
-| Case | Packet in `prompts/` | Return filename for `responses/` |
+| Case | Packet in `prompts/` | Original response in `responses/` |
 | --- | --- | --- |
 | Cross-border consulting | `assignment8_primary_v0.2_prompt.txt` | `assignment8_primary_v0.2_run1.json` |
 | Hospital communications | `assignment8_contrast_1_v0.2_prompt.txt` | `assignment8_contrast_1_v0.2_run1.json` |
 | Ecommerce catalog | `assignment8_contrast_2_v0.2_prompt.txt` | `assignment8_contrast_2_v0.2_run1.json` |
 
-If ChatGPT returns non-JSON text, preserve it verbatim and flag it separately. Keep original results if a rerun is needed.
-
-From the repository root, rebuild a packet or validate a returned response with the scaffold:
+From the repository root, rebuild a packet or validate a preserved response with the scaffold:
 
 ```sh
 python3 tools/check_frozen_core.py

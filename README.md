@@ -26,3 +26,10 @@ Students specialize the files under `agents/<agent-name>/`. Files under `core/` 
 **No OpenAI API key is required by this scaffold.** It does not call the OpenAI API. ChatGPT is the interactive model runtime; the Python tools are local prompt/validation utilities.
 
 Start with `START_HERE.md` and the Student Operating Guide in `docs/`.
+
+
+## Assignment 8 technical Agent package
+
+The Emerging Technology Landscape Agent is version **v0.2**. Repository branch: `assignment8-landscape`. Tested v0.2 prompt commit: `80d9f753652b451cbfaa8f0e10094f18aea67f39`. Archived test evidence and source review commit: `0369014c62f0a5e87c9e88d125987959e04cd887`.
+
+See the [specialist README](agents/landscape_agent/README.md) and [internal Agent Record](agents/landscape_agent/records/agent_record.md) for reproduction steps, verified findings, and source limitations. The package includes the v0.1 and v0.2 test rounds.

@@ -65,7 +65,7 @@ Both rounds retained a consistent general finding across cases and changed their
 
 ### Execution metadata
 
-The preserved metadata reports GPT-6 with browsing on 2026-11-22 for both rounds. Each round produced a fresh response for each of the three case prompts within one conversation. The user confirmed that v0.2 used a newly opened conversation for its three separate submissions. Shared context limits conclusions about isolated repeatability.
+The preserved metadata reports GPT-6 with browsing on 2026-11-22 for both rounds. Each round produced a fresh response for each of the three case prompts within one conversation. Shared context limits conclusions about isolated repeatability.
 
 ## Verified findings and source limits
 
